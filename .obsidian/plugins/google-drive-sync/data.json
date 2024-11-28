@@ -1,9 +1,17 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {
-    "2024-11-28.md": "create"
+  "operations": {},
+  "driveIdToPath": {
+    "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
+    "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",
+    "1pqiXKYW5IDKA3QXeWRKnv_vuXsgw_gL4": ".obsidian/plugins",
+    "1ZWgxydVha_9uEv83TSwLJMbd7xVdTMTR": ".obsidian/plugins/obsidian-git",
+    "1ZQHFT8FqNjhU2Ur4ciskyAyc_l9G30If": ".obsidian/plugins/google-drive-sync",
+    "1iFwBCzPCdq3vmJGqbWAHdTtAIh6-Hzq1": ".obsidian/app.json",
+    "1Butzb5TIpungBWy4kPKnZcY0EyxB1Bf8": ".obsidian/plugins/obsidian-git/data.json",
+    "1B7kuW9s5cXDerjSLYTU3f-RyojGPg6AJ": ".obsidian/plugins/google-drive-sync/data.json",
+    "1ymifRd1L7309d9edvJLuhDR5Y5iMcgUr": ".obsidian/appearance.json"
   },
-  "driveIdToPath": {},
-  "lastSyncedAt": 1732769161331,
-  "changesToken": "3232"
+  "lastSyncedAt": 1732769667943,
+  "changesToken": "3323"
 }

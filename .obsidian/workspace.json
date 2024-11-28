@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1f27ec6186c5359c",
+        "id": "df2acaf8cfe7fa2e",
         "type": "tabs",
         "children": [
           {
-            "id": "a79e9ea9dac5574c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
-            "id": "9502668619d9b850",
+            "id": "bf55c1747162c055",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +21,7 @@
               "title": "hello"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,8 +165,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "bf55c1747162c055",
   "lastOpenFiles": [
+    "2024-11-28.md",
+    "未命名.canvas",
     "hello.md"
   ]
 }

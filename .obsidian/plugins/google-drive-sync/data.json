@@ -1,6 +1,8 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {},
+  "operations": {
+    "2024-11-28.md": "create"
+  },
   "driveIdToPath": {},
   "lastSyncedAt": 1732769161331,
   "changesToken": "3232"

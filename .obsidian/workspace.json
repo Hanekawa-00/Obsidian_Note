@@ -155,19 +155,9 @@
               "icon": "lucide-list",
               "title": "hello 的大纲"
             }
-          },
-          {
-            "id": "83c6bbc26fb3ab10",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,10 +172,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "83c6bbc26fb3ab10",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
     "hello.md"
   ]

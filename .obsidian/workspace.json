@@ -23,14 +23,12 @@
             "id": "7f7f31c7d2cd8642",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "sync-test.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "sync-test"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-28 13.03.21.excalidraw"
             }
           }
         ],
@@ -150,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync-test.md"
+                "file": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "sync-test 的大纲"
+              "title": "Drawing 2024-11-28 13.03.21.excalidraw 的大纲"
             }
           },
           {
@@ -188,8 +186,8 @@
   },
   "active": "7f7f31c7d2cd8642",
   "lastOpenFiles": [
-    "i.md",
     "sync-test.md",
+    "i.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "2024-11-28.md",
     "Excalidraw",

@@ -1,6 +1,8 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {},
+  "operations": {
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md": "modify"
+  },
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
     "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",

@@ -11,12 +11,14 @@
             "id": "bf55c1747162c055",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md"
+                "file": "2024-11-28.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-28 13.03.21.excalidraw"
+              "icon": "lucide-file",
+              "title": "2024-11-28"
             }
           }
         ]
@@ -171,8 +173,8 @@
   },
   "active": "bf55c1747162c055",
   "lastOpenFiles": [
-    "2024-11-28.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
+    "2024-11-28.md",
     "Excalidraw",
     "hello.md",
     "未命名.canvas"

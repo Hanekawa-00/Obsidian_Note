@@ -144,9 +144,19 @@
               "icon": "lucide-list",
               "title": "hello 的大纲"
             }
+          },
+          {
+            "id": "91d544e0372adb40",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -165,7 +175,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bf55c1747162c055",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
     "2024-11-28.md",
     "未命名.canvas",

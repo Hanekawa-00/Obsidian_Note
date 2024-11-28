@@ -1,9 +1,6 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {
-    "未命名.md": "delete",
-    "sync-test.md": "create"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
     "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",
@@ -18,8 +15,9 @@
     "1WYQofpc837QvCLw1cum6CWz0npEw5Q23": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "1_Q8l6YfY0IpfoNnFnC2oZnRIrHIJxVfz": ".obsidian/plugins/obsidian-excalidraw-plugin",
     "17Y7aXBRBXXVApAb3H4BT6Ef1iCt_pMm5": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
-    "1LRt3BoYT7CHh5VNUxAFlOyU2xGMYTWaT": "i.md"
+    "1LRt3BoYT7CHh5VNUxAFlOyU2xGMYTWaT": "i.md",
+    "1dgVNm7zVl1UL4aCJEaiOnwan-Ybm20Bw": "sync-test.md"
   },
-  "lastSyncedAt": 1732771160997,
-  "changesToken": "3428"
+  "lastSyncedAt": 1732771211686,
+  "changesToken": "3440"
 }

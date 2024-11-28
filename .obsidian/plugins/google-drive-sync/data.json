@@ -1,10 +1,6 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {
-    "2024-11-28.md": "modify",
-    "Excalidraw": "create",
-    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md": "create"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
     "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",
@@ -14,8 +10,13 @@
     "1iFwBCzPCdq3vmJGqbWAHdTtAIh6-Hzq1": ".obsidian/app.json",
     "1Butzb5TIpungBWy4kPKnZcY0EyxB1Bf8": ".obsidian/plugins/obsidian-git/data.json",
     "1B7kuW9s5cXDerjSLYTU3f-RyojGPg6AJ": ".obsidian/plugins/google-drive-sync/data.json",
-    "1ymifRd1L7309d9edvJLuhDR5Y5iMcgUr": ".obsidian/appearance.json"
+    "1ymifRd1L7309d9edvJLuhDR5Y5iMcgUr": ".obsidian/appearance.json",
+    "1YJ8_KwKjLUrPRYwUS1P88XFWNQD6EXFD": "Excalidraw",
+    "1WYQofpc837QvCLw1cum6CWz0npEw5Q23": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
+    "1_Q8l6YfY0IpfoNnFnC2oZnRIrHIJxVfz": ".obsidian/plugins/obsidian-excalidraw-plugin",
+    "17Y7aXBRBXXVApAb3H4BT6Ef1iCt_pMm5": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+    "1LRt3BoYT7CHh5VNUxAFlOyU2xGMYTWaT": "i.md"
   },
-  "lastSyncedAt": 1732769667943,
-  "changesToken": "3323"
+  "lastSyncedAt": 1732770956707,
+  "changesToken": "3421"
 }

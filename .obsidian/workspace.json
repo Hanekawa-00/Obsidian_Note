@@ -11,14 +11,10 @@
             "id": "bf55c1747162c055",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hello.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hello"
+              "title": "新标签页"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "hello 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -112,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "hello 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -138,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "hello.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "hello 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -164,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "google-drive-sync:Push to Google Drive": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -171,14 +164,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "bf55c1747162c055",
   "lastOpenFiles": [
-    "2024-11-28.md",
     "hello.md",
+    "2024-11-28.md",
     "未命名.canvas"
   ]
 }

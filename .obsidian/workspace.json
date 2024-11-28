@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "2024-11-28"
             }
+          },
+          {
+            "id": "b139a843c0075699",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-28 13.03.21.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,9 +184,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bf55c1747162c055",
+  "active": "b139a843c0075699",
   "lastOpenFiles": [
     "2024-11-28.md",
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
+    "Excalidraw",
     "hello.md",
     "未命名.canvas"
   ]

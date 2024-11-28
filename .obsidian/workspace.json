@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "sync-test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "sync-test"
             }
           }
         ],
@@ -150,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "sync-test.md"
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "sync-test 的大纲"
             }
           },
           {
@@ -189,7 +189,7 @@
   "active": "7f7f31c7d2cd8642",
   "lastOpenFiles": [
     "i.md",
-    "未命名.md",
+    "sync-test.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "2024-11-28.md",
     "Excalidraw",

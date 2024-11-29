@@ -1,26 +1,6 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {
-    "sync-test.md": "modify",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/redis+8e004c87-a283-4a5c-828c-577c9a3b0ba8/布隆过滤器+344faeed-74d2-40a1-a002-a739a81af213.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/kafka的部署问题+8e09624e-8e49-4e01-ae04-577eb1915936.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/redis+8e004c87-a283-4a5c-828c-577c9a3b0ba8": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/redis+8e004c87-a283-4a5c-828c-577c9a3b0ba8.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/关系型数据库和非关系型数据库的区别+3fc1f41d-30af-4f69-a1b8-1b539ebdf482": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/关系型数据库和非关系型数据库的区别+3fc1f41d-30af-4f69-a1b8-1b539ebdf482.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/消息和远程RPC+7edf8cde-570a-4cd4-b988-58342aee85ef.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/redis+8e004c87-a283-4a5c-828c-577c9a3b0ba8/Redis锁+a4c7de10-0a65-432d-878b-0abcef302526.md": "delete",
-    "Project/ts/ts+dae7bc13-60c6-427b-afcc-740296a07bea/关系型数据库和非关系型数据库的区别+3fc1f41d-30af-4f69-a1b8-1b539ebdf482/Redis难以替代关系型数据库的原因+056c993e-fb1f-496a-bc49-df206a510b68.md": "delete",
-    "Project/ts": "delete",
-    "Project/pro2_ts": "create",
-    "Project/pro2_ts/kafka部署问题.md": "create",
-    "Project/pro2_ts/redis.md": "create",
-    "Project/pro2_ts/关系型数据库和非关系型数据库.md": "create",
-    "Project/pro2_ts/Redis难以替代关系型数据库的原因.md": "create",
-    "Project/pro2_ts/消息和远程RPC.md": "create"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
     "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",
@@ -36,8 +16,15 @@
     "1_Q8l6YfY0IpfoNnFnC2oZnRIrHIJxVfz": ".obsidian/plugins/obsidian-excalidraw-plugin",
     "17Y7aXBRBXXVApAb3H4BT6Ef1iCt_pMm5": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
     "1LRt3BoYT7CHh5VNUxAFlOyU2xGMYTWaT": "i.md",
-    "1dgVNm7zVl1UL4aCJEaiOnwan-Ybm20Bw": "sync-test.md"
+    "1dgVNm7zVl1UL4aCJEaiOnwan-Ybm20Bw": "sync-test.md",
+    "1c81U7ZOjr1UYjF99YLlMngDkKqD0mU1d": "Project/pro2_ts",
+    "1P2b71ECV7b1RwLIEjDIAan-w_81kQCBY": "Project/pro2_ts/Redis难以替代关系型数据库的原因.md",
+    "1ZWd9qC38eE4xfIHkLZtzZEvk4BWNy15T": "Project/pro2_ts/关系型数据库和非关系型数据库.md",
+    "1qm06DG2cNq1IsE3qGBxjBJHVwxZigz9j": "Project/pro2_ts/消息和远程RPC.md",
+    "1DaWgk6JcWHmg6fEKcUTVGS0CpgDDhFRd": "Project/pro2_ts/kafka部署问题.md",
+    "1A-SjslT7h0J_r5x4j3rDfXBgN3BUOA8Y": "Project/pro2_ts/redis.md",
+    "1TYWh6ANBkuLtKYG6DBW0IlKlymdyGeXu": ".obsidian/core-plugins.json"
   },
-  "lastSyncedAt": 1732850720199,
-  "changesToken": "3461"
+  "lastSyncedAt": 1732851126747,
+  "changesToken": "3487"
 }

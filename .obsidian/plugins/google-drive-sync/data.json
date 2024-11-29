@@ -1,12 +1,6 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
-  "operations": {
-    "Project/pro2_ts/redis.md": "delete",
-    "Project/pro2_ts/redis锁.md": "create",
-    "Project/pro2_ts/布隆过滤器.md": "create",
-    "Project/pro2_ts/MongoDB配置.md": "create",
-    "Project/pro2_ts/Docker删除容器快捷命令.md": "create"
-  },
+  "operations": {},
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",
     "1D5eg9zQ2_X4Pfl8c-TTlTEQF1bjbBuOb": ".obsidian",
@@ -30,8 +24,12 @@
     "1DaWgk6JcWHmg6fEKcUTVGS0CpgDDhFRd": "Project/pro2_ts/kafka部署问题.md",
     "1A-SjslT7h0J_r5x4j3rDfXBgN3BUOA8Y": "Project/pro2_ts/redis.md",
     "1TYWh6ANBkuLtKYG6DBW0IlKlymdyGeXu": ".obsidian/core-plugins.json",
-    "1j4Za46gApnm4XSO8TryBmzvVI-qklBG5": "Project/pro2_ts/AOP几种注解的使用注意点.md"
+    "1j4Za46gApnm4XSO8TryBmzvVI-qklBG5": "Project/pro2_ts/AOP几种注解的使用注意点.md",
+    "1s-nPaxr_7QR3itd-dNN1FsQbxeqLMiOB": "Project/pro2_ts/MongoDB配置.md",
+    "1HBPosXDvF3KpExOEXshgSE0Q8bniTd0D": "Project/pro2_ts/redis锁.md",
+    "1kKva7v0gagNdLjk55mBzEZ4yVcmLzxXR": "Project/pro2_ts/布隆过滤器.md",
+    "1mvPilynkI52QmxTQJAFGC4SgZ0fvFA23": "Project/pro2_ts/Docker删除容器快捷命令.md"
   },
-  "lastSyncedAt": 1732851359337,
-  "changesToken": "3502"
+  "lastSyncedAt": 1732871433432,
+  "changesToken": "3529"
 }

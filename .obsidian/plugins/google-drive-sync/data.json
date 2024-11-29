@@ -3,7 +3,9 @@
   "operations": {
     "Project/pro2_ts/redis.md": "delete",
     "Project/pro2_ts/redis锁.md": "create",
-    "Project/pro2_ts/布隆过滤器.md": "create"
+    "Project/pro2_ts/布隆过滤器.md": "create",
+    "Project/pro2_ts/MongoDB配置.md": "create",
+    "Project/pro2_ts/Docker删除容器快捷命令.md": "create"
   },
   "driveIdToPath": {
     "1oft0fTZl47qNJW9Lc-ky9sq-8AJQ1eYO": "2024-11-28.md",

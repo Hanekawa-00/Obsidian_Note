@@ -20,8 +20,9 @@ wurstmeister/kafka
 ```
 
 - **`HOST_IP=0.0.0.0`**：意味着 Kafka 进程监听所有可用的网络接口。
-
+    
 - **`KAFKA_ADVERTISED_HOST_NAME=0.0.0.0`**：告诉 Kafka 广告它在所有网络接口上可用，客户端可以通过任何可用的接口连接到 Kafka。
+    
 
 ### 问题：
 
@@ -49,8 +50,9 @@ wurstmeister/kafka
 在这种方式下：
 
 - **`--hostname kafka-host`**：设置容器的主机名为 `kafka-host`。
-
+    
 - **`KAFKA_ADVERTISED_HOST_NAME=kafka-host`**：Kafka 广告的是主机名，而不是 IP 地址。
+    
 
 这样一来，Kafka 广告的主机名可以通过 DNS 或者 `/etc/hosts` 文件解析为正确的 IP 地址，适应 IP 动态分配的情况。
 
@@ -74,4 +76,3 @@ wurstmeister/kafka
 ```
 
 这个脚本使用 `hostname -I` 命令获取宿主机的当前 IP 地址，并将其传递给 Docker 作为环境变量。
-

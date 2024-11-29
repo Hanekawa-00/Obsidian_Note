@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/pro2_ts/消息和远程RPC.md",
+                "file": "Project/pro2_ts/AOP几种注解的使用注意点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "消息和远程RPC"
+              "title": "AOP几种注解的使用注意点"
             }
           }
         ],
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 306.5
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -152,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/消息和远程RPC.md"
+                "file": "Project/pro2_ts/AOP几种注解的使用注意点.md"
               },
               "icon": "lucide-list",
-              "title": "消息和远程RPC 的大纲"
+              "title": "AOP几种注解的使用注意点 的大纲"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,10 +189,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "91d544e0372adb40",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
-    "Project/pro2_ts/关系型数据库和非关系型数据库.md",
     "Project/pro2_ts/消息和远程RPC.md",
+    "Project/pro2_ts/AOP几种注解的使用注意点.md",
+    "Project/pro2_ts/关系型数据库和非关系型数据库.md",
     "Project/pro2_ts/Redis难以替代关系型数据库的原因.md",
     "Project/pro2_ts/redis.md",
     "Project/pro2_ts/kafka部署问题.md",

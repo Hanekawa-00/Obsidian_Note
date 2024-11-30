@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ba17b68d98749da",
+        "id": "9941a1c288181dc0",
         "type": "tabs",
         "children": [
           {
-            "id": "70cdceb4095aa1a2",
+            "id": "d6018728dee56abe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/ts课件/第1章 专辑管理.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第1章 专辑管理"
+              "title": "新标签页"
             }
           }
         ]
@@ -172,8 +168,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "70cdceb4095aa1a2",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "课件/ts课件/第1章 专辑管理.md",
     "课件/第4章 检索模块.md",
     "课件/ikun_课件/ikun/images/image-20230725123018878.png",
     "课件/ikun_课件/ikun/images/image-20230725122551186.png",
@@ -215,7 +212,6 @@
     "课件/ts课件/第8章 支付.md",
     "课件/ts课件/第7章 订单.md",
     "课件/ts课件/第6章 详情优化.md",
-    "课件/ts课件/第5章 详情介绍.md",
     "课件/ts课件/rm.py",
     "课件/ts课件/assets",
     "课件/ts课件",

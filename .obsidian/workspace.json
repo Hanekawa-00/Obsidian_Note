@@ -11,10 +11,14 @@
             "id": "616fbfa5379e745d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "Project/pro2_ts/关系型数据库和非关系型数据库.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关系型数据库和非关系型数据库"
             }
           }
         ]

@@ -2,5 +2,6 @@
   "theme": "moonstone",
   "accentColor": "",
   "baseFontSizeAction": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 18
 }

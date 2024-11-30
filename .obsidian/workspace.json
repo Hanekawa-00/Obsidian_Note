@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9941a1c288181dc0",
+        "id": "d641c21350948b59",
         "type": "tabs",
         "children": [
           {
-            "id": "7c8dd1207158ae24",
+            "id": "73b69e1157e16308",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,7 +164,8 @@
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "google-drive-sync:Push to Google Drive": false
     }
   },
   "active": "a25efaba2121d761",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/ts课件/听书软件环境安装.md",
+                "file": "Project/pro2_ts/布隆过滤器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "听书软件环境安装"
+              "title": "布隆过滤器"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/ts课件/听书软件环境安装.md"
+                "file": "Project/pro2_ts/布隆过滤器.md"
               },
               "icon": "lucide-list",
-              "title": "听书软件环境安装 的大纲"
+              "title": "布隆过滤器 的大纲"
             }
           },
           {
@@ -169,14 +169,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
   "active": "73b69e1157e16308",
   "lastOpenFiles": [
-    "课件/ts课件/第1章 专辑管理.md",
     "课件/ts课件/听书软件环境安装.md",
+    "课件/ts课件/第1章 专辑管理.md",
     "Project/pro2_ts/消息和远程RPC.md",
     "课件/第1章 专辑管理.md",
     "课件/assets/image-3.png",

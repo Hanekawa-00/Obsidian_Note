@@ -1,7 +1,6 @@
 {
   "refreshToken": "1//054-1S7aAThM-CgYIARAAGAUSNwF-L9Ir5sQkuEIQ34m3fvO5m0QbuIxw8gESo8HwzrezKIzLTHx1IrRwU9BNq5lm3Q3jKlVgcW4",
   "operations": {
-    "课件": "create",
     "课件/ts课件": "create",
     "课件/ts课件/assets": "create",
     "课件/ts课件/ElasticSearch入门.md": "create",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/pro2_ts/关于MongoUtil的partition.md",
+                "file": "课件/ts课件/第6章 详情优化.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于MongoUtil的partition"
+              "title": "第6章 详情优化"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/关于MongoUtil的partition.md"
+                "file": "课件/ts课件/第6章 详情优化.md"
               },
               "icon": "lucide-list",
-              "title": "关于MongoUtil的partition 的大纲"
+              "title": "第6章 详情优化 的大纲"
             }
           },
           {
@@ -173,10 +173,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "73b69e1157e16308",
   "lastOpenFiles": [
-    "Project/pro2_ts/Mybatis foreach 标签.md",
+    "课件/ts课件/第5章 详情介绍.md",
+    "课件/ts课件/第4章 检索模块.md",
+    "课件/ts课件/第3章 用户登录.md",
+    "课件/ts课件/第2章 声音管理.md",
+    "课件/ts课件/第7章 订单.md",
+    "课件/ts课件/第6章 详情优化.md",
     "Project/pro2_ts/关于MongoUtil的partition.md",
+    "Project/pro2_ts/Mybatis foreach 标签.md",
     "Project/pro2_ts/布隆过滤器.md",
     "课件/ts课件/听书软件环境安装.md",
     "课件/ts课件/第1章 专辑管理.md",
@@ -213,12 +219,6 @@
     "课件/ikun_课件/ikun/images",
     "课件/ikun_课件/ikun/day18课件.md",
     "课件/ikun_课件/ikun/day17课件.md",
-    "课件/ikun_课件/ikun/day16课件.md",
-    "课件/ikun_课件/ikun/day15课件.md",
-    "课件/ikun_课件/ikun/day14课件.md",
-    "课件/ikun_课件/ikun/day13课件.md",
-    "课件/ikun_课件/ikun/day12课件.md",
-    "课件/ikun_课件/ikun/day11课件.md",
     "课件/ikun_课件/ikun/assets",
     "课件/ikun_课件/git/image",
     "未命名.canvas"

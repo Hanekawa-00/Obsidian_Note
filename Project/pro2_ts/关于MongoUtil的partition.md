@@ -44,6 +44,7 @@ public class MongoUtil {
    - `partition`表示分片的数量。例如，`USER_SUBSCRIBE`的`partition`值为100，表示数据将被分散到100个不同的集合中。
    - 通过计算`route % partition`，可以将数据分配到不同的集合中。这确保了数据在多个集合之间均匀分布。
 
+ 
 2. **集合命名规则**：
    - 集合名称由`collectionPrefix`和`route % partition`的结果拼接而成。例如，`USER_SUBSCRIBE`的集合名称可能为`userSubscribe_0`, `userSubscribe_1`, ..., `userSubscribe_99`。
 

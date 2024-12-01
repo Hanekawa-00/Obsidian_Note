@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Project/pro2_ts/关于MongoUtil的partition.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/Mybatis foreach 标签.md"
+                "file": "Project/pro2_ts/关于MongoUtil的partition.md"
               },
               "icon": "lucide-list",
-              "title": "Mybatis foreach 标签 的大纲"
+              "title": "关于MongoUtil的partition 的大纲"
             }
           },
           {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,7 +173,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "73b69e1157e16308",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
     "Project/pro2_ts/Mybatis foreach 标签.md",
     "Project/pro2_ts/关于MongoUtil的partition.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync-test.md",
+                "file": "课件/ts课件/第9章 分布式任务调度.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sync-test"
+              "title": "第9章 分布式任务调度"
             }
           }
         ]
@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync-test.md"
+                "file": "课件/ts课件/第9章 分布式任务调度.md"
               },
               "icon": "lucide-list",
-              "title": "sync-test 的大纲"
+              "title": "第9章 分布式任务调度 的大纲"
             }
           },
           {
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,18 +169,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "73b69e1157e16308",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "sync-test.md",
-    "课件/ts课件/第9章 分布式任务调度.md",
-    "课件/ts课件/第10章 直播.md",
     "课件/ts课件/第8章 支付.md",
     "课件/ts课件/第7章 订单.md",
+    "sync-test.md",
+    "conflict-files-obsidian-git.md",
+    "课件/ts课件/第9章 分布式任务调度.md",
+    "课件/ts课件/第10章 直播.md",
     "课件/ts课件/第6章 详情优化.md",
     "课件/ts课件/第5章 详情介绍.md",
     "课件/ts课件/第4章 检索模块.md",

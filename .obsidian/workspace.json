@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d641c21350948b59",
+        "id": "8b5df747df65a772",
         "type": "tabs",
         "children": [
           {
-            "id": "73b69e1157e16308",
+            "id": "a1c6e96ecbac7eb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,8 +173,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "a1c6e96ecbac7eb9",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
+    "课件/ts课件/第7章 订单.md",
     "Project/pro2_ts/订单模块",
     "Project/pro2_ts/kafka部署问题.md",
     "Project/pro2_ts/AOP几种注解的使用注意点.md",
@@ -182,7 +184,6 @@
     "Project/pro2_ts/Mybatis foreach 标签.md",
     "课件/ts课件/第9章 分布式任务调度.md",
     "课件/ts课件/第8章 支付.md",
-    "课件/ts课件/第7章 订单.md",
     "conflict-files-obsidian-git.md",
     "课件/ts课件/第10章 直播.md",
     "课件/ts课件/第6章 详情优化.md",
@@ -220,7 +221,6 @@
     "assets",
     "课件/ikun_课件/ikun/images",
     "课件/ikun_课件/ikun/assets",
-    "课件/ikun_课件/git/image",
     "未命名.canvas"
   ]
 }

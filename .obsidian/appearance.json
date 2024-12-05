@@ -1,7 +1,8 @@
 {
   "theme": "moonstone",
-  "accentColor": "",
+  "accentColor": "#701db4",
   "baseFontSizeAction": true,
   "nativeMenus": false,
-  "baseFontSize": 24
+  "baseFontSize": 20,
+  "cssTheme": "Minimal"
 }

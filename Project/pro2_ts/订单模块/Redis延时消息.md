@@ -1,3 +1,13 @@
+### 为什么使用redis发送延时消息
+使用 Redis 发送延时消息主要利用了 Redis 的有序集合（Sorted Set）和阻塞队列（Blocking Queue）特性。
+1. **有序集合（Sorted Set）**：
+   - **特性**：有序集合中的每个元素都会关联一个分数（score），Redis 会根据分数自动排序。
+   - **用法**：可以使用 `ZADD` 命令将消息添加到有序集合中，并将消息的到期时间作为分数。通过 `ZRANGEBYSCORE` 命令可以获取到期的消息。
+
+2. **阻塞队列（Blocking Queue）**：
+   - **特性**：阻塞队列可以在队列为空时阻塞获取操作，直到队列中有新元素。
+   - **用法**：可以使用 `RBlockingDeque` 和 `RDelayedQueue` 实现延时消息队列。`RDelayedQueue` 会在**消息到期时**将其转移到 `RBlockingDeque`，从而实现延时处理。
+
 ### 使用方法
 1. **发送延时消息**：
    - 使用 `RedissonClient` 获取[[双端阻塞队列]] `RBlockingDeque`。

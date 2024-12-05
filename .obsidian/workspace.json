@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md",
+                "file": "Project/pro2_ts/订单模块/双端阻塞队列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第7章 订单"
+              "title": "双端阻塞队列"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md"
+                "file": "Project/pro2_ts/订单模块/Redis延时消息.md"
               },
               "icon": "lucide-list",
-              "title": "第7章 订单 的大纲"
+              "title": "Redis延时消息 的大纲"
             }
           },
           {
@@ -188,10 +187,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "60bed9444111f635",
+  "active": "1c147e01268064fa",
   "lastOpenFiles": [
-    "Project/pro2_ts/订单模块/Redis延时消息.md",
     "Project/pro2_ts/订单模块/双端阻塞队列.md",
+    "Project/pro2_ts/订单模块/Redis延时消息.md",
     "课件/ts课件/第7章 订单.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "Project/pro2_ts/订单模块",

@@ -63,7 +63,8 @@
               "title": "MongoDB入门"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,10 +180,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/订单模块/Redis延时消息.md"
+                "file": "课件/ts课件/第7章 订单.md"
               },
               "icon": "lucide-list",
-              "title": "Redis延时消息 的大纲"
+              "title": "第7章 订单 的大纲"
             }
           },
           {
@@ -211,14 +212,15 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1c147e01268064fa",
+  "active": "e85f70262cb2d063",
   "lastOpenFiles": [
+    "Project/pro2_ts/订单模块/Redis延时消息.md",
     "课件/ts课件/第7章 订单.md",
     "课件/ts课件/MongoDB入门.md",
-    "Project/pro2_ts/订单模块/Redis延时消息.md",
     "Project/pro2_ts/订单模块/双端阻塞队列.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "Project/pro2_ts/订单模块",

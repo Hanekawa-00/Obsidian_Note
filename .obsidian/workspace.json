@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/pro2_ts/订单模块/Redis延时消息.md",
+                "file": "Project/pro2_ts/Redis延时消息.md",
                 "mode": "source",
                 "source": false
               },
@@ -218,10 +218,10 @@
   },
   "active": "e85f70262cb2d063",
   "lastOpenFiles": [
-    "Project/pro2_ts/订单模块/Redis延时消息.md",
+    "Project/pro2_ts/双端阻塞队列.md",
+    "Project/pro2_ts/Redis延时消息.md",
     "课件/ts课件/第7章 订单.md",
     "课件/ts课件/MongoDB入门.md",
-    "Project/pro2_ts/订单模块/双端阻塞队列.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "Project/pro2_ts/订单模块",
     "Project/pro2_ts/kafka部署问题.md",

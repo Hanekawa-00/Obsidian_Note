@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md",
+                "file": "Project/pro2_ts/403问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第7章 订单"
+              "title": "403问题"
             }
           },
           {
@@ -166,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md"
+                "file": "Project/pro2_ts/403问题.md"
               },
               "icon": "lucide-list",
-              "title": "第7章 订单 的大纲"
+              "title": "403问题 的大纲"
             }
           },
           {
@@ -202,10 +202,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "60bed9444111f635",
   "lastOpenFiles": [
-    "课件/ikun_课件/ikun/day17课件.md",
+    "Pasted image 20241207153500.png",
+    "Pasted image 20241207153306.png",
+    "Pasted image 20241207153150.png",
     "课件/ts课件/第7章 订单.md",
+    "Project/pro2_ts/403问题.md",
+    "课件/ikun_课件/ikun/day17课件.md",
     "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
     "Project/pro2_ts/双端阻塞队列.md",
     "Project/pro2_ts/Redis延时消息.md",
@@ -229,8 +233,6 @@
     "Project/pro2_ts/布隆过滤器.md",
     "课件/ts课件/听书软件环境安装.md",
     "课件/ts课件/第1章 专辑管理.md",
-    "Project/pro2_ts/消息和远程RPC.md",
-    "课件/第1章 专辑管理.md",
     "课件/assets/image-3.png",
     "课件/assets/image-4.png",
     "课件/assets/tingshu005.png",
@@ -239,8 +241,6 @@
     "课件/assets/snipaste_20230620_085555.png",
     "课件/assets/image-6.png",
     "课件/assets/timeerror.png",
-    "课件/assets/image-5.png",
-    "课件/assets/tingshu004.png",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",

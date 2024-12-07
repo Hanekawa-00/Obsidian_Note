@@ -180,10 +180,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md"
+                "file": "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "第7章 订单 的大纲"
+              "title": "Drawing 2024-12-07 13.12.41.excalidraw 的大纲"
             }
           },
           {
@@ -212,14 +212,16 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e85f70262cb2d063",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
+    "课件/ts课件/第7章 订单.md",
+    "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
     "Project/pro2_ts/双端阻塞队列.md",
     "Project/pro2_ts/Redis延时消息.md",
-    "课件/ts课件/第7章 订单.md",
     "课件/ts课件/MongoDB入门.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "Project/pro2_ts/订单模块",
@@ -253,7 +255,6 @@
     "课件/assets/image-5.png",
     "课件/assets/tingshu004.png",
     "课件/听书谷粒随享-前端部署.md",
-    "课件/听书软件环境安装.md",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",

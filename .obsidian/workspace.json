@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md",
+                "file": "课件/ts课件/第8章 支付.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第7章 订单"
+              "title": "第8章 支付"
+            }
+          },
+          {
+            "id": "c4982188d3bbe708",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Project/pro2_ts/订单相关流程图.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "订单相关流程图.excalidraw"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "MongoDB入门"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5026054382324
+    "width": 313.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -151,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/ts课件/第7章 订单.md"
+                "file": "Project/pro2_ts/订单相关流程图.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "第7章 订单 的大纲"
+              "title": "订单相关流程图.excalidraw 的大纲"
             }
           },
           {
@@ -172,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,9 +202,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1c147e01268064fa",
+  "active": "c4982188d3bbe708",
   "lastOpenFiles": [
+    "Project/pro2_ts/订单相关流程图.excalidraw.png",
+    "Project/pro2_ts/订单相关流程图.excalidraw.md",
     "课件/ts课件/第8章 支付.md",
+    "课件/ts课件/MongoDB入门.md",
+    "课件/ts课件/第7章 订单.md",
     "Project/pro2_ts/403问题.md",
     "Pasted image 20241207153531.png",
     "Pasted image 20241207153306.png",
@@ -200,12 +219,10 @@
     "Pasted image 20241207153606.png",
     "Pasted image 20241207153546.png",
     "Pasted image 20241207153500.png",
-    "课件/ts课件/第7章 订单.md",
     "课件/ikun_课件/ikun/day17课件.md",
     "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
     "Project/pro2_ts/双端阻塞队列.md",
     "Project/pro2_ts/Redis延时消息.md",
-    "课件/ts课件/MongoDB入门.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "Project/pro2_ts/订单模块",
     "Project/pro2_ts/kafka部署问题.md",
@@ -220,11 +237,9 @@
     "课件/ts课件/第3章 用户登录.md",
     "课件/ts课件/第2章 声音管理.md",
     "Project/pro2_ts/关于MongoUtil的partition.md",
-    "Project/pro2_ts/布隆过滤器.md",
     "课件/assets/image-3.png",
     "课件/assets/image-4.png",
     "课件/assets/tingshu005.png",
-    "课件/assets/tingshu001.png",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",

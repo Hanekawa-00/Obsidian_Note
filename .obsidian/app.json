@@ -1,4 +1,5 @@
 {
   "promptDelete": false,
-  "tabSize": 4
+  "tabSize": 4,
+  "attachmentFolderPath": "./attachments"
 }

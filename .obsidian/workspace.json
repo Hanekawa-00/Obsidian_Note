@@ -25,12 +25,14 @@
             "id": "c4982188d3bbe708",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Project/pro2_ts/订单相关流程图.excalidraw.md"
+                "file": "Project/pro2_ts/403问题.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "订单相关流程图.excalidraw"
+              "icon": "lucide-file",
+              "title": "403问题"
             }
           },
           {
@@ -164,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/订单相关流程图.excalidraw.md"
+                "file": "Project/pro2_ts/403问题.md"
               },
               "icon": "lucide-list",
-              "title": "订单相关流程图.excalidraw 的大纲"
+              "title": "403问题 的大纲"
             }
           },
           {
@@ -202,21 +204,23 @@
   },
   "active": "c4982188d3bbe708",
   "lastOpenFiles": [
-    "课件/ts课件/MongoDB入门.md",
+    "Project/pro2_ts/attachments/Pasted image 20241208201449.png",
+    "Project/pro2_ts/attachments",
     "Project/pro2_ts/订单相关流程图.excalidraw.md",
+    "课件/ts课件/MongoDB入门.md",
     "Project/pro2_ts/订单相关流程图.excalidraw.png",
     "课件/ts课件/第8章 支付.md",
     "课件/ts课件/第7章 订单.md",
     "Project/pro2_ts/403问题.md",
-    "Pasted image 20241207153531.png",
-    "Pasted image 20241207153306.png",
-    "Pasted image 20241207153150.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153531.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153306.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153150.png",
     "课件/ts课件/第10章 直播.md",
     "课件/ts课件/第1章 专辑管理.md",
     "课件/ts课件/听书软件环境安装.md",
-    "Pasted image 20241207153606.png",
-    "Pasted image 20241207153546.png",
-    "Pasted image 20241207153500.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153606.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153546.png",
+    "Project/pro2_ts/attachments/Pasted image 20241207153500.png",
     "课件/ikun_课件/ikun/day17课件.md",
     "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
     "Project/pro2_ts/双端阻塞队列.md",
@@ -246,7 +250,6 @@
     "课件/ikun",
     "assets",
     "课件/ikun_课件/ikun/images",
-    "课件/ikun_课件/ikun/assets",
     "未命名.canvas"
   ]
 }

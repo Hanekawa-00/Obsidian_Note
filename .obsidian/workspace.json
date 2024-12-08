@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/pro2_ts/403问题.md",
+                "file": "课件/ts课件/第7章 订单.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "403问题"
+              "title": "第7章 订单"
             }
           },
           {
@@ -151,10 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/pro2_ts/403问题.md"
+                "file": "课件/ts课件/第7章 订单.md"
               },
               "icon": "lucide-list",
-              "title": "403问题 的大纲"
+              "title": "第7章 订单 的大纲"
             }
           },
           {
@@ -189,8 +189,9 @@
   },
   "active": "1c147e01268064fa",
   "lastOpenFiles": [
-    "Pasted image 20241207153531.png",
+    "课件/ts课件/第8章 支付.md",
     "Project/pro2_ts/403问题.md",
+    "Pasted image 20241207153531.png",
     "Pasted image 20241207153306.png",
     "Pasted image 20241207153150.png",
     "课件/ts课件/第10章 直播.md",
@@ -212,7 +213,6 @@
     "sync-test.md",
     "Project/pro2_ts/Mybatis foreach 标签.md",
     "课件/ts课件/第9章 分布式任务调度.md",
-    "课件/ts课件/第8章 支付.md",
     "conflict-files-obsidian-git.md",
     "课件/ts课件/第6章 详情优化.md",
     "课件/ts课件/第5章 详情介绍.md",

@@ -11,10 +11,14 @@
             "id": "aa8bffc4cf742efb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "第4章--常规及复杂控制技术_MathpixOutput.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "第4章--常规及复杂控制技术_MathpixOutput"
             }
           }
         ]
@@ -168,8 +172,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "aa8bffc4cf742efb",
   "lastOpenFiles": [
+    "第4章--常规及复杂控制技术_MathpixOutput.md",
     "h.md",
     "02f11/tex.md",
     "02f11/images/2.jpg",
@@ -210,7 +215,6 @@
     "conflict-files-obsidian-git.md",
     "课件/ts课件/第6章 详情优化.md",
     "课件/ts课件/第5章 详情介绍.md",
-    "课件/ts课件/第4章 检索模块.md",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",

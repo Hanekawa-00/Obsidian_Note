@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b8124f4b99888129",
+        "id": "41ddb77b2be2d4df",
         "type": "tabs",
         "children": [
           {
-            "id": "128a4b4317e135be",
+            "id": "aa8bffc4cf742efb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "课件/ts课件/第8章 支付.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第8章 支付"
-            }
-          },
-          {
-            "id": "0db20424f0bb947a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/pro2_ts/ShardingSphere.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ShardingSphere"
+              "title": "新标签页"
             }
           }
         ]
@@ -150,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "课件/ts课件/第8章 支付.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "第8章 支付 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -172,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,19 +164,28 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "128a4b4317e135be",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
-    "课件/ts课件/第7章 订单.md",
+    "h.md",
+    "02f11/tex.md",
+    "02f11/images/2.jpg",
+    "02f11/images/1.jpg",
+    "02f11/images",
+    "02f11/02f113c325e946cf949c7e9ff7743a14.tex",
+    "02f11",
+    "().md",
+    "sync-test.md",
+    "Project/pro2_ts/ShardingSphere.md",
     "课件/ts课件/第8章 支付.md",
+    "课件/ts课件/第7章 订单.md",
     "课件/ts课件/第9章 分布式任务调度.md",
     "Project/pro2_ts/订单相关流程图.excalidraw.md",
     "课件/ts课件/MongoDB入门.md",
-    "Project/pro2_ts/ShardingSphere.md",
     "课件/ts课件/第1章 专辑管理.md",
-    "().md",
     "Project/pro2_ts/403问题.md",
     "Project/pro2_ts/attachments/Pasted image 20241208201449.png",
     "Project/pro2_ts/attachments",
@@ -216,24 +206,16 @@
     "Project/pro2_ts/订单模块",
     "Project/pro2_ts/kafka部署问题.md",
     "Project/pro2_ts/AOP几种注解的使用注意点.md",
-    "sync-test.md",
     "Project/pro2_ts/Mybatis foreach 标签.md",
     "conflict-files-obsidian-git.md",
     "课件/ts课件/第6章 详情优化.md",
     "课件/ts课件/第5章 详情介绍.md",
     "课件/ts课件/第4章 检索模块.md",
-    "课件/ts课件/第3章 用户登录.md",
-    "课件/ts课件/第2章 声音管理.md",
-    "课件/assets/image-3.png",
-    "课件/assets/image-4.png",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",
     "课件/assets",
     "课件/git",
-    "课件/ikun",
-    "assets",
-    "课件/ikun_课件/ikun/images",
     "未命名.canvas"
   ]
 }

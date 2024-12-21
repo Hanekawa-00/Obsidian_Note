@@ -136,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "课件/ts课件/第8章 支付.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "第8章 支付 的大纲"
             }
           },
           {
@@ -171,7 +173,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aa8bffc4cf742efb",
+  "active": "91d544e0372adb40",
   "lastOpenFiles": [
     "第4章--常规及复杂控制技术_MathpixOutput.md",
     "h.md",

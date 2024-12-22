@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d641c21350948b59",
+        "id": "f606eb8f6e613ca2",
         "type": "tabs",
         "children": [
           {
-            "id": "73b69e1157e16308",
+            "id": "5229a0a5589a9eb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,20 +173,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "73b69e1157e16308",
+  "active": "5229a0a5589a9eb0",
   "lastOpenFiles": [
-    "JVM/jvm.md",
     "JVM/assets/1562480798947.png",
+    "JVM/jvm.md",
     "sync-test.md",
+    "课件/ikun_课件/ikun/day17课件.md",
+    "课件/ikun_课件/ikun/day02课件.md",
+    "JVM/assets/774371-20180821141845751-487958058.jpg",
+    "JVM/assets/1562487577325.png",
+    "JVM/assets/1326194-20181017145352803-1499680295.png",
+    "JVM/assets/774371-20180821141926826-1266970658.jpg",
     "JVM/assets/mark_sweep.gif",
     "JVM/assets/mark_compact.gif",
     "JVM/assets/image-20211002104940450.png",
     "JVM/assets/image-20211002104816871.png",
     "JVM/assets/image-20211002104543990.png",
-    "JVM/assets/image-20211002103711349.png",
-    "JVM/assets/image-20211002101726074.png",
-    "JVM/assets/image-20211002101029880.png",
-    "JVM/assets/gc_copying.gif",
     "JVM/assets",
     "JVM",
     "Project/pro2_ts/关系型数据库和非关系型数据库.md",
@@ -212,8 +214,6 @@
     "课件/第2章 声音管理.md",
     "课件/第6章 详情优化.md",
     "课件/第7章 订单.md",
-    "课件/第3章 用户登录.md",
-    "课件/第5章 详情介绍.md",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",

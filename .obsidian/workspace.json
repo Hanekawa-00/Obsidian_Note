@@ -25,17 +25,14 @@
             "id": "3dcd63c9e186230c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "面试/java/HashMap扩容问题.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "HashMap扩容问题"
             }
           }
         ],
@@ -155,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "面试/java/HashMap扩容问题.md"
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "HashMap扩容问题 的大纲"
             }
           },
           {

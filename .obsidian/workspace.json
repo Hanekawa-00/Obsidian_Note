@@ -25,14 +25,17 @@
             "id": "3dcd63c9e186230c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "面试/java/HashMap扩容问题.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "HashMap扩容问题"
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ],
@@ -152,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/java/HashMap扩容问题.md"
+                "file": "未命名.canvas"
               },
               "icon": "lucide-list",
-              "title": "HashMap扩容问题 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -169,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -190,10 +193,11 @@
   },
   "active": "3dcd63c9e186230c",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "面试/java/HashMap扩容问题.md",
     "面试/java/attachments/Pasted image 20241223092446.png",
     "面试/java/attachments",
     "课件/ts课件/第9章 分布式任务调度.md",
-    "面试/java/HashMap扩容问题.md",
     "面试/java",
     "面试",
     "课件/ts课件/第8章 支付.md",
@@ -223,7 +227,6 @@
     "课件/ts课件/听书软件环境安装.md",
     "Project/pro2_ts/attachments/Pasted image 20241207153606.png",
     "Project/pro2_ts/attachments/Pasted image 20241207153546.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153500.png",
     "课件/ikun_课件/ikun/day17课件.md",
     "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
     "Project/pro2_ts/双端阻塞队列.md",
@@ -235,7 +238,6 @@
     "Project/pro2_ts/Mybatis foreach 标签.md",
     "conflict-files-obsidian-git.md",
     "课件/ikun/assets",
-    "课件/git/image",
-    "未命名.canvas"
+    "课件/git/image"
   ]
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync-test.md",
+                "file": "JVM/jvm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sync-test"
+              "title": "jvm"
             }
           }
         ]
@@ -173,22 +173,28 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "73b69e1157e16308",
   "lastOpenFiles": [
+    "JVM/jvm.md",
+    "JVM/assets/1562480798947.png",
+    "sync-test.md",
+    "JVM/assets/mark_sweep.gif",
+    "JVM/assets/mark_compact.gif",
+    "JVM/assets/image-20211002104940450.png",
+    "JVM/assets/image-20211002104816871.png",
+    "JVM/assets/image-20211002104543990.png",
+    "JVM/assets/image-20211002103711349.png",
+    "JVM/assets/image-20211002101726074.png",
+    "JVM/assets/image-20211002101029880.png",
+    "JVM/assets/gc_copying.gif",
+    "JVM/assets",
+    "JVM",
     "Project/pro2_ts/关系型数据库和非关系型数据库.md",
     "().md",
     "相关.md",
     "Project/pro2_ts/订单相关流程图.excalidraw.md",
-    "sync-test.md",
     "conflict-files-obsidian-git.md",
     "Project/pro2_ts/双端阻塞队列.md",
-    "Project/pro2_ts/attachments/Pasted image 20241208201449.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153606.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153546.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153531.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153500.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153306.png",
-    "Project/pro2_ts/attachments/Pasted image 20241207153150.png",
     "Project/pro2_ts/attachments",
     "Project/pro2_ts/ShardingSphere.md",
     "Project/pro2_ts/Redis延时消息.md",
@@ -201,9 +207,6 @@
     "课件/ts课件/第1章 专辑管理.md",
     "Project/pro2_ts/消息和远程RPC.md",
     "课件/第1章 专辑管理.md",
-    "课件/assets/image-3.png",
-    "课件/assets/image-4.png",
-    "课件/assets/tingshu005.png",
     "课件/听书谷粒随享-前端部署.md",
     "课件/听书软件环境安装.md",
     "课件/第2章 声音管理.md",
@@ -211,16 +214,12 @@
     "课件/第7章 订单.md",
     "课件/第3章 用户登录.md",
     "课件/第5章 详情介绍.md",
-    "课件/第4章 检索模块.md",
-    "课件/第9章 分布式任务调度.md",
     "课件/ikun/assets",
     "课件/git/image",
     "课件/ikun/images",
     "课件/assets",
     "课件/git",
     "课件/ikun",
-    "assets",
-    "课件/ikun_课件/ikun/images",
     "未命名.canvas"
   ]
 }

@@ -137,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync-test.md"
+                "file": "JVM/jvm.md"
               },
               "icon": "lucide-list",
-              "title": "sync-test 的大纲"
+              "title": "jvm 的大纲"
             }
           },
           {
@@ -173,7 +173,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5229a0a5589a9eb0",
+  "active": "f00c03aa21f3fb15",
   "lastOpenFiles": [
     "JVM/assets/image-20211002101726074.png",
     "JVM/jvm.md",

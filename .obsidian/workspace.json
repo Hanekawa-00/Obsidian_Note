@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "spring-security/笔记.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,7 +173,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f00c03aa21f3fb15",
+  "active": "5229a0a5589a9eb0",
   "lastOpenFiles": [
     "JVM/jvm.md",
     "面试/java/attachments/Pasted image 20241223092446.png",

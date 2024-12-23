@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f606eb8f6e613ca2",
+        "id": "3869b5e2a1464e96",
         "type": "tabs",
         "children": [
           {
-            "id": "5229a0a5589a9eb0",
+            "id": "09716fadfe7fb225",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spring-security/笔记.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "笔记"
+              "title": "新标签页"
             }
           }
         ]
@@ -136,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "spring-security/笔记.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "笔记 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -173,10 +167,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5229a0a5589a9eb0",
+  "active": "09716fadfe7fb225",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "Untitled Diagram.svg",
     "spring-security/笔记.md",
+    "未命名.canvas",
     "JVM/jvm.md",
     "面试/java/attachments/Pasted image 20241223092446.png",
     "面试/java/attachments",
@@ -191,7 +186,6 @@
     "spring-security/assets/image-20231223164128030.png",
     "spring-security/assets/image-20231223020052999.png",
     "spring-security/assets/image-20231222203259785.png",
-    "spring-security/assets/image-20231222203240921.png",
     "spring-security/assets",
     "spring-security",
     "sync-test.md",

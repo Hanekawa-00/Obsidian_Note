@@ -1,8 +1,8 @@
 {
-  "theme": "moonstone",
+  "theme": "obsidian",
   "accentColor": "#701db4",
   "baseFontSizeAction": true,
   "nativeMenus": false,
-  "baseFontSize": 17,
+  "baseFontSize": 18,
   "cssTheme": "GitHub Theme"
 }

@@ -152,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "spring-security/笔记.md"
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "笔记 的大纲"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,10 +188,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f00c03aa21f3fb15",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
-    "spring-security/笔记.md",
     "conflict-files-obsidian-git.md",
+    "spring-security/笔记.md",
     "Untitled Diagram.svg",
     "未命名.canvas",
     "JVM/jvm.md",

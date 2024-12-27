@@ -111,11 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "面试/杂项/粒度是什么？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "粒度是什么？ 的出链列表"
             }
           },
           {
@@ -173,7 +174,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "308dd7da079e6c01",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
     "面试/杂项/粒度是什么？.md",
     "面试/杂项",

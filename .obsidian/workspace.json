@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/链表/25.K 个一组翻转链表.md",
+                "file": "leetcode/链表/24.两两交换链表中的节点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25.K 个一组翻转链表"
+              "title": "24.两两交换链表中的节点"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/链表/25.K 个一组翻转链表.md"
+                "file": "leetcode/链表/24.两两交换链表中的节点.md"
               },
               "icon": "lucide-list",
-              "title": "25.K 个一组翻转链表 的大纲"
+              "title": "24.两两交换链表中的节点 的大纲"
             }
           },
           {
@@ -176,8 +176,8 @@
   },
   "active": "308dd7da079e6c01",
   "lastOpenFiles": [
-    "leetcode/链表/24.两两交换链表中的节点.md",
     "leetcode/链表/25.K 个一组翻转链表.md",
+    "leetcode/链表/24.两两交换链表中的节点.md",
     "conflict-files-obsidian-git.md",
     "leetcode/回溯/Hello.md",
     "leetcode/链表",

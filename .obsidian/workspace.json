@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/杂项/粒度是什么？.md",
+                "file": "JUC/JUC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "粒度是什么？"
+              "title": "JUC"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/杂项/粒度是什么？.md"
+                "file": "JUC/JUC.md"
               },
               "icon": "lucide-list",
-              "title": "粒度是什么？ 的大纲"
+              "title": "JUC 的大纲"
             }
           },
           {
@@ -174,7 +174,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "308dd7da079e6c01",
   "lastOpenFiles": [
     "面试/杂项/粒度是什么？.md",
     "面试/杂项",

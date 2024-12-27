@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JUC/JUC.md",
+                "file": "leetcode/链表/25.K 个一组翻转链表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JUC"
+              "title": "25.K 个一组翻转链表"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JUC/JUC.md"
+                "file": "leetcode/链表/25.K 个一组翻转链表.md"
               },
               "icon": "lucide-list",
-              "title": "JUC 的大纲"
+              "title": "25.K 个一组翻转链表 的大纲"
             }
           },
           {
@@ -174,12 +174,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "308dd7da079e6c01",
   "lastOpenFiles": [
+    "leetcode/链表/24.两两交换链表中的节点.md",
+    "leetcode/链表/25.K 个一组翻转链表.md",
+    "conflict-files-obsidian-git.md",
+    "leetcode/回溯/Hello.md",
+    "leetcode/链表",
+    "leetcode/回溯/22.括号生成.md",
+    "JUC/JUC.md",
+    "leetcode/分治/23.合并K个升序链表.md",
+    "leetcode/回溯",
+    "leetcode/分治",
+    "leetcode",
     "面试/杂项/粒度是什么？.md",
     "面试/杂项",
     "spring-security/笔记.md",
-    "conflict-files-obsidian-git.md",
     "Untitled Diagram.svg",
     "spring-security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "spring-security/assets/securityfilterchain.png",
@@ -200,14 +210,10 @@
     "JVM",
     "面试/java/attachments",
     "课件/ts课件/第9章 分布式任务调度.md",
-    "面试/java",
-    "面试",
     "课件/ts课件/第8章 支付.md",
     "第4章--常规及复杂控制技术_MathpixOutput.md",
     "h.md",
     "02f11/tex.md",
-    "02f11/images",
-    "02f11/02f113c325e946cf949c7e9ff7743a14.tex",
     "().md",
     "Project/pro2_ts/ShardingSphere.md",
     "课件/ts课件/第7章 订单.md",
@@ -216,12 +222,6 @@
     "课件/ts课件/第1章 专辑管理.md",
     "Project/pro2_ts/403问题.md",
     "课件/ts课件/第10章 直播.md",
-    "课件/ts课件/听书软件环境安装.md",
-    "课件/ikun_课件/ikun/day17课件.md",
-    "Project/pro2_ts/Drawing 2024-12-07 13.12.41.excalidraw.md",
-    "Project/pro2_ts/双端阻塞队列.md",
-    "Project/pro2_ts/Redis延时消息.md",
-    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
-    "Project/pro2_ts/kafka部署问题.md"
+    "课件/ts课件/听书软件环境安装.md"
   ]
 }

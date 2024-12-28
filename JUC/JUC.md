@@ -1086,7 +1086,7 @@ class ShareDataOne{
     public synchronized void increment() throws InterruptedException {
         // 1. 判断
         if (number != 0) {
-            this.wait();
+            this.wait();// 进入等待状态
         }
 
         // 2. 干活
@@ -1094,7 +1094,7 @@ class ShareDataOne{
         System.out.println(Thread.currentThread().getName() + ": " + number);
 
         // 3. 通知
-        this.notifyAll();
+        this.notifyAll(); // 通知其他线程（唤醒其他线程）
     }
 
     /**
@@ -1254,9 +1254,9 @@ BBB: 2
 
 换成4个线程会导致错误，**虚假唤醒**
 
-**原因：**在java多线程判断时，不能用if，程序出事出在了判断上面。
+**原因**在java多线程判断时，不能用if，程序出事出在了判断上面。
 
-**注意：**消费者被唤醒后是从wait()方法（被阻塞的地方）后面执行，而不是重新从同步块开头。
+**注意**消费者被唤醒后是从wait()方法（被阻塞的地方）后面执行，而不是重新从同步块开头。
 
 
 
@@ -1287,9 +1287,6 @@ while (number != 1) {
 ```
 
 再次测试，完美解决
-
-
-
 ## 3.3. 线程通信（Condition）
 
 对标synchronized：

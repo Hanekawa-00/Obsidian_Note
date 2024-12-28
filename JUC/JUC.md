@@ -892,9 +892,7 @@ public class ReentrantReadWriteLockDemo {
 
 
 ### 2.2.2. 读写锁的使用
-
 改造MyCache，加入读写锁：
-
 ```java
 class MyCache{
 

@@ -745,15 +745,12 @@ public class DeadlockDemo2 {
                     }else {
                         System.out.println("Thread 1: 未获取到锁2");
                     }
-
                 }finally {
                     lock1.unlock();
                 }
             }else{
                 System.out.println("Thread 1: 未获取到锁1");
             }
-
-
         }).start();
 
         new Thread(() -> {

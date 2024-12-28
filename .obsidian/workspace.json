@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6a5939dd15e253ec",
+        "id": "5f79795a58033ea2",
         "type": "tabs",
         "children": [
           {
-            "id": "a0cee4715ebd8128",
+            "id": "322995e28aa610f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "面试/java/什么是可重入锁？.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "什么是可重入锁？"
+            }
+          },
+          {
+            "id": "ac40b72d0608ce75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JUC/JUC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JUC"
             }
           }
         ]
@@ -73,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5026054382324
+    "width": 323.5026054382324
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -134,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf"
+                "file": "面试/java/什么是可重入锁？.md"
               },
               "icon": "lucide-list",
-              "title": "代码随想录知识星球精华（最强八股文）第五版（Java篇） 的大纲"
+              "title": "什么是可重入锁？ 的大纲"
             }
           },
           {
@@ -170,13 +188,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "322995e28aa610f0",
   "lastOpenFiles": [
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "JUC/JUC.md",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
+    "面试/java/什么是可重入锁？.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
     "代码随想录",
     "新建文件夹",
     "ZK221_2420223367_张子恒_SY3_DT.pdf",

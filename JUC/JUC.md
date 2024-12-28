@@ -490,17 +490,12 @@ Java中的每一个对象都可以作为锁。具体表现为以下3种形式：
 **注意：if语句中不要忘记lock.unlock();**
 ```java
 class Ticket{
-
     private final ReentrantLock lock = new ReentrantLock();
-
     //  定义一个票数
     private int number = 1;
-
     //  定义一个卖票的方法:
     public void sale(){
-
         lock.lock();
-
         //  判断
         if (number<=0){
             System.out.println(Thread.currentThread().getName() + "票已售罄！");
@@ -508,12 +503,10 @@ class Ticket{
             System.out.println("return");
             return;
         }
-
         try {
             System.out.println(Thread.currentThread().getName() + "开始买票，当前票数：" + number);
             Thread.sleep(200);
             System.out.println(Thread.currentThread().getName() + "买票结束，剩余票数：" + --number);
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

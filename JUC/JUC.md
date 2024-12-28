@@ -920,10 +920,8 @@ class MyCache{
     }
 
     public void get(String key){
-
         // 加入读锁
         rwlock.readLock().lock();
-
         try {
             System.out.println(Thread.currentThread().getName() + " 开始读出！");
             Thread.sleep(300);

@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "be86206097d42e20",
+        "id": "6a5939dd15e253ec",
         "type": "tabs",
         "children": [
           {
-            "id": "7de72ac93bff7f9a",
+            "id": "a0cee4715ebd8128",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "代码随想录知识星球精华（最强八股文）第五版（Java篇）"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -172,7 +170,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7de72ac93bff7f9a",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",

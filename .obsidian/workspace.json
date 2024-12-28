@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f79795a58033ea2",
+        "id": "9f327aa68ad167ef",
         "type": "tabs",
         "children": [
           {
-            "id": "322995e28aa610f0",
+            "id": "4b82691ce4a8ec9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/java/什么是可重入锁？.md",
+                "file": "面试/JUC/什么是可重入锁？.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "ac40b72d0608ce75",
+            "id": "7335e70b328aa2bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,7 +35,8 @@
               "title": "JUC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/java/什么是可重入锁？.md"
+                "file": "JUC/JUC.md"
               },
               "icon": "lucide-list",
-              "title": "什么是可重入锁？ 的大纲"
+              "title": "JUC 的大纲"
             }
           },
           {
@@ -188,10 +189,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "322995e28aa610f0",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "面试/JUC/什么是可重入锁？.md",
+    "面试/java/HashMap扩容问题.md",
+    "Project/pro2_ts/订单相关流程图.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "JUC/JUC.md",
-    "面试/java/什么是可重入锁？.md",
+    "面试/JUC",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
@@ -207,7 +212,6 @@
     "leetcode/回溯/22.括号生成.md",
     "leetcode/分治/23.合并K个升序链表.md",
     "leetcode/回溯",
-    "leetcode/分治",
     "面试/杂项/粒度是什么？.md",
     "spring-security/笔记.md",
     "Untitled Diagram.svg",
@@ -220,7 +224,6 @@
     "spring-security/assets/image-20231223020052999.png",
     "spring-security/assets/image-20231222203259785.png",
     "spring-security/assets/image-20231222203240921.png",
-    "面试/java/HashMap扩容问题.md",
     "未命名.canvas",
     "sync-test.md",
     "JVM/jvm.md",
@@ -232,10 +235,8 @@
     "().md",
     "Project/pro2_ts/ShardingSphere.md",
     "课件/ts课件/第7章 订单.md",
-    "Project/pro2_ts/订单相关流程图.excalidraw.md",
     "课件/ts课件/MongoDB入门.md",
     "课件/ts课件/第1章 专辑管理.md",
-    "Project/pro2_ts/403问题.md",
-    "课件/ts课件/第10章 直播.md"
+    "Project/pro2_ts/403问题.md"
   ]
 }

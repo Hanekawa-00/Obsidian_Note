@@ -35,7 +35,8 @@
               "title": "JUC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JUC/ReentrantLock和synchronized区别.md"
+                "file": "JUC/JUC.md"
               },
               "icon": "lucide-list",
-              "title": "ReentrantLock和synchronized区别 的大纲"
+              "title": "JUC 的大纲"
             }
           },
           {
@@ -188,11 +189,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4b82691ce4a8ec9e",
+  "active": "7335e70b328aa2bb",
   "lastOpenFiles": [
-    "JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
+    "面试/JUC/响应中断.md",
     "面试/JUC/什么是可重入锁？.md",
+    "JUC/JUC.md",
     "面试/java/HashMap扩容问题.md",
     "Project/pro2_ts/订单相关流程图.excalidraw.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
@@ -235,7 +237,6 @@
     "().md",
     "Project/pro2_ts/ShardingSphere.md",
     "课件/ts课件/第7章 订单.md",
-    "课件/ts课件/MongoDB入门.md",
-    "课件/ts课件/第1章 专辑管理.md"
+    "课件/ts课件/MongoDB入门.md"
   ]
 }

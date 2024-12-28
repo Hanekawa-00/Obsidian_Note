@@ -799,7 +799,7 @@ public class DeadlockDemo2 {
 ### 2.1.4. ReentrantLock和synchronized区别
 
 （1）synchronized是`独占锁`，加锁和解锁的过程自动进行，易于操作，但不够灵活。ReentrantLock也是`独占锁`，加锁和解锁的过程需要手动进行，不易操作，但非常灵活。
-
+ 
 （2）synchronized可重入，因为加锁和解锁自动进行，不必担心最后是否释放锁；ReentrantLock也可重入，但加锁和解锁需要手动进行，且次数需一样，否则其他线程无法获得锁。
 
 （3）synchronized不可响应中断，一个线程获取不到锁就一直等着；ReentrantLock可以响应中断。

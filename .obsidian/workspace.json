@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf565e5a873c6985",
+        "id": "be86206097d42e20",
         "type": "tabs",
         "children": [
           {
-            "id": "308dd7da079e6c01",
+            "id": "7de72ac93bff7f9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,21 +174,27 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "308dd7da079e6c01",
+  "active": "7de72ac93bff7f9a",
   "lastOpenFiles": [
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
+    "代码随想录",
+    "新建文件夹",
+    "ZK221_2420223367_张子恒_SY3_DT.pdf",
+    "JUC/JUC.md",
     "leetcode/链表/24.两两交换链表中的节点.md",
     "leetcode/链表/25.K 个一组翻转链表.md",
     "conflict-files-obsidian-git.md",
     "leetcode/回溯/Hello.md",
     "leetcode/链表",
     "leetcode/回溯/22.括号生成.md",
-    "JUC/JUC.md",
     "leetcode/分治/23.合并K个升序链表.md",
     "leetcode/回溯",
     "leetcode/分治",
     "leetcode",
     "面试/杂项/粒度是什么？.md",
-    "面试/杂项",
     "spring-security/笔记.md",
     "Untitled Diagram.svg",
     "spring-security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
@@ -200,15 +206,10 @@
     "spring-security/assets/image-20231223020052999.png",
     "spring-security/assets/image-20231222203259785.png",
     "spring-security/assets/image-20231222203240921.png",
-    "spring-security/assets",
     "面试/java/HashMap扩容问题.md",
-    "spring-security",
     "未命名.canvas",
     "sync-test.md",
     "JVM/jvm.md",
-    "JVM/assets",
-    "JVM",
-    "面试/java/attachments",
     "课件/ts课件/第9章 分布式任务调度.md",
     "课件/ts课件/第8章 支付.md",
     "第4章--常规及复杂控制技术_MathpixOutput.md",
@@ -221,7 +222,6 @@
     "课件/ts课件/MongoDB入门.md",
     "课件/ts课件/第1章 专辑管理.md",
     "Project/pro2_ts/403问题.md",
-    "课件/ts课件/第10章 直播.md",
-    "课件/ts课件/听书软件环境安装.md"
+    "课件/ts课件/第10章 直播.md"
   ]
 }

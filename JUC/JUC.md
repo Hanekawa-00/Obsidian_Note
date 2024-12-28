@@ -484,19 +484,10 @@ Java中的每一个对象都可以作为锁。具体表现为以下3种形式：
 ## 2.1. ReentrantLock可重入锁
 
 `ReentrantLock`是可重入的互斥锁，虽然具有与`synchronized`相同功能，但是会比`synchronized`有更多的方法，因此更加灵活。
-
-
-
-ReentrantLock使用方式参照官方文档：
-
+`ReentrantLock`使用方式参照官方文档：
 ![1562757277239](JUC.assets/1562757277239.png)
-
-
-
 使用ReentrantLock改造卖票程序：只需改造Ticket类
-
 **注意：if语句中不要忘记lock.unlock();**
-
 ```java
 class Ticket{
 

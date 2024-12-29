@@ -2268,7 +2268,7 @@ public class CallableDemo {
 
 
 
-**面试题：**获得多线程的方法几种？
+**面试题**获得多线程的方法几种？
 
 （1）继承thread类（2）runnable接口
 

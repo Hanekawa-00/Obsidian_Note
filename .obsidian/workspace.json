@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JUC/CopyOnwrite容器.md",
+                "file": "面试/JUC/CopyOnWrite容器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CopyOnwrite容器"
+              "title": "CopyOnWrite容器"
             }
           }
         ]
@@ -188,9 +188,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "7335e70b328aa2bb",
   "lastOpenFiles": [
-    "面试/JUC/CopyOnwrite容器.md",
+    "面试/JUC/CopyOnWrite容器.md",
     "JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/响应中断.md",

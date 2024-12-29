@@ -1908,7 +1908,6 @@ public class JoinDemo {
         t4.join();
         t5.join();
         t6.join();
-
         System.out.println("值班同学锁门了");
     }
 }

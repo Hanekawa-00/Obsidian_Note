@@ -2,5 +2,7 @@
   "promptDelete": false,
   "tabSize": 4,
   "attachmentFolderPath": "./assets",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "uriCallbacks": false,
+  "newFileLocation": "root"
 }

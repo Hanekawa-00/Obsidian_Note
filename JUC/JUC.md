@@ -2545,7 +2545,7 @@ Executor接口是顶层接口，只有一个execute方法，过于简单。通�
 那么问题来了，怎么创建一个线程池对象呢？通常使用Executors工具类
 
 
-
+executor
 ## 8.2. Executors工具类
 
 架构图可以看到Executors工具类，可以用它快速创建线程池。

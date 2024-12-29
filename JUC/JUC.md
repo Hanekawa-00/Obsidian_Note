@@ -1805,9 +1805,6 @@ new CountDownLatch(int count) //实例化一个倒计数器，count指定初始�
 countDown() // 每调用一次，计数减一
 await() //等待，当计数减到0时，阻塞线程（可以是一个，也可以是多个）并行执行
 ```
-
-
-
 案例：6个同学陆续离开教室后值班同学才可以关门。
 
  ![1562920244806](JUC.assets/1562920244806.png)
@@ -1840,10 +1837,8 @@ public class CountDownLatchDemo {
                 }
             }, String.valueOf(i)).start();
         }
-
         // 调用计算器的await方法，等待6位同学都出来
         countDownLatch.await();
-
         System.out.println("值班同学锁门了");
     }
 }
@@ -1860,10 +1855,7 @@ public class CountDownLatchDemo {
 同学4 出来了
 值班同学锁门了
 ```
-
-
-
-**面试：**CountDownLatch 与 join 方法的区别
+**面试**CountDownLatch 与 join 方法的区别
 
 调用一个子线程的 `join()`方法后，该线程会`一直被阻塞直到该线程运行完毕`。 CountDownLatch 则使用计数器允许子线程运行完毕或者运行中时候递减计数，也就是 `CountDownLatch 可以在子线程运行任何时候让 await 方法返回`而不一定必须等到线程结束；countDownLatch 相比 Join 方法让我们对线程同步有更灵活的控制。
 
@@ -1892,8 +1884,6 @@ public class JoinDemo {
                 e.printStackTrace();
             }
         };
-
-
         Thread t1 = new Thread(runnable);
         t1.start();
 
@@ -1911,7 +1901,6 @@ public class JoinDemo {
 
         Thread t6 = new Thread(runnable);
         t6.start();
-
         //子线程并入主线程
         t1.join();
         t2.join();

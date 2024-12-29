@@ -1595,11 +1595,7 @@ List接口有很多实现类，除了常用的ArrayList之外，还有Vector和S
 ```
 
 即可解决！
-
-
-
 **Vector和Synchronized的缺点：**
-
 - Vector：内存消耗比较大，适合一次增量比较大的情况（Vector每次扩容是原来容量的一倍，ArrayList是原来的1.5倍）
 - SynchronizedList：迭代器涉及的代码没有加上线程同步代码
 

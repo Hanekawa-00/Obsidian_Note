@@ -4,5 +4,11 @@
   "attachmentFolderPath": "./assets",
   "alwaysUpdateLinks": true,
   "uriCallbacks": false,
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -35,8 +35,7 @@
               "title": "CopyOnwrite容器"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JUC/CopyOnwrite容器.md"
+                "file": "JUC/JUC.md"
               },
               "icon": "lucide-list",
-              "title": "CopyOnwrite容器 的大纲"
+              "title": "JUC 的大纲"
             }
           },
           {
@@ -189,13 +188,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b280736c478e556b",
+  "active": "7335e70b328aa2bb",
   "lastOpenFiles": [
-    "JUC/JUC.md",
     "面试/JUC/CopyOnwrite容器.md",
+    "JUC/JUC.md",
+    "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/响应中断.md",
     "JVM/jvm.md",
-    "面试/JUC/ReentrantLock和synchronized区别.md",
     "leetcode/链表/25.K 个一组翻转链表.md",
     "面试/JUC/什么是可重入锁？.md",
     "面试/JUC/什么是锁降级.md",

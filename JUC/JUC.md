@@ -1926,8 +1926,7 @@ public class JoinDemo {
 3. await() 该方法被调用时表示当前线程已经到达屏障点，当前线程阻塞进入休眠状态，`直到所有线程都到达屏障点`，当前线程才会被唤醒。
 
 案例：组队打boss过关卡游戏。
-
- ![1562925365024](JUC.assets/1562925365024.png)
+![1562925365024](JUC.assets/1562925365024.png)
 
 ```java
 package com.atguigu.demojuc.chap05;
@@ -2004,7 +2003,7 @@ public class CyclicBarrierDemo {
 
 
 
-**面试：**CyclicBarrier和CountDownLatch的区别？
+**面试**CyclicBarrier和CountDownLatch的区别？
 
 - CountDownLatch允许一个或多个线程等待一组事件的产生，而CyclicBarrier用于等待其他线程运行到栅栏位置
 - CountDownLatch的计数器只能使用一次，而CyclicBarrier的计数器可以使用多次

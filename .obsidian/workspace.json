@@ -190,8 +190,9 @@
   },
   "active": "7335e70b328aa2bb",
   "lastOpenFiles": [
-    "面试/JUC/CopyOnWrite容器.md",
+    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "JUC/JUC.md",
+    "面试/JUC/CopyOnWrite容器.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/响应中断.md",
     "JVM/jvm.md",
@@ -235,7 +236,6 @@
     "第4章--常规及复杂控制技术_MathpixOutput.md",
     "h.md",
     "02f11/tex.md",
-    "().md",
-    "Project/pro2_ts/ShardingSphere.md"
+    "().md"
   ]
 }

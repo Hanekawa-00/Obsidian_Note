@@ -2023,8 +2023,6 @@ public void acquire() throws InterruptedException // 占用资源，当一个线
 public void release() // （释放）实际上会将信号量的值加1，然后唤醒等待的线程。
 ```
 
-
-
 信号量主要用于两个目的：
 
 1. 多个共享资源的互斥使用。
@@ -2032,7 +2030,7 @@ public void release() // （释放）实际上会将信号量的值加1，然后
 
 
 
-**案例：**6辆车抢占3个车位
+**案例**6辆车抢占3个车位
 
  ![1562925723418](JUC.assets/1562925723418.png)
 

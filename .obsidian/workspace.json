@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,7 +188,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7335e70b328aa2bb",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
     "面试/JUC/CopyOnwrite容器.md",
     "JUC/JUC.md",

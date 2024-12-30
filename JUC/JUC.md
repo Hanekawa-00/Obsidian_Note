@@ -2678,8 +2678,6 @@ public class ThreadPoolDemo {
 3. DiscardOldestPolicy：抛弃队列中等待最久的任务，然后把当前任务加人队列中，尝试再次提交当前任务。
 4. DiscardPolicy：该策略默默地丢弃无法处理的任务，不予任何处理也不抛出异常。 如果允许任务丢失，这是最好的一种策略。
 
-
-
 以上内置的策略均实现了RejectedExecutionHandler接口，`也可以自己扩展RejectedExecutionHandler接口`，定义自己的拒绝策略
 
 

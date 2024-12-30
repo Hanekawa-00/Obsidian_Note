@@ -11,14 +11,12 @@
             "id": "7335e70b328aa2bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "JUC/JUC.md",
-                "mode": "source",
-                "source": false
+                "file": "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf"
               },
-              "icon": "lucide-file",
-              "title": "JUC"
+              "icon": "lucide-file-text",
+              "title": "阿里巴巴Java开发手册"
             }
           },
           {
@@ -34,8 +32,23 @@
               "icon": "lucide-file",
               "title": "CountDownLatch 与 join 方法的区别"
             }
+          },
+          {
+            "id": "5d2f9d4b14c97081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JUC/JUC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JUC"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5026054382324
+    "width": 302.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -188,11 +202,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7335e70b328aa2bb",
+  "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
+    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "JUC/JUC.md",
+    "阿里巴巴开发手册",
+    "新建文件夹",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/CopyOnWrite容器.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/响应中断.md",
@@ -209,15 +226,12 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
     "代码随想录",
-    "新建文件夹",
     "ZK221_2420223367_张子恒_SY3_DT.pdf",
     "leetcode/链表/24.两两交换链表中的节点.md",
     "conflict-files-obsidian-git.md",
     "leetcode/回溯/Hello.md",
-    "leetcode/链表",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/分治/23.合并K个升序链表.md",
-    "leetcode/回溯",
     "面试/杂项/粒度是什么？.md",
     "spring-security/笔记.md",
     "Untitled Diagram.svg",
@@ -235,7 +249,6 @@
     "课件/ts课件/第9章 分布式任务调度.md",
     "课件/ts课件/第8章 支付.md",
     "第4章--常规及复杂控制技术_MathpixOutput.md",
-    "h.md",
-    "02f11/tex.md"
+    "h.md"
   ]
 }

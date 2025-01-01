@@ -11,10 +11,14 @@
             "id": "fd5ac041fc619188",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/数组/31.下一个排列.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "31.下一个排列"
             }
           }
         ]
@@ -133,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/分治/23.合并K个升序链表.md"
+                "file": "leetcode/数组/31.下一个排列.md"
               },
               "icon": "lucide-list",
-              "title": "23.合并K个升序链表 的大纲"
+              "title": "31.下一个排列 的大纲"
             }
           },
           {
@@ -150,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,6 +175,8 @@
   },
   "active": "fd5ac041fc619188",
   "lastOpenFiles": [
+    "leetcode/数组",
+    "leetcode/数组/31.下一个排列.md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "leetcode/分治/23.合并K个升序链表.md",
     "面试/杂项/粒度是什么？.md",
@@ -215,7 +221,6 @@
     "课件/ikun_课件/ikun/day02课件.md",
     "Project/pro2_ts/关系型数据库和非关系型数据库.md",
     "().md",
-    "相关.md",
-    "Project/pro2_ts/订单相关流程图.excalidraw.md"
+    "相关.md"
   ]
 }

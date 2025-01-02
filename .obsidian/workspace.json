@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/MySQL/数据库脏读、不可重复读、幻读.md",
-                "mode": "source",
+                "file": "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据库脏读、不可重复读、幻读"
+              "title": "Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”"
             }
           }
         ]
@@ -175,8 +175,10 @@
   },
   "active": "ade0aa03bbe791ff",
   "lastOpenFiles": [
-    "leetcode/数组/31.下一个排列.md",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
+    "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
+    "日常问题",
+    "leetcode/数组/31.下一个排列.md",
     "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
     "conflict-files-obsidian-git.md",
     "面试/MySQL",
@@ -202,7 +204,6 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "leetcode/链表/25.K 个一组翻转链表.md",
     "leetcode/链表/24.两两交换链表中的节点.md",
     "JUC/JUC.md",
@@ -220,7 +221,6 @@
     "leetcode/回溯/Hello.md",
     "spring-security/笔记.md",
     "未命名.canvas",
-    "JVM/jvm.md",
-    "面试/java/HashMap扩容问题.md"
+    "JVM/jvm.md"
   ]
 }

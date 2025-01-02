@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "MySQL索引最左前缀匹配原则是什么"
             }
-          },
-          {
-            "id": "77a0e518476dd2fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md"
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "MySQL索引最左前缀匹配原则是什么 的大纲"
             }
           },
           {
@@ -202,10 +188,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "77a0e518476dd2fb",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
-    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
     "conflict-files-obsidian-git.md",
+    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
     "leetcode/数组/31.下一个排列.md",
     "面试/MySQL",
     "面试/java/Java集合框架下的类.md",

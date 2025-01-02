@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9f327aa68ad167ef",
+        "id": "b58db020a069e8ff",
         "type": "tabs",
         "children": [
           {
-            "id": "7335e70b328aa2bb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "阿里巴巴Java开发手册"
-            }
-          },
-          {
-            "id": "b280736c478e556b",
+            "id": "fd5ac041fc619188",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JUC/CountDownLatch 与 join 方法的区别.md",
+                "file": "leetcode/数组/31.下一个排列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CountDownLatch 与 join 方法的区别"
-            }
-          },
-          {
-            "id": "5d2f9d4b14c97081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/java/HashMap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HashMap"
+              "title": "31.下一个排列"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5026054382324
+    "width": 502.5
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -138,12 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/杂项/粒度是什么？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "粒度是什么？ 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -165,14 +137,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/java/HashMap.md"
+                "file": "leetcode/数组/31.下一个排列.md"
               },
               "icon": "lucide-list",
-              "title": "HashMap 的大纲"
+              "title": "31.下一个排列 的大纲"
             }
           },
           {
-            "id": "91d544e0372adb40",
+            "id": "f00c03aa21f3fb15",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -196,59 +168,59 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5d2f9d4b14c97081",
+  "active": "f00c03aa21f3fb15",
   "lastOpenFiles": [
     "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
     "面试/java/HashMap.md",
-    "面试/java/HashMap扩容问题.md",
-    "JUC/JUC.md",
-    "leetcode/数组/31.下一个排列.md",
     "leetcode/数组",
+    "leetcode/数组/31.下一个排列.md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
-    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
-    "阿里巴巴开发手册",
-    "新建文件夹",
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
-    "面试/JUC/CopyOnWrite容器.md",
-    "面试/JUC/ReentrantLock和synchronized区别.md",
-    "面试/JUC/响应中断.md",
-    "JVM/jvm.md",
-    "leetcode/链表/25.K 个一组翻转链表.md",
-    "面试/JUC/什么是可重入锁？.md",
-    "面试/JUC/什么是锁降级.md",
-    "Project/pro2_ts/订单相关流程图.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
-    "面试/JUC",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
-    "代码随想录",
-    "leetcode/链表/24.两两交换链表中的节点.md",
-    "conflict-files-obsidian-git.md",
-    "leetcode/回溯/Hello.md",
-    "leetcode/回溯/22.括号生成.md",
     "leetcode/分治/23.合并K个升序链表.md",
     "面试/杂项/粒度是什么？.md",
+    "面试/杂项",
+    "面试/JUC/响应中断.md",
+    "面试/JUC/什么是锁降级.md",
+    "面试/JUC/什么是可重入锁？.md",
+    "面试/JUC/ReentrantLock和synchronized区别.md",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
+    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
+    "面试/JUC/CopyOnwrite容器.md",
+    "面试/JUC",
+    "阿里巴巴开发手册",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
+    "代码随想录",
+    "leetcode/链表/25.K 个一组翻转链表.md",
+    "leetcode/链表/24.两两交换链表中的节点.md",
+    "JUC/JUC.md",
+    "JUC/JUC.assets/thread1.png",
+    "JUC/JUC.assets/image-20231007005317730.png",
+    "JUC/JUC.assets/image-20231007004922925.png",
+    "JUC/JUC.assets/image-20231007004853054.png",
+    "JUC/JUC.assets/image-20231007004822593.png",
+    "JUC/JUC.assets/image-20231007004737675.png",
+    "JUC/JUC.assets/image-20231007004700157.png",
+    "JUC/JUC.assets/image-20231007004644453.png",
+    "JUC/JUC.assets/image-20231007004631012.png",
+    "JUC/JUC.assets/image-20231007004623155.png",
+    "leetcode/回溯/22.括号生成.md",
+    "leetcode/回溯/Hello.md",
     "spring-security/笔记.md",
-    "Untitled Diagram.svg",
-    "spring-security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
-    "spring-security/assets/securityfilterchain.png",
-    "spring-security/assets/securitycontextholder.png",
-    "spring-security/assets/multi-securityfilterchain-17016804731631.png",
-    "spring-security/assets/image-20231223203225688.png",
-    "spring-security/assets/image-20231223164128030.png",
-    "spring-security/assets/image-20231223020052999.png",
-    "spring-security/assets/image-20231222203259785.png",
-    "spring-security/assets/image-20231222203240921.png",
+    "conflict-files-obsidian-git.md",
     "未命名.canvas",
+    "JVM/jvm.md",
+    "面试/java/HashMap扩容问题.md",
     "sync-test.md",
-    "课件/ts课件/第9章 分布式任务调度.md",
-    "课件/ts课件/第8章 支付.md"
+    "课件/ikun_课件/ikun/day17课件.md",
+    "课件/ikun_课件/ikun/day02课件.md",
+    "Project/pro2_ts/关系型数据库和非关系型数据库.md",
+    "().md"
   ]
 }

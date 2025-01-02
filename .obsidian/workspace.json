@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "31.下一个排列"
             }
+          },
+          {
+            "id": "ade0aa03bbe791ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQL索引最左前缀匹配原则是什么"
+            }
+          },
+          {
+            "id": "77a0e518476dd2fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/数组/31.下一个排列.md"
+                "file": "conflict-files-obsidian-git.md"
               },
               "icon": "lucide-list",
-              "title": "31.下一个排列 的大纲"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -173,16 +202,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f00c03aa21f3fb15",
+  "active": "77a0e518476dd2fb",
   "lastOpenFiles": [
+    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
     "conflict-files-obsidian-git.md",
+    "leetcode/数组/31.下一个排列.md",
+    "面试/MySQL",
     "面试/java/Java集合框架下的类.md",
     "面试/java/HashMap扩容流程.md",
     "面试/java/HashMap中红黑树和链表的转换时机.md",
     "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
     "面试/java/HashMap.md",
     "leetcode/数组",
-    "leetcode/数组/31.下一个排列.md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "leetcode/分治/23.合并K个升序链表.md",
     "面试/杂项/粒度是什么？.md",
@@ -200,7 +231,6 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（计算机基础篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "代码随想录",
     "leetcode/链表/25.K 个一组翻转链表.md",
     "leetcode/链表/24.两两交换链表中的节点.md",
     "JUC/JUC.md",
@@ -220,7 +250,6 @@
     "未命名.canvas",
     "JVM/jvm.md",
     "面试/java/HashMap扩容问题.md",
-    "sync-test.md",
-    "课件/ikun_课件/ikun/day17课件.md"
+    "sync-test.md"
   ]
 }

@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
+                "file": "面试/java/HashMap扩容流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？"
+              "title": "HashMap扩容流程"
             }
           }
         ],
@@ -165,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md"
+                "file": "面试/java/HashMap扩容流程.md"
               },
               "icon": "lucide-list",
-              "title": "为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？ 的大纲"
+              "title": "HashMap扩容流程 的大纲"
             }
           },
           {
@@ -203,8 +203,8 @@
   },
   "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
+    "conflict-files-obsidian-git.md",
     "面试/java/HashMap扩容流程.md",
     "面试/java/HashMap中红黑树和链表的转换时机.md",
     "JUC/JUC.md",

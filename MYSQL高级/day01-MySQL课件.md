@@ -95,7 +95,7 @@ utf8 字符集表示一个字符需要使用1～4个字节，但是我们常用�
 
 ### 1.4.1 Windows和Linux的区别
 
-**Windows环境：**全部不区分大小写
+**Windows环境**全部不区分大小写
 
 **Linux环境：**
 
@@ -203,15 +203,15 @@ SELECT `name`, dept, MAX(age) FROM employee GROUP BY dept;
 
 以上查询语句在 **ONLY_FULL_GROUP_BY** 模式下查询出错，因为select子句中的name列并没有出现在group by子句中，也没有出现在函数中：
 
-![1695023075261](assets\1695023075261.png)
+![1695023075261](assets/1695023075261.png)
 
 在非 “ONLY_FULL_GROUP_BY” 模式下可以正常执行，但是得到的是错误的结果：
 
-```sqlite
+```sql
 SET SESSION sql_mode = ''; 
 ```
 
-![1695023037462](assets\1695023037462.png)
+![1695023037462|699](assets/1695023037462.png)
 
 正确的查询方式：查询应该分两个步骤：
 

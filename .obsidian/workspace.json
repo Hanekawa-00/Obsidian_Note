@@ -201,14 +201,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
+    "sync-test.md",
+    "未命名.canvas",
+    "面试/MySQL/SQL语句的执行流程.md",
+    "Untitled Diagram.svg",
+    "Untitled Diagram 1.svg",
+    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "Untitled Diagram 3.svg",
     "Untitled Diagram 2.svg",
-    "Untitled Diagram 1.svg",
-    "Untitled Diagram.svg",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
-    "面试/MySQL/SQL语句的执行流程.md",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
     "日常问题",
     "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
@@ -221,7 +224,6 @@
     "JUC/JUC.md",
     "leetcode/数组/31.下一个排列.md",
     "leetcode/数组",
-    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "阿里巴巴开发手册",
     "新建文件夹",
@@ -241,14 +243,11 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "leetcode/链表/24.两两交换链表中的节点.md",
     "leetcode/回溯/Hello.md",
-    "leetcode/回溯/22.括号生成.md",
     "spring-security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "spring-security/assets/securityfilterchain.png",
     "spring-security/assets/securitycontextholder.png",
     "spring-security/assets/multi-securityfilterchain-17016804731631.png",
     "spring-security/assets/image-20231223203225688.png",
-    "spring-security/assets/image-20231223164128030.png",
-    "spring-security/assets/image-20231223020052999.png",
-    "未命名.canvas"
+    "spring-security/assets/image-20231223164128030.png"
   ]
 }

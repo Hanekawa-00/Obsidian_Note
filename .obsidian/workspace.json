@@ -165,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "面试/MySQL/SQL语句的执行流程.md"
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "SQL语句的执行流程 的大纲"
             }
           },
           {
@@ -186,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +201,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5d2f9d4b14c97081",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "Untitled Diagram 3.svg",
+    "Untitled Diagram 2.svg",
+    "Untitled Diagram 1.svg",
+    "Untitled Diagram.svg",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
     "面试/MySQL/SQL语句的执行流程.md",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
@@ -239,8 +242,6 @@
     "leetcode/链表/24.两两交换链表中的节点.md",
     "leetcode/回溯/Hello.md",
     "leetcode/回溯/22.括号生成.md",
-    "leetcode/分治/23.合并K个升序链表.md",
-    "Untitled Diagram.svg",
     "spring-security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "spring-security/assets/securityfilterchain.png",
     "spring-security/assets/securitycontextholder.png",
@@ -248,8 +249,6 @@
     "spring-security/assets/image-20231223203225688.png",
     "spring-security/assets/image-20231223164128030.png",
     "spring-security/assets/image-20231223020052999.png",
-    "spring-security/assets/image-20231222203259785.png",
-    "spring-security/assets/image-20231222203240921.png",
     "未命名.canvas"
   ]
 }

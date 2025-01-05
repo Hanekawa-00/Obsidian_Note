@@ -778,9 +778,9 @@ BST(Binary Sort(Search) Tree)：对于二叉排序树的任何一个非叶子节
 
 ![image-20230618094404240](assets/image-20230618094404240.png) 
 
-BST的生成演示：https://www.cs.usfca.edu/~galles/visualization/BST.html
-
-##### BST的问题
+[BST的生成演示](https://www.cs.usfca.edu/~galles/visualization/BST.html
+)
+#### BST的问题
 
 二叉搜索树存在一个常见的问题：**瘸腿问题** ， 例如左子树全部为空，从形式上看，更像一个单链表，不能发挥BST的优势，影响了查询数据效率。
 

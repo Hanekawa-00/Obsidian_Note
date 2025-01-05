@@ -37,14 +37,17 @@
             "id": "5d2f9d4b14c97081",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
-                "mode": "source",
-                "source": false
+                "file": "面试/MySQL/B+树索引查询数据全过程.canvas",
+                "viewState": {
+                  "x": 280,
+                  "y": 63,
+                  "zoom": -0.46847675824030416
+                }
               },
-              "icon": "lucide-file",
-              "title": "B+树有什么特点？为什么InnoDB使用B+树作为索引？"
+              "icon": "lucide-layout-dashboard",
+              "title": "B+树索引查询数据全过程"
             }
           },
           {
@@ -179,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md"
+                "file": "面试/MySQL/B+树索引查询数据全过程.canvas"
               },
               "icon": "lucide-list",
-              "title": "B+树有什么特点？为什么InnoDB使用B+树作为索引？ 的大纲"
+              "title": "B+树索引查询数据全过程 的大纲"
             }
           },
           {
@@ -196,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -215,10 +218,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5d2f9d4b14c97081",
+  "active": "91d544e0372adb40",
   "lastOpenFiles": [
-    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
     "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
+    "面试/MySQL/B+树索引查询数据全过程.canvas",
+    "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
+    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
     "MYSQL高级/day01-MySQL课件.md",
     "().md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
@@ -261,8 +266,6 @@
     "面试/未命名.md",
     "sync-test.md",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
-    "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
-    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
-    "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md"
+    "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md"
   ]
 }

@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/MySQL/Mysql有哪些常见的存储引擎.md",
+                "file": "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mysql有哪些常见的存储引擎"
+              "title": "B+树有什么特点？为什么InnoDB使用B+树作为索引？"
             }
           },
           {
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,10 +179,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MYSQL高级/day01-MySQL课件.md"
+                "file": "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md"
               },
               "icon": "lucide-list",
-              "title": "day01-MySQL课件 的大纲"
+              "title": "B+树有什么特点？为什么InnoDB使用B+树作为索引？ 的大纲"
             }
           },
           {
@@ -215,11 +215,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7f930c3794bbea6b",
+  "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
-    "().md",
-    "MYSQL高级/day01-MySQL课件.md",
     "面试/MySQL/Mysql有哪些常见的存储引擎.md",
+    "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
+    "MYSQL高级/day01-MySQL课件.md",
+    "().md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "MYSQL高级/day02-MySQL课件.md",
     "面试/MySQL/SQL语句的执行流程.md",
@@ -262,7 +263,6 @@
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
     "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
-    "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
-    "conflict-files-obsidian-git.md"
+    "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md"
   ]
 }

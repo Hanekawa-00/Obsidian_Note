@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5994c72ba13f0070",
+        "id": "bd7029d0c5761dd5",
         "type": "tabs",
         "children": [
           {
-            "id": "57822c6acd84080b",
+            "id": "4ee06e5210b3c199",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/回溯/Hello.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Hello"
+              "title": "新标签页"
             }
           }
         ]
@@ -173,24 +169,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f00c03aa21f3fb15",
+  "active": "4ee06e5210b3c199",
   "lastOpenFiles": [
+    "面试/MySQL/数据库脏读、不可重复读、幻读.md",
+    "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
+    "面试/MySQL/B+树索引查询数据全过程.canvas",
+    "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
+    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
+    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
     "leetcode/回溯/Hello.md",
     "conflict-files-obsidian-git.md",
     "面试/消息队列/消息队列的作用.md",
     "面试/消息队列/为什么需要消息队列.md",
     "面试/消息队列",
-    "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
     "面试/MySQL/assets/Pasted image 20250105135452.webp",
     "面试/MySQL/assets",
-    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
-    "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
-    "面试/MySQL/B+树索引查询数据全过程.canvas",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/查找/35.搜索插入位置.md",
     "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "leetcode/查找/33.搜索旋转排序数组.md",
-    "面试/MySQL/数据库脏读、不可重复读、幻读.md",
     "面试/MySQL/SQL语句的执行流程.md",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "面试/JVM",
@@ -220,8 +217,6 @@
     "MYSQL高级",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
     "日常问题",
-    "leetcode/数组/31.下一个排列.md",
-    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
-    "面试/java/Java集合框架下的类.md"
+    "leetcode/数组/31.下一个排列.md"
   ]
 }

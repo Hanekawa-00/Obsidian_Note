@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/查找/35.搜索插入位置.md",
+                "file": "leetcode/回溯/Hello.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "35.搜索插入位置"
+              "title": "Hello"
             }
           }
         ]
@@ -175,8 +175,9 @@
   },
   "active": "57822c6acd84080b",
   "lastOpenFiles": [
-    "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
+    "leetcode/回溯/22.括号生成.md",
     "leetcode/查找/35.搜索插入位置.md",
+    "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "leetcode/查找/33.搜索旋转排序数组.md",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
     "面试/MySQL/SQL语句的执行流程.md",
@@ -220,7 +221,6 @@
     "面试/java/HashMap.md",
     "leetcode/数组",
     "leetcode/分治/23.合并K个升序链表.md",
-    "面试/杂项/粒度是什么？.md",
-    "面试/JUC/响应中断.md"
+    "面试/杂项/粒度是什么？.md"
   ]
 }

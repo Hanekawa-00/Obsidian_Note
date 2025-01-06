@@ -173,8 +173,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "57822c6acd84080b",
+  "active": "f00c03aa21f3fb15",
   "lastOpenFiles": [
+    "leetcode/回溯/Hello.md",
+    "conflict-files-obsidian-git.md",
+    "面试/消息队列/消息队列的作用.md",
+    "面试/消息队列/为什么需要消息队列.md",
+    "面试/消息队列",
+    "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
+    "面试/MySQL/assets/Pasted image 20250105135452.webp",
+    "面试/MySQL/assets",
+    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
+    "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
+    "面试/MySQL/B+树索引查询数据全过程.canvas",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/查找/35.搜索插入位置.md",
     "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
@@ -203,7 +214,6 @@
     "MYSQL高级/assets/ps9egepu4z_n3Tg6k58-B.png",
     "MYSQL高级/assets/o430_hmmor_sqvI6P4KEV.png",
     "MYSQL高级/assets/mrbjw6pa34_pI5iijwvoj.jpg",
-    "MYSQL高级/assets/lnc6h93xqd_swoSpPZSiD.png",
     "MYSQL高级/assets",
     "MYSQL高级/ShardingSphere5入门到实战.md",
     "MYSQL高级/ShardingSphere5入门到实战.assets",
@@ -212,15 +222,6 @@
     "日常问题",
     "leetcode/数组/31.下一个排列.md",
     "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
-    "conflict-files-obsidian-git.md",
-    "面试/MySQL",
-    "面试/java/Java集合框架下的类.md",
-    "面试/java/HashMap扩容流程.md",
-    "面试/java/HashMap中红黑树和链表的转换时机.md",
-    "面试/java/为什么 JDK 1.8 对 HashMap 进行了红黑树的改动？.md",
-    "面试/java/HashMap.md",
-    "leetcode/数组",
-    "leetcode/分治/23.合并K个升序链表.md",
-    "面试/杂项/粒度是什么？.md"
+    "面试/java/Java集合框架下的类.md"
   ]
 }

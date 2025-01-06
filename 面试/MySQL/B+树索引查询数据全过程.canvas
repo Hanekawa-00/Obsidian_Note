@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"9d288244b6f54eab","type":"group","x":-320,"y":-420,"width":1200,"height":966,"label":"查询数据"},
+		{"id":"449167c676402813","type":"text","text":"B+树的基本结构","x":46,"y":-215,"width":191,"height":50,"color":"5"},
+		{"id":"f987e6e5ca27bf96","type":"text","text":"查找过程[[day01-MySQL课件#5.2.1 InnoDB中的索引]]","x":46,"y":206,"width":191,"height":124,"color":"6"},
+		{"id":"dd107946d3fa8e64","type":"text","text":"* 从根节点出发，比较数据的键值和节点中存储的索引键值，确定数据应该在哪个区间，这样就确定了分支，从上到下一直这样定位到叶子节点","x":400,"y":80,"width":460,"height":100,"color":"6"},
+		{"id":"5f520d024480e0d3","type":"text","text":"* 叶子节点存储实际的数据行（row）的记录，一页有16kb的大小，存储多个数据行","x":400,"y":206,"width":460,"height":74,"color":"6"},
+		{"id":"e64519ee79b3b382","type":"text","text":"* 叶子节点中数据行以组进行划分，使用页目录结构，通过二分查找可以定位到对应的组","x":402,"y":344,"width":458,"height":76,"color":"6"},
+		{"id":"9acc4bf5d2645944","type":"text","text":"* 定位到需要查询的数据记录在哪个组后，再通过链表遍历找到对应的数据记录","x":400,"y":460,"width":460,"height":66,"color":"6"},
+		{"id":"ac4cc723a0dd2ae5","type":"text","text":"**叶子节点**：存储实际的数据记录（或者指向实际记录的指针），所有叶子节点形成一个双向链表，方便快速范围查询","x":402,"y":-120,"width":458,"height":105,"color":"5"},
+		{"id":"d78bb5980ed113d9","type":"text","text":"**非叶子节点**：存储的是键值和指向子节点的指针。非子节点不存储实际的数据记录","x":402,"y":-400,"width":458,"height":100,"color":"5"},
+		{"id":"511e6a7c5c88929c","type":"text","text":"B+树查询全过程","x":-300,"y":30,"width":225,"height":50}
+	],
+	"edges":[
+		{"id":"64a205a8b3271f29","fromNode":"511e6a7c5c88929c","fromSide":"right","toNode":"f987e6e5ca27bf96","toSide":"left"},
+		{"id":"f15d43be7c9795d1","fromNode":"449167c676402813","fromSide":"right","toNode":"d78bb5980ed113d9","toSide":"left"},
+		{"id":"dfdc648ecd991333","fromNode":"449167c676402813","fromSide":"right","toNode":"ac4cc723a0dd2ae5","toSide":"left"},
+		{"id":"a27db165c460d9ab","fromNode":"f987e6e5ca27bf96","fromSide":"right","toNode":"dd107946d3fa8e64","toSide":"left"},
+		{"id":"3eecf43e4617d783","fromNode":"f987e6e5ca27bf96","fromSide":"right","toNode":"5f520d024480e0d3","toSide":"left"},
+		{"id":"b39fe13a038a28a4","fromNode":"f987e6e5ca27bf96","fromSide":"right","toNode":"e64519ee79b3b382","toSide":"left"},
+		{"id":"e7f435446d874eff","fromNode":"f987e6e5ca27bf96","fromSide":"right","toNode":"9acc4bf5d2645944","toSide":"left"},
+		{"id":"e2834062a42c845e","fromNode":"511e6a7c5c88929c","fromSide":"right","toNode":"449167c676402813","toSide":"left"}
+	]
+}

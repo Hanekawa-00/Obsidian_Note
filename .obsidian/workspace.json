@@ -203,10 +203,10 @@
   },
   "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
-    "面试/MySQL/数据库脏读、不可重复读、幻读.md",
-    "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
-    "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
+    "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
+    "面试/MySQL/数据库脏读、不可重复读、幻读.md",
+    "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
     "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
     "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
     "面试/MySQL/SQL语句的执行流程.md",
@@ -249,7 +249,6 @@
     "新建文件夹",
     "未命名.canvas",
     "面试/JVM",
-    "面试/未命名.md",
-    "sync-test.md"
+    "面试/未命名.md"
   ]
 }

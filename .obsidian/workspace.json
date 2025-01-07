@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "day01-MySQL课件"
             }
+          },
+          {
+            "id": "35df103a49fc2923",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "MYSQL高级/assets/image-20230619141412346.png"
+              },
+              "icon": "lucide-image",
+              "title": "image-20230619141412346"
+            }
           }
         ]
       }
@@ -173,8 +185,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "8dbee8318a073739",
   "lastOpenFiles": [
+    "MYSQL高级/assets/image-20230619141412346.png",
+    "MYSQL高级/day01-MySQL课件.md",
     "MYSQL高级/day02-MySQL课件.md",
     "leetcode/动态规划/最大子数组和.md",
     "AList_config/alist_backup_2024_9_9 21_23_37.json",
@@ -210,8 +224,6 @@
     "assets/f3sf72c372_Y6Gp_o1mnS.jpg.md",
     "assets/d8fczz43m__qnWrUBAKB0.png.md",
     "assets",
-    "MYSQL高级/day04-MySQL课件.md",
-    "MYSQL高级/day03-MySQL课件.md",
     "MYSQL高级/assets/zl_v8wxlxx_q2rXVryusE.png",
     "MYSQL高级/assets/z3-nj6-jnb_S6c6RzloW4.png",
     "MYSQL高级/assets/y94h6j6im2_U5GKQAjOvd.png",

@@ -11,14 +11,12 @@
             "id": "8dbee8318a073739",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "MYSQL高级/day01-MySQL课件.md",
-                "mode": "source",
-                "source": false
+                "file": "面渣/04-面渣逆袭 JVM.pdf"
               },
-              "icon": "lucide-file",
-              "title": "day01-MySQL课件"
+              "icon": "lucide-file-text",
+              "title": "04-面渣逆袭 JVM"
             }
           },
           {
@@ -64,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "索引",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5
+    "width": 502.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -149,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MYSQL高级/day01-MySQL课件.md"
+                "file": "面渣/04-面渣逆袭 JVM.pdf"
               },
               "icon": "lucide-list",
-              "title": "day01-MySQL课件 的大纲"
+              "title": "04-面渣逆袭 JVM 的大纲"
             }
           },
           {
@@ -166,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -185,14 +184,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8dbee8318a073739",
+  "active": "f00c03aa21f3fb15",
   "lastOpenFiles": [
-    "MYSQL高级/assets/image-20230619141412346.png",
+    "面渣/面渣逆袭 MyBatis.pdf",
+    "面渣/面渣逆袭 MySQL.pdf",
+    "面渣/面渣逆袭 Redis 篇.pdf",
+    "面渣/面渣逆袭-分布式篇.pdf",
+    "面渣/面渣逆袭Java基础篇V2.0.pdf",
+    "面渣/03-面渣逆袭Java并发编程.pdf",
     "MYSQL高级/day01-MySQL课件.md",
+    "面渣/02-面渣逆袭 Java 集合框架篇.pdf",
+    "面渣/面渣逆袭操作系统.pdf",
+    "面渣/面渣逆袭RocketMQ篇.pdf",
+    "面渣/04-面渣逆袭 JVM.pdf",
+    "MYSQL高级/assets/image-20230619141412346.png",
     "MYSQL高级/day02-MySQL课件.md",
     "leetcode/动态规划/最大子数组和.md",
-    "AList_config/alist_backup_2024_9_9 21_23_37.json",
-    "AList_config",
     "leetcode/分治/23.合并K个升序链表.md",
     "leetcode/数组/48.旋转图像.md",
     "leetcode/数组/31.下一个排列.md",
@@ -208,22 +215,16 @@
     "conflict-files-obsidian-git.md",
     "面试/消息队列/消息队列的作用.md",
     "面试/消息队列/为什么需要消息队列.md",
-    "面试/消息队列",
     "面试/MySQL/assets/Pasted image 20250105135452.webp",
-    "面试/MySQL/assets",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/查找/35.搜索插入位置.md",
     "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "leetcode/查找/33.搜索旋转排序数组.md",
     "面试/MySQL/SQL语句的执行流程.md",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
-    "面试/JVM",
     "未命名.canvas",
-    "leetcode/查找",
-    "leetcode/动态规划",
     "assets/f3sf72c372_Y6Gp_o1mnS.jpg.md",
     "assets/d8fczz43m__qnWrUBAKB0.png.md",
-    "assets",
     "MYSQL高级/assets/zl_v8wxlxx_q2rXVryusE.png",
     "MYSQL高级/assets/z3-nj6-jnb_S6c6RzloW4.png",
     "MYSQL高级/assets/y94h6j6im2_U5GKQAjOvd.png",
@@ -231,9 +232,6 @@
     "MYSQL高级/assets/u1pg7w73wm_z8oE-qxJ85.png",
     "MYSQL高级/assets/ru5tb-iw4m_ErYyvAj4cn.png",
     "MYSQL高级/assets/ps9egepu4z_n3Tg6k58-B.png",
-    "MYSQL高级/assets/o430_hmmor_sqvI6P4KEV.png",
-    "MYSQL高级/assets/mrbjw6pa34_pI5iijwvoj.jpg",
-    "MYSQL高级/assets",
-    "MYSQL高级/ShardingSphere5入门到实战.assets"
+    "MYSQL高级/assets/o430_hmmor_sqvI6P4KEV.png"
   ]
 }

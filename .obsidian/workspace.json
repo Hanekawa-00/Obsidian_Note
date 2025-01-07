@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "面渣/04-面渣逆袭 JVM.pdf"
+                "file": "面渣/面渣逆袭 MySQL.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "04-面渣逆袭 JVM"
+              "title": "面渣逆袭 MySQL"
             }
           },
           {
@@ -148,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面渣/04-面渣逆袭 JVM.pdf"
+                "file": "面渣/面渣逆袭 MySQL.pdf"
               },
               "icon": "lucide-list",
-              "title": "04-面渣逆袭 JVM 的大纲"
+              "title": "面渣逆袭 MySQL 的大纲"
             }
           },
           {
@@ -184,8 +184,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f00c03aa21f3fb15",
+  "active": "8dbee8318a073739",
   "lastOpenFiles": [
+    "面渣/04-面渣逆袭 JVM.pdf",
     "面渣/面渣逆袭 MyBatis.pdf",
     "面渣/面渣逆袭 MySQL.pdf",
     "面渣/面渣逆袭 Redis 篇.pdf",
@@ -196,7 +197,6 @@
     "面渣/02-面渣逆袭 Java 集合框架篇.pdf",
     "面渣/面渣逆袭操作系统.pdf",
     "面渣/面渣逆袭RocketMQ篇.pdf",
-    "面渣/04-面渣逆袭 JVM.pdf",
     "MYSQL高级/assets/image-20230619141412346.png",
     "MYSQL高级/day02-MySQL课件.md",
     "leetcode/动态规划/最大子数组和.md",

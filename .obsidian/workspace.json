@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL高级/day02-MySQL课件.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "day02-MySQL课件"
-            }
-          },
-          {
-            "id": "0b55634733a6a0a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Spring Security/笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "笔记"
             }
           },
           {
@@ -64,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Spring Security/笔记.md"
               },
               "icon": "lucide-list",
-              "title": "conflict-files-obsidian-git 的大纲"
+              "title": "笔记 的大纲"
             }
           },
           {
@@ -217,11 +203,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0b55634733a6a0a8",
+  "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
+    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "MYSQL高级/day02-MySQL课件.md",
     "conflict-files-obsidian-git.md",
-    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "MYSQL高级/day01-MySQL课件.md",
     "面试/消息队列/消息队列的作用.md",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
@@ -257,7 +243,6 @@
     "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "leetcode/动态规划/未命名.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
-    "课件/ikun_课件/git/Git.md",
     "MYSQL高级/assets/f3sf72c372_Y6Gp_o1mnS.jpg",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20230118232739869.png",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220810163534068.png",

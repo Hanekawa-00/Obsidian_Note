@@ -668,7 +668,7 @@ EXPLAIN SELECT * FROM emp WHERE name LIKE '%ab%'; -- 索引失效
 
 ![image-20230620092110251](assets/image-20230620092110251.png) 
 
-注意：Alibaba《Java开发手册》【强制】页面搜索严禁左模糊或者全模糊，如果需要请走搜索引擎来解决。
+注意：Alibaba《Java开发手册》【强制】页面搜索严禁左模糊或者全模糊，如果需要请走搜索引擎来解决。[[阿里巴巴Java开发手册.pdf#page=36&selection=27,0,37,30|阿里巴巴Java开发手册, 页面 36]]
 
 ### 2.2.3 不等于(!= 或者<>)索引失效
 

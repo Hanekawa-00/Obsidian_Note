@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7335e70b328aa2bb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "阿里巴巴Java开发手册"
-            }
-          },
-          {
             "id": "b280736c478e556b",
             "type": "leaf",
             "state": {
@@ -40,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "MYSQL高级/day02-MySQL课件.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -62,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5026054382324,
-    "collapsed": true
+    "width": 302.5026054382324
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -218,8 +205,10 @@
   },
   "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
-    "面试/消息队列/消息队列的作用.md",
+    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
+    "MYSQL高级/day01-MySQL课件.md",
     "MYSQL高级/day02-MySQL课件.md",
+    "面试/消息队列/消息队列的作用.md",
     "日常问题/Linux下Chromium内核浏览器频繁报出“检测到网络更改异常”.md",
     "三分/面渣逆袭 MySQL.pdf",
     "面试/消息队列/为什么需要消息队列.md",
@@ -231,13 +220,11 @@
     "三分/面渣逆袭-分布式篇.pdf",
     "三分/面渣逆袭 Spring 篇.pdf",
     "三分/面渣逆袭 Redis 篇.pdf",
-    "三分/面渣逆袭 MyBatis.pdf",
     "leetcode/数组/48.旋转图像.md",
     "leetcode/回溯/46.全排列.md",
     "leetcode/回溯/39.组合总和.md",
     "leetcode/动态规划/最大子数组和.md",
     "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
-    "MYSQL高级/day01-MySQL课件.md",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
     "面试/MySQL/数据库脏读、不可重复读、幻读.md",
     "面试/MySQL/B+树有什么特点？为什么InnoDB使用B+树作为索引？.md",
@@ -256,7 +243,6 @@
     "leetcode/动态规划/未命名.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "课件/ikun_课件/git/Git.md",
-    "MYSQL高级/ShardingSphere5入门到实战.md",
     "MYSQL高级/assets/f3sf72c372_Y6Gp_o1mnS.jpg",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20230118232739869.png",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220810163534068.png",

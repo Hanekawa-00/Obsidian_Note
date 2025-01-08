@@ -99,7 +99,7 @@ EXPLAIN SELECT t1.id FROM t1 WHERE t1.id =(
 
 
 
-**注意：**查询优化器可能对涉及子查询的语句进行优化，**转为连接查询**
+**注意**查询优化器可能对涉及子查询的语句进行优化，**转为连接查询**
 
 ```sql
 EXPLAIN SELECT * FROM t1 WHERE content IN (SELECT content FROM t2 WHERE content = 'a');

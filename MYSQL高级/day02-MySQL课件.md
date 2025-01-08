@@ -139,7 +139,7 @@ EXPLAIN SELECT * FROM t1 UNION ALL SELECT * FROM t2;
 
 查询的类型，主要是用于区别普通查询、联合查询、子查询等的复杂查询。
 
-**SIMPLE：**简单查询，查询中不包含子查询或者UNION。
+**SIMPLE**简单查询，查询中不包含子查询或者UNION。
 
 ```sql
 EXPLAIN SELECT * FROM t1;
@@ -148,10 +148,9 @@ EXPLAIN SELECT * FROM t1;
 ![image-20230626214056508](assets/image-20230626214056508.png) 
 
 
+**PRIMARY**主查询，查询中若包含子查询，则最外层查询被标记为PRIMARY。 
 
-**PRIMARY：**主查询，查询中若包含子查询，则最外层查询被标记为PRIMARY。 
-
-**SUBQUERY：**子查询，在SELECT或WHERE列表中包含了子查询。
+**SUBQUERY**子查询，在SELECT或WHERE列表中包含了子查询。
 
 ```sql
 EXPLAIN SELECT * FROM t3 WHERE id = ( SELECT id FROM t2 WHERE content= 'a');
@@ -161,7 +160,7 @@ EXPLAIN SELECT * FROM t3 WHERE id = ( SELECT id FROM t2 WHERE content= 'a');
 
 
 
- **DEPENDENT SUBQUREY：**如果包含了子查询，并且，查询语句不能被优化器转换为连接查询，并且，子查询是**相关子查询（子查询基于外部数据列）**，则子查询就是DEPENDENT SUBQUREY。
+ **DEPENDENT SUBQUREY**如果包含了子查询，并且，查询语句不能被优化器转换为连接查询，并且，子查询是**相关子查询（子查询基于外部数据列）**，则子查询就是DEPENDENT SUBQUREY。
 
 ```sql
 EXPLAIN SELECT * FROM t3 WHERE id = ( SELECT id FROM t2 WHERE content = t3.content);

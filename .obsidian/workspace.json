@@ -205,6 +205,8 @@
   },
   "active": "5d2f9d4b14c97081",
   "lastOpenFiles": [
+    "Spring Security/assets/delegatingfilterproxy.png",
+    "Spring Security/笔记.md",
     "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
     "MYSQL高级/day02-MySQL课件.md",
     "conflict-files-obsidian-git.md",
@@ -242,7 +244,6 @@
     "leetcode/查找/35.搜索插入位置.md",
     "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "leetcode/动态规划/未命名.md",
-    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "MYSQL高级/assets/f3sf72c372_Y6Gp_o1mnS.jpg",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20230118232739869.png",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220810163534068.png",
@@ -250,7 +251,6 @@
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220808033239206-16954435082271.png",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220807232456342.png",
     "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220807183231101.png",
-    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220804223321167.png",
     "未命名.canvas"
   ]
 }

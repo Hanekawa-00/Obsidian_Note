@@ -11,12 +11,14 @@
             "id": "8dbee8318a073739",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "面渣/面渣逆袭 MySQL.pdf"
+                "file": "MYSQL高级/day02-MySQL课件.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 MySQL"
+              "icon": "lucide-file",
+              "title": "day02-MySQL课件"
             }
           },
           {
@@ -87,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 502.5,
-    "collapsed": true
+    "width": 333.5
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -148,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面渣/面渣逆袭 MySQL.pdf"
+                "file": "MYSQL高级/day02-MySQL课件.md"
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭 MySQL 的大纲"
+              "title": "day02-MySQL课件 的大纲"
             }
           },
           {
@@ -186,17 +187,17 @@
   },
   "active": "8dbee8318a073739",
   "lastOpenFiles": [
+    "MYSQL高级/day01-MySQL课件.md",
+    "面渣/面渣逆袭微服务篇.pdf",
+    "面渣/面渣逆袭计算机网络.pdf",
+    "面渣/面渣逆袭操作系统.pdf",
+    "面渣/面渣逆袭RocketMQ篇.pdf",
+    "面渣/面渣逆袭 MySQL.pdf",
     "面渣/04-面渣逆袭 JVM.pdf",
     "面渣/面渣逆袭 MyBatis.pdf",
-    "面渣/面渣逆袭 MySQL.pdf",
     "面渣/面渣逆袭 Redis 篇.pdf",
     "面渣/面渣逆袭-分布式篇.pdf",
     "面渣/面渣逆袭Java基础篇V2.0.pdf",
-    "面渣/03-面渣逆袭Java并发编程.pdf",
-    "MYSQL高级/day01-MySQL课件.md",
-    "面渣/02-面渣逆袭 Java 集合框架篇.pdf",
-    "面渣/面渣逆袭操作系统.pdf",
-    "面渣/面渣逆袭RocketMQ篇.pdf",
     "MYSQL高级/assets/image-20230619141412346.png",
     "MYSQL高级/day02-MySQL课件.md",
     "leetcode/动态规划/最大子数组和.md",

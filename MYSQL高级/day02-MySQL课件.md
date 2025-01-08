@@ -81,7 +81,7 @@ EXPLAIN SELECT * FROM t1, t2, t3;
 
 ![image-20230626213419558](assets/image-20230626213419558.png) 
 
-**id不同：**三个SELECT，id是1、2、3
+**id不同**三个SELECT，id是1、2、3
 
 ```sql
 EXPLAIN SELECT t1.id FROM t1 WHERE t1.id =(

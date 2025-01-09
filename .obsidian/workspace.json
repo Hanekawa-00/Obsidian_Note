@@ -20,31 +20,35 @@
             }
           },
           {
-            "id": "35df103a49fc2923",
+            "id": "55f5473ac167cc5c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "MYSQL高级/assets/image-20230619141412346.png"
+                "file": "MYSQL高级/day02-MySQL课件.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image-20230619141412346"
+              "icon": "lucide-file",
+              "title": "day02-MySQL课件"
             }
           },
           {
-            "id": "b5737d2767faf4f8",
+            "id": "cd0849dd4de6a41b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md"
+                "file": "MYSQL高级/day03-MySQL课件.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-28 13.03.21.excalidraw"
+              "icon": "lucide-file",
+              "title": "day03-MySQL课件"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,15 +200,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5737d2767faf4f8",
+  "active": "55f5473ac167cc5c",
   "lastOpenFiles": [
+    "MYSQL高级/day03-MySQL课件.md",
+    "MYSQL高级/day02-MySQL课件.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "MYSQL高级/assets/image-20230619141412346.png",
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "leetcode/动态规划/45.跳跃游戏 II.md",
     "leetcode/动态规划/55.跳跃游戏.md",
     "leetcode/分治/23.合并K个升序链表.md",
     "leetcode/动态规划/53.最大子数组和.md",
     "leetcode/数组/56.合并区间.md",
-    "MYSQL高级/day02-MySQL课件.md",
     "conflict-files-obsidian-git.md",
     "三分/面渣逆袭集合框架篇V2.0.pdf",
     "Spring Security/笔记.md",
@@ -217,7 +224,6 @@
     "Spring Security/assets/image-20231223020052999.png",
     "Spring Security/assets/image-20231222203259785.png",
     "Spring Security/assets/image-20231222203240921.png",
-    "Spring Security/assets/image-20231222203218334.png",
     "Spring Security/assets",
     "Spring Security",
     "三分/面渣逆袭计算机网络.pdf",
@@ -226,7 +232,6 @@
     "三分/面渣逆袭RocketMQ篇.pdf",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/面渣逆袭-分布式篇.pdf",
-    "三分/面渣逆袭 Spring 篇.pdf",
     "MYSQL高级/day01-MySQL课件.md",
     "leetcode/动态规划/最大子数组和.md",
     "leetcode/数组/48.旋转图像.md",
@@ -244,7 +249,6 @@
     "面试/消息队列/为什么需要消息队列.md",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/查找/35.搜索插入位置.md",
-    "leetcode/查找/34.在排序数组中查找元素的第一个和最后一个位置.md",
     "未命名.canvas"
   ]
 }

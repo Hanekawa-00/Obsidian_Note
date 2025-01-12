@@ -4,9 +4,8 @@
 
 在 Java 5.0 提供了 `java.util.concurrent`(简称JUC)包，在此包中增加了在并发编程中很常用的工具类。此包包括了几个小的、已标准化的可扩展框架，并提供一些功能实用的类，没有这些类，一些功能会很难实现或实现起来冗长乏味。
 参照JDK文档：  https://docs.oracle.com/en/java/javase/17/docs/api/java.base/module-summary.html
+
 ![image-20231006233626561](JUC.assets/image-20231006233626561.png)
-
-
 
 ## 1.2. 进程和线程
 

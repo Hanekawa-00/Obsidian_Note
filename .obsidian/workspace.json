@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/数组/73.矩阵置零.md",
+                "file": "leetcode/查找/74.搜索二维矩阵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "73.矩阵置零"
+              "title": "74.搜索二维矩阵"
             }
           },
           {
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/数组/73.矩阵置零.md"
+                "file": "leetcode/查找/74.搜索二维矩阵.md"
               },
               "icon": "lucide-list",
-              "title": "73.矩阵置零 的大纲"
+              "title": "74.搜索二维矩阵 的大纲"
             }
           },
           {
@@ -202,8 +202,10 @@
   },
   "active": "55f5473ac167cc5c",
   "lastOpenFiles": [
-    "leetcode/动态规划/72.编辑距离.md",
+    "leetcode/查找/33.搜索旋转排序数组.md",
+    "leetcode/查找/74.搜索二维矩阵.md",
     "leetcode/数组/73.矩阵置零.md",
+    "leetcode/动态规划/72.编辑距离.md",
     "leetcode/动态规划/64.最小路径和.md",
     "leetcode/动态规划/70.爬楼梯.md",
     "leetcode/动态规划/62. 不同路径.md",
@@ -247,8 +249,6 @@
     "面试/MySQL/为什么 MySQL 选择使用 B+ 树作为索引结构？.md",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
     "面试/MySQL/InnoDB的B+树索引的查询全过程.md",
-    "面试/MySQL/MySQL索引最左前缀匹配原则是什么.md",
-    "面试/MySQL/Mysql有哪些常见的存储引擎.md",
     "未命名.canvas"
   ]
 }

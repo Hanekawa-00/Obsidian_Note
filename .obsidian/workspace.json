@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/动态规划/70.爬楼梯.md",
+                "file": "leetcode/动态规划/64.最小路径和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "70.爬楼梯"
+              "title": "64.最小路径和"
             }
           },
           {
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/动态规划/70.爬楼梯.md"
+                "file": "leetcode/动态规划/64.最小路径和.md"
               },
               "icon": "lucide-list",
-              "title": "70.爬楼梯 的大纲"
+              "title": "64.最小路径和 的大纲"
             }
           },
           {
@@ -202,8 +202,8 @@
   },
   "active": "55f5473ac167cc5c",
   "lastOpenFiles": [
-    "leetcode/动态规划/64.最小路径和.md",
     "leetcode/动态规划/70.爬楼梯.md",
+    "leetcode/动态规划/64.最小路径和.md",
     "leetcode/动态规划/62. 不同路径.md",
     "MYSQL高级/day02-MySQL课件.md",
     "MYSQL高级/day01-MySQL课件.md",

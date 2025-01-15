@@ -25,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/java/Java中的序列化是什么？.md",
+                "file": "面试/java/BIO、NIO、AIO 之间的区别？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java中的序列化是什么？"
+              "title": "BIO、NIO、AIO 之间的区别？"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,10 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
+                "file": "面试/java/BIO、NIO、AIO 之间的区别？.md"
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭Java基础篇V2.0 的大纲"
+              "title": "BIO、NIO、AIO 之间的区别？ 的大纲"
             }
           },
           {
@@ -185,9 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4549dd7e9de89892",
+  "active": "00ef29dcdc8720ca",
   "lastOpenFiles": [
     "面试/java/Java中的序列化是什么？.md",
+    "面试/java/BIO、NIO、AIO 之间的区别？.md",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "MYSQL高级/day03-MySQL课件.md",

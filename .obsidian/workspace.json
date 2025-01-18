@@ -186,8 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00ef29dcdc8720ca",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "MyProject/未命名",
+    "MyProject",
     "leetcode/回溯/22.括号生成.md",
     "leetcode/回溯/39.组合总和.md",
     "leetcode/回溯/46.全排列.md",
@@ -220,7 +222,6 @@
     "leetcode/分治/23.合并K个升序链表.md",
     "leetcode/动态规划/53.最大子数组和.md",
     "leetcode/数组/56.合并区间.md",
-    "conflict-files-obsidian-git.md",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",
     "Spring Security/assets/securitycontextholder.png",
@@ -233,7 +234,6 @@
     "Spring Security/assets",
     "Spring Security",
     "三分/面渣逆袭操作系统.pdf",
-    "三分/面渣逆袭微服务篇.pdf",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
     "未命名.canvas"
   ]

@@ -65,14 +65,26 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "MyProject/IntelligentBiPlatform/认证架构.md"
+                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
               },
               "icon": "excalidraw-icon",
-              "title": "认证架构"
+              "title": "基本架构"
+            }
+          },
+          {
+            "id": "0ae87b9fdf668ffd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "MyProject/IntelligentBiPlatform/Saas系统TODO.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Saas系统TODO"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -188,10 +200,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyProject/IntelligentBiPlatform/认证架构.md"
+                "file": "MyProject/IntelligentBiPlatform/Saas系统TODO.md"
               },
               "icon": "lucide-list",
-              "title": "认证架构 的大纲"
+              "title": "Saas系统TODO 的大纲"
             }
           },
           {
@@ -224,15 +236,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "55c6062b4695f079",
+  "active": "0ae87b9fdf668ffd",
   "lastOpenFiles": [
+    "MyProject/IntelligentBiPlatform/用户登录，注册，登出等操作.md",
+    "MyProject/IntelligentBiPlatform/assets/Pasted Image 20250121120602_967.webp",
+    "MyProject/IntelligentBiPlatform/Saas系统TODO.md",
+    "MyProject/IntelligentBiPlatform/assets",
     "MyProject/IntelligentBiPlatform/基本架构.md",
     "MyProject/IntelligentBiPlatform/认证架构.md",
     "MyProject/IntelligentBiPlatform/未命名.md",
     "MyProject/IntelligentBiPlatform/项目后端初始化.md",
     "leetcode/搜索/104.二叉树最大深度.md",
     "leetcode/搜索/102.层序遍历二叉树.md",
-    "MyProject/IntelligentBiPlatform/用户登录，注册，登出等操作.md",
     "leetcode/回溯/46.全排列.md",
     "leetcode/搜索/101.验证对称二叉树.md",
     "未命名.md",
@@ -258,8 +273,6 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "三分/面渣逆袭计算机网络.pdf",
     "leetcode/搜索/74.搜索二维矩阵.md",
-    "leetcode/搜索/33.搜索旋转排序数组.md",
-    "leetcode/数组/73.矩阵置零.md",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",
@@ -269,9 +282,7 @@
     "Spring Security/assets/image-20231223164128030.png",
     "Spring Security/assets/image-20231223020052999.png",
     "Spring Security/assets/image-20231222203259785.png",
-    "Spring Security/assets/image-20231222203240921.png",
     "Spring Security/assets",
-    "Spring Security",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
     "未命名.canvas"
   ]

@@ -46,9 +46,33 @@
               "icon": "lucide-file",
               "title": "104.二叉树最大深度"
             }
+          },
+          {
+            "id": "7b6a802ec1cd9cca",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "基本架构"
+            }
+          },
+          {
+            "id": "55c6062b4695f079",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "MyProject/IntelligentBiPlatform/认证架构.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "认证架构"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,10 +188,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/搜索/104.二叉树最大深度.md"
+                "file": "MyProject/IntelligentBiPlatform/认证架构.md"
               },
               "icon": "lucide-list",
-              "title": "104.二叉树最大深度 的大纲"
+              "title": "认证架构 的大纲"
             }
           },
           {
@@ -200,10 +224,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "55c6062b4695f079",
   "lastOpenFiles": [
-    "leetcode/搜索/102.层序遍历二叉树.md",
+    "MyProject/IntelligentBiPlatform/基本架构.md",
+    "MyProject/IntelligentBiPlatform/认证架构.md",
+    "MyProject/IntelligentBiPlatform/未命名.md",
+    "MyProject/IntelligentBiPlatform/项目后端初始化.md",
     "leetcode/搜索/104.二叉树最大深度.md",
+    "leetcode/搜索/102.层序遍历二叉树.md",
     "MyProject/IntelligentBiPlatform/用户登录，注册，登出等操作.md",
     "leetcode/回溯/46.全排列.md",
     "leetcode/搜索/101.验证对称二叉树.md",
@@ -211,7 +239,6 @@
     "leetcode/搜索/98.验证二叉搜索树.md",
     "leetcode/搜索/94.二叉树的中序遍历.md",
     "Spring Security/笔记.md",
-    "MyProject/IntelligentBiPlatform/项目后端初始化.md",
     "MyProject/IntelligentBiPlatform/需求分析.md",
     "leetcode/回溯/79.单词搜索.md",
     "MyProject/IntelligentBiPlatform",
@@ -233,9 +260,6 @@
     "leetcode/搜索/74.搜索二维矩阵.md",
     "leetcode/搜索/33.搜索旋转排序数组.md",
     "leetcode/数组/73.矩阵置零.md",
-    "leetcode/动态规划/72.编辑距离.md",
-    "leetcode/动态规划/64.最小路径和.md",
-    "leetcode/动态规划/70.爬楼梯.md",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",

@@ -4,87 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "be8a1243c1af37e6",
+        "id": "9f327aa68ad167ef",
         "type": "tabs",
         "children": [
           {
-            "id": "4549dd7e9de89892",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭Java基础篇V2.0"
-            }
-          },
-          {
-            "id": "00ef29dcdc8720ca",
+            "id": "b280736c478e556b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyProject/IntelligentBiPlatform/项目后端初始化.md",
+                "file": "leetcode/数组/56.合并区间.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目后端初始化"
+              "title": "56.合并区间"
             }
           },
           {
-            "id": "1366fc779af26225",
+            "id": "84d6a84d49dcd658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/搜索/104.二叉树最大深度.md",
+                "file": "面试/消息队列/消息队列的作用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "104.二叉树最大深度"
+              "title": "消息队列的作用"
             }
           },
           {
-            "id": "7b6a802ec1cd9cca",
+            "id": "99770f590fb1d291",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
+                "file": "sync-test.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "基本架构"
-            }
-          },
-          {
-            "id": "55c6062b4695f079",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "基本架构"
-            }
-          },
-          {
-            "id": "0ae87b9fdf668ffd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MyProject/IntelligentBiPlatform/Saas系统TODO.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Saas系统TODO"
+              "icon": "lucide-file",
+              "title": "sync-test"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:回溯",
+                "query": "mybatis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 302.5026054382324
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -174,11 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "面试/杂项/粒度是什么？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "粒度是什么？ 的出链列表"
             }
           },
           {
@@ -200,14 +167,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyProject/IntelligentBiPlatform/Saas系统TODO.md"
+                "file": "sync-test.md"
               },
               "icon": "lucide-list",
-              "title": "Saas系统TODO 的大纲"
+              "title": "sync-test 的大纲"
             }
           },
           {
-            "id": "143f1c3cf8d92b8a",
+            "id": "91d544e0372adb40",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -217,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,59 +198,60 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0ae87b9fdf668ffd",
+  "active": "99770f590fb1d291",
   "lastOpenFiles": [
-    "MyProject/IntelligentBiPlatform/用户登录，注册，登出等操作.md",
-    "MyProject/IntelligentBiPlatform/assets/Pasted Image 20250121120602_967.webp",
-    "MyProject/IntelligentBiPlatform/Saas系统TODO.md",
-    "MyProject/IntelligentBiPlatform/assets",
-    "MyProject/IntelligentBiPlatform/基本架构.md",
-    "MyProject/IntelligentBiPlatform/认证架构.md",
-    "MyProject/IntelligentBiPlatform/未命名.md",
-    "MyProject/IntelligentBiPlatform/项目后端初始化.md",
+    "Spring Security/笔记.md",
+    "leetcode/搜索/94.二叉树的中序遍历.md",
+    "leetcode/搜索/98.验证二叉搜索树.md",
+    "leetcode/搜索/74.搜索二维矩阵.md",
+    "leetcode/搜索/35.搜索插入位置.md",
+    "leetcode/搜索/34.在排序数组中查找元素的第一个和最后一个位置.md",
+    "leetcode/搜索/33.搜索旋转排序数组.md",
     "leetcode/搜索/104.二叉树最大深度.md",
     "leetcode/搜索/102.层序遍历二叉树.md",
-    "leetcode/回溯/46.全排列.md",
     "leetcode/搜索/101.验证对称二叉树.md",
-    "未命名.md",
-    "leetcode/搜索/98.验证二叉搜索树.md",
-    "leetcode/搜索/94.二叉树的中序遍历.md",
-    "Spring Security/笔记.md",
-    "MyProject/IntelligentBiPlatform/需求分析.md",
+    "leetcode/搜索",
+    "MyProject/IntelligentBiPlatform/认证架构.md",
+    "MyProject/IntelligentBiPlatform/用户登录，注册，登出等操作.md",
+    "MyProject/IntelligentBiPlatform/基本架构.md",
+    "MyProject/IntelligentBiPlatform/assets/Pasted Image 20250121120602_967.webp",
+    "MyProject/IntelligentBiPlatform/assets",
+    "MyProject/IntelligentBiPlatform/Saas系统TODO.md",
+    "课件/ts课件/第1章 专辑管理.md",
+    "课件/ts课件/听书软件环境安装.md",
+    "leetcode/数组/56.合并区间.md",
+    "面试/java/Java中的序列化是什么？.md",
+    "面试/java/BIO、NIO、AIO 之间的区别？.md",
+    "leetcode/查找/74.搜索二维矩阵.md",
+    "leetcode/数组/73.矩阵置零.md",
+    "leetcode/排序/75.颜色分类.md",
+    "leetcode/排序",
     "leetcode/回溯/79.单词搜索.md",
+    "leetcode/回溯/78. 子集.md",
+    "leetcode/动态规划/72.编辑距离.md",
+    "leetcode/动态规划/70.爬楼梯.md",
     "MyProject/IntelligentBiPlatform",
     "MyProject",
-    "leetcode/回溯/22.括号生成.md",
-    "leetcode/回溯/39.组合总和.md",
-    "leetcode/回溯/78. 子集.md",
-    "leetcode/排序/75.颜色分类.md",
-    "leetcode/排序.md",
-    "leetcode/排序",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/面渣逆袭集合框架篇V2.0.pdf",
-    "面试/java/BIO、NIO、AIO 之间的区别？.md",
-    "面试/java/Java中的序列化是什么？.md",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "MYSQL高级/day03-MySQL课件.md",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "Spring Security/assets/delegatingfilterproxy.png",
+    "阿里巴巴开发手册/阿里巴巴Java开发手册.pdf",
+    "三分/面渣逆袭 MySQL.pdf",
     "三分/面渣逆袭计算机网络.pdf",
-    "leetcode/搜索/74.搜索二维矩阵.md",
-    "MYSQL高级/assets/image-20230619141412346.png",
-    "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
-    "Spring Security/assets/securityfilterchain.png",
-    "Spring Security/assets/securitycontextholder.png",
-    "Spring Security/assets/multi-securityfilterchain-17016804731631.png",
-    "Spring Security/assets/image-20231223203225688.png",
-    "Spring Security/assets/image-20231223164128030.png",
-    "Spring Security/assets/image-20231223020052999.png",
-    "Spring Security/assets/image-20231222203259785.png",
-    "Spring Security/assets",
+    "三分/面渣逆袭操作系统.pdf",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
+    "面试/MySQL/assets/Pasted image 20250105135452.webp",
+    "MYSQL高级/assets/image-20230617164347933.png",
+    "MYSQL高级/assets/f3sf72c372_Y6Gp_o1mnS.jpg",
+    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20230118232739869.png",
+    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220810163534068.png",
+    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220808033239206.png",
+    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220808033239206-16954435082271.png",
+    "MYSQL高级/ShardingSphere5入门到实战.assets/image-20220807232456342.png",
     "未命名.canvas"
   ]
 }

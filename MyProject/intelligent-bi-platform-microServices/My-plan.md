@@ -1,153 +1,298 @@
-以下是针对学生开发者设计的智能BI平台开发周期计划，结合敏捷开发思想，将核心功能拆解为可交付的迭代版本：
+以下是整合前后端开发的完整双周计划，每个Sprint均明确划分前后端任务，保持技术细节完整：
 
 ---
 
-### **总开发周期：16周（4个月）**
-采用双周迭代制（Sprint），每个Sprint聚焦2-3个核心功能模块
-
----
-
-### **迭代计划表**
-
-#### **Sprint 1-2：基础架构搭建（2周）**
-**目标**：完成技术选型验证和基础框架搭建
+### **Sprint 1-2（1.23-2.5）基础框架搭建**
+#### **后端任务**
 ```mermaid
 gantt
-    title Sprint 1-2 功能清单
+    title Sprint 1-2 后端任务
     dateFormat  YYYY-MM-DD
-    section 基础设施
-    项目骨架搭建        :done, 2024-01-01, 3d
-    CI/CD流水线配置     :done, 2024-01-04, 4d
+    section 核心架构
+    Spring Boot多模块工程 :done, 2025-01-23, 3d
+    全局异常处理 :a1, 2025-01-25, 2d
     section 用户服务
-    用户注册/登录       :done, 2024-01-01, 7d
-    JWT认证集成        :done, 2024-01-05, 5d
+    JWT签发/验证 :crit, active, a2, 2025-01-26, 5d
+    RBAC模型设计 :a3, after a2, 3d
 ```
 
-#### **Sprint 3-4：数据管理核心（2周）**
-**目标**：实现基础数据流转能力
-```mermaid
-gantt
-    title Sprint 3-4 功能清单
-    section 数据服务
-    Excel/CSV上传解析    :active, des1, 2024-01-15, 7d
-    MySQL数据源配置     :des2, after des1, 5d
-    数据预览接口        :des3, after des2, 3d
-    section 缓存层
-    Redis缓存热点数据   :2024-01-15, 5d
-```
-
-#### **Sprint 5-6：智能分析初版（2周）**
-**目标**：实现基础的自然语言分析能力
-```mermaid
-gantt
-    title Sprint 5-6 功能清单
-    section AI服务
-    Spring AI集成       :crit, active, 2024-01-29, 5d
-    NL2SQL基础实现      :2024-02-01, 7d
-    异步任务队列        :2024-02-03, 4d
-    section 分析服务
-    自动图表推荐逻辑    :2024-02-01, 5d
-```
-
-#### **Sprint 7-8：可视化呈现（2周）**
-**目标**：完成数据可视化闭环
-```mermaid
-gantt
-    title Sprint 7-8 功能清单
-    section 可视化服务
-    ECharts集成        :active, 2024-02-12, 5d
-    仪表盘布局系统      :2024-02-14, 7d
-    图表样式配置        :2024-02-16, 4d
-    section 前端
-    Vue3基础框架搭建   :2024-02-12, 5d
-```
-
-#### **Sprint 9-10：协作增强（2周）**
-**目标**：实现团队协作能力
-```mermaid
-gantt
-    title Sprint 9-10 功能清单
-    section 协作服务
-    分享链接生成        :active, 2024-02-26, 5d
-    评论功能接口        :2024-02-28, 5d
-    操作历史记录        :2024-03-01, 4d
-    section 安全
-    权限校验增强        :2024-02-26, 5d
-```
-
-#### **Sprint 11-12：系统完善（2周）**
-**目标**：提升系统健壮性
-```mermaid
-gantt
-    title Sprint 11-12 功能清单
-    section 运维
-    监控告警系统        :active, 2024-03-11, 7d
-    日志分析模块        :2024-03-13, 5d
-    section 优化
-    查询性能优化        :2024-03-11, 7d
-```
-
----
-
-### **详细功能拆解表**
-| 模块          | 子功能                  | 技术实现要点                          | 预计工时 | 依赖项       |
-|---------------|-------------------------|---------------------------------------|----------|--------------|
-| **用户服务**  | 1. 手机号注册           | Spring Security+短信验证码            | 8h       | Redis        |
-|               | 2. RBAC权限管理         | MyBatis-Plus动态SQL                   | 12h      | MySQL        |
-| **数据服务**  | 1. CSV分片上传          | EasyExcel+分片上传                    | 16h      | MinIO        |
-|               | 2. 数据清洗管道         | 自定义注解+规则引擎                   | 20h      | Drools       |
-| **AI服务**    | 1. 自然语言查询         | Spring AI Prompt工程                  | 24h      | OpenAI API   |
-|               | 2. 自动洞察生成         | 模版引擎+大模型微调                   | 32h      | LangChain    |
-| **可视化服务**| 1. 图表联动             | ECharts事件总线                       | 16h      | Vue3         |
-|               | 2. 仪表盘持久化         | JSON Schema+版本控制                  | 12h      | MySQL JSON列 |
-
----
-
-### **每日开发节奏建议**
-```markdown
-8:00-9:00  昨日进度回顾 & 当日计划
-9:00-11:30 核心功能开发（专注编码）
-13:30-15:00 单元测试编写
-15:00-17:00 技术难点攻关
-17:00-17:30 代码提交 & MR创建
-19:00-20:00 技术文档编写
-```
-
----
-
-### **关键里程碑节点**
-```mermaid
-journey
-    title 项目里程碑路线图
-    section 基础阶段
-    用户系统上线 : 2024-01-15
-    数据管理完成 : 2024-02-01
-    section 核心阶段
-    智能分析MVP : 2024-03-01
-    可视化闭环 : 2024-03-15
-    section 完善阶段
-    协作功能上线 : 2024-04-01
-    系统优化完成 : 2024-04-15
-```
-
----
-
-### **学生开发者特别建议**
-1. **技术聚焦策略**：
-   - 前端：主攻Vue3+Element Plus
-   - 后端：深耕Spring Boot+MyBatis-Plus
-   - AI：专注Prompt工程，暂不深入模型训练
-
-2. **简化方案**：
-   - 使用SQLite替代MySQL初期版本
-   - 采用LocalAI替代云端大模型
-   - 使用内存缓存替代Redis初期版本
-
-3. **学习资源**：
-   ```markdown
-   - [Spring AI官方文档](https://spring.io/projects/spring-ai)
-   - [ECharts案例库](https://echarts.apache.org/examples/)
-   - [MyBatis-Plus指南](https://baomidou.com/)
+**技术实现**：
+1. 多环境配置
+   ```yaml
+   # application-dev.yml
+   spring:
+     datasource:
+       url: jdbc:mysql://localhost:3306/bi_dev
+       username: dev_user
+       password: dev123
+   ```
+2. JWT工具类
+   ```java
+   public class JwtUtils {
+       public static String generateToken(UserDetails user) {
+           return Jwts.builder()
+               .setSubject(user.getUsername())
+               .setExpiration(new Date(System.currentTimeMillis() + 3600 * 1000))
+               .signWith(SignatureAlgorithm.HS512, SECRET_KEY)
+               .compact();
+       }
+   }
    ```
 
-按照此计划，每周保持25-30小时的有效开发时间，可在4个月内完成可演示的智能BI平台。建议使用GitHub Project进行任务跟踪，每个功能创建独立issue并进行任务拆解。
+#### **前端任务**
+```mermaid
+gantt
+    title Sprint 1-2 前端任务
+    section 工程基础
+    React项目初始化 :done, 2025-01-24, 1d
+    Ant Design集成 :active, a1, 2025-01-25, 2d
+    section 认证模块
+    登录页面开发 :a2, after a1, 3d
+    路由守卫实现 :a3, after a2, 2d
+```
+
+**联调重点**：
+- JWT令牌在axios拦截器中的自动携带
+- 401状态码的全局处理
+
+---
+
+### **Sprint 3-4（2.6-2.19）数据核心功能**
+#### **后端任务**
+```mermaid
+gantt
+    title Sprint 3-4 后端任务
+    section 数据接入
+    Excel分片上传 :crit, active, a1, 2025-02-06, 5d
+    MySQL元数据管理 :a2, after a1, 4d
+    section 中间件
+    Redis缓存热点数据 :a3, 2025-02-07, 3d
+    异步任务队列 :a4, after a3, 5d
+```
+
+**关键技术**：
+1. 分片上传接口
+   ```java
+   @PostMapping("/upload/chunk")
+   public Response uploadChunk(
+       @RequestParam String fileKey,
+       @RequestParam Integer chunkIndex,
+       @RequestPart MultipartFile chunk) {
+       
+       // 保存分片到临时目录
+       // 更新Redis中的分片记录
+       return Response.success();
+   }
+   ```
+2. 元数据表设计
+   ```sql
+   CREATE TABLE dataset_meta (
+     id BIGINT PRIMARY KEY COMMENT '主键',
+     name VARCHAR(255) NOT NULL COMMENT '数据集名称',
+     columns JSON NOT NULL COMMENT '字段定义',
+     created_by VARCHAR(64) COMMENT '创建人'
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+   ```
+
+#### **前端任务**
+```mermaid
+gantt
+    title Sprint 3-4 前端任务
+    section 数据模块
+    分片上传组件 :active, a1, 2025-02-06, 5d
+    数据预览表格 :a2, after a1, 4d
+    section 状态管理
+    Redux状态机集成 :a3, 2025-02-07, 3d
+```
+
+**关键技术**：
+1. 大文件分片上传
+   ```tsx
+   const uploadChunk = async (file: File) => {
+     const chunkSize = 5 * 1024 * 1024; // 5MB
+     for (let i = 0; i < Math.ceil(file.size / chunkSize); i++) {
+       const chunk = file.slice(i * chunkSize, (i + 1) * chunkSize);
+       await api.uploadChunk(chunk, file.name, i);
+     }
+     await api.mergeChunks(file.name);
+   };
+   ```
+
+---
+
+### **Sprint 5-6（2.20-3.5）智能分析引擎**
+#### **后端任务**
+```mermaid
+gantt
+    title Sprint 5-6 后端任务
+    section AI服务
+    Spring AI集成 :crit, active, a1, 2025-02-20, 7d
+    本地模型微调 :a2, after a1, 4d
+    section 分析服务
+    规则引擎降级 :a3, 2025-02-22, 5d
+    SQL执行引擎 :a4, after a3, 3d
+```
+
+**关键技术**：
+1. NL2SQL服务
+   ```java
+   @Service
+   public class NL2SQLService {
+       public String parse(String question) {
+           String prompt = """
+               数据库结构：%s
+               问题：%s
+               要求：使用MySQL语法，包含注释
+               """.formatted(getSchema(), question);
+           return chatClient.call(prompt);
+       }
+   }
+   ```
+2. SQL执行安全校验
+   ```java
+   public void validateSQL(String sql) {
+       if (sql.contains("DELETE") || sql.contains("UPDATE")) {
+           throw new InvalidSQLException("只允许SELECT查询");
+       }
+   }
+   ```
+
+#### **前端任务**
+```mermaid
+gantt
+    title Sprint 5-6 前端任务
+    section 分析模块
+    NLP输入框 :active, a1, 2025-02-20, 5d
+    图表配置面板 :a2, after a1, 3d
+    section 可视化
+    基础图表渲染 :a3, 2025-02-22, 5d
+```
+
+**关键技术**：
+1. 智能输入建议
+   ```tsx
+   <AutoComplete
+     options={suggestions}
+     onSearch={handleSearch}
+     placeholder="输入分析需求..."
+   />
+   ```
+
+---
+
+### **Sprint 7-8（3.6-3.19）可视化系统**
+#### **后端任务**
+```mermaid
+gantt
+    title Sprint 7-8 后端任务
+    section 数据服务
+    宽表预计算 :crit, active, a1, 2025-03-06, 7d
+    实时数据推送 :a2, after a1, 5d
+    section 性能优化
+    查询缓存 :a3, 2025-03-08, 3d
+    SQL执行计划分析 :a4, after a3, 3d
+```
+
+**关键技术**：
+1. WebSocket端点
+   ```java
+   @ServerEndpoint("/ws/realtime")
+   public class RealtimeEndpoint {
+       @OnMessage
+       public void handleMessage(Session session, String message) {
+           // 处理订阅请求
+       }
+       
+       public void pushData(String topic, String data) {
+           // 广播数据
+       }
+   }
+   ```
+
+#### **前端任务**
+```mermaid
+gantt
+    title Sprint 7-8 前端任务
+    section 可视化
+    ECharts深度集成 :active, a1, 2025-03-06, 5d
+    仪表盘编辑器 :a2, after a1, 7d
+    section 实时
+    WebSocket连接管理 :a3, 2025-03-08, 3d
+```
+
+**关键技术**：
+1. 实时数据订阅
+   ```tsx
+   const [data, setData] = useState([]);
+   useEffect(() => {
+     const ws = new WebSocket('ws://api/ws/realtime');
+     ws.onmessage = (e) => setData(JSON.parse(e.data));
+     return () => ws.close();
+   }, []);
+   ```
+
+---
+
+### **Sprint 9-10（3.20-4.2）企业级扩展**
+#### **后端任务**
+```mermaid
+gantt
+    title Sprint 9-10 后端任务
+    section 服务治理
+    Nacos注册中心 :crit, active, a1, 2025-03-20, 5d
+    配置热更新 :a2, after a1, 3d
+    section 监控
+    Prometheus埋点 :a3, 2025-03-22, 5d
+    日志聚合 :a4, after a3, 5d
+```
+
+**关键技术**：
+1. 监控指标配置
+   ```java
+   @Timed(value = "bi.query.duration", description = "查询耗时")
+   @GetMapping("/query")
+   public Response query(@RequestParam String sql) {
+       // 业务逻辑
+   }
+   ```
+
+#### **前端任务**
+```mermaid
+gantt
+    title Sprint 9-10 前端任务
+    section 企业功能
+    权限管理界面 :active, a1, 2025-03-20, 5d
+    操作审计日志 :a2, after a1, 3d
+    section 监控
+    Grafana看板嵌入 :a3, 2025-03-22, 5d
+```
+
+---
+
+### **DevOps集成方案**
+```mermaid
+graph TD
+    A[Git提交] --> B[Jenkins流水线]
+    B --> C{测试通过?}
+    C -->|是| D[构建Docker镜像]
+    D --> E[部署到K8s集群]
+    C -->|否| F[邮件告警]
+```
+
+**后端关键配置**：
+```dockerfile
+FROM openjdk:17-jdk-alpine
+COPY target/bi-service.jar /app.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/app.jar"]
+```
+
+---
+
+该计划完整覆盖前后端开发，每个Sprint均包含：
+1. **后端核心模块**：认证/数据/AI/监控等企业级功能
+2. **前端交互实现**：组件开发/状态管理/可视化等
+3. **联调验证点**：接口规范/数据格式/异常处理
+4. **质量保障**：单元测试/压力测试/代码审查
+
+建议使用Postman维护API文档集合，使用Swagger生成接口文档，确保前后端开发高效协同。

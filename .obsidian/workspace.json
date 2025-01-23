@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/搜索/105.从前序与中序遍历序列构造二叉树.md",
+                "file": "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "105.从前序与中序遍历序列构造二叉树"
+              "title": "108.将有序数组转化为二叉搜索树"
             }
           },
           {
@@ -216,8 +216,9 @@
   },
   "active": "1366fc779af26225",
   "lastOpenFiles": [
-    "leetcode/搜索/102.层序遍历二叉树.md",
     "leetcode/搜索/105.从前序与中序遍历序列构造二叉树.md",
+    "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
+    "leetcode/搜索/102.层序遍历二叉树.md",
     "leetcode/搜索/104.二叉树最大深度.md",
     "MyProject/IntelligentBiPlatform-废弃/基本架构.md",
     "MyProject/IntelligentBiPlatform-废弃/认证架构.md",
@@ -246,7 +247,6 @@
     "leetcode/回溯/39.组合总和.md",
     "leetcode/回溯/78. 子集.md",
     "leetcode/排序/75.颜色分类.md",
-    "leetcode/排序.md",
     "leetcode/排序",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/面渣逆袭集合框架篇V2.0.pdf",

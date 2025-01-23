@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
+                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开发量预估"
+              "title": "开发周期"
             }
           }
         ],
@@ -240,10 +240,10 @@
   },
   "active": "0ae87b9fdf668ffd",
   "lastOpenFiles": [
-    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+    "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "MyProject/intelligent-bi-platform-microServices/工具栈.md",
-    "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
+    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "MyProject/IntelligentBiPlatform-废弃/Saas系统TODO.md",
     "MyProject/intelligent-bi-platform-microServices",
     "MyProject/IntelligentBiPlatform-废弃/用户登录，注册，登出等操作.md",

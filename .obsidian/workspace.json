@@ -20,20 +20,6 @@
             }
           },
           {
-            "id": "00ef29dcdc8720ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MyProject/IntelligentBiPlatform/项目后端初始化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目后端初始化"
-            }
-          },
-          {
             "id": "1366fc779af26225",
             "type": "leaf",
             "state": {
@@ -46,23 +32,8 @@
               "icon": "lucide-file",
               "title": "108.将有序数组转化为二叉搜索树"
             }
-          },
-          {
-            "id": "55c6062b4695f079",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "开发周期"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,17 +185,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1366fc779af26225",
+  "active": "4549dd7e9de89892",
   "lastOpenFiles": [
-    "leetcode/搜索/105.从前序与中序遍历序列构造二叉树.md",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "三分/04-面渣逆袭 JVM.pdf",
+    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
+    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+    "leetcode/搜索/105.从前序与中序遍历序列构造二叉树.md",
     "leetcode/搜索/102.层序遍历二叉树.md",
     "leetcode/搜索/104.二叉树最大深度.md",
     "MyProject/IntelligentBiPlatform-废弃/基本架构.md",
     "MyProject/IntelligentBiPlatform-废弃/认证架构.md",
     "MyProject/IntelligentBiPlatform-废弃/项目后端初始化.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
     "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/IntelligentBiPlatform-废弃/Saas系统TODO.md",
@@ -246,13 +221,9 @@
     "leetcode/回溯/22.括号生成.md",
     "leetcode/回溯/39.组合总和.md",
     "leetcode/回溯/78. 子集.md",
-    "leetcode/排序/75.颜色分类.md",
     "leetcode/排序",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/面渣逆袭集合框架篇V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
-    "三分/面渣逆袭计算机网络.pdf",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",

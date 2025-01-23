@@ -48,31 +48,7 @@
             }
           },
           {
-            "id": "7b6a802ec1cd9cca",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "基本架构"
-            }
-          },
-          {
             "id": "55c6062b4695f079",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "MyProject/IntelligentBiPlatform/基本架构.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "基本架构"
-            }
-          },
-          {
-            "id": "0ae87b9fdf668ffd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,21 +214,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ae87b9fdf668ffd",
+  "active": "1366fc779af26225",
   "lastOpenFiles": [
-    "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
+    "MyProject/IntelligentBiPlatform-废弃/基本架构.md",
+    "MyProject/IntelligentBiPlatform-废弃/认证架构.md",
+    "MyProject/IntelligentBiPlatform-废弃/项目后端初始化.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+    "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
+    "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/IntelligentBiPlatform-废弃/Saas系统TODO.md",
     "MyProject/intelligent-bi-platform-microServices",
     "MyProject/IntelligentBiPlatform-废弃/用户登录，注册，登出等操作.md",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",
     "MyProject/IntelligentBiPlatform-废弃/assets",
-    "MyProject/IntelligentBiPlatform-废弃/基本架构.md",
-    "MyProject/IntelligentBiPlatform-废弃/认证架构.md",
     "MyProject/IntelligentBiPlatform/未命名.md",
-    "MyProject/IntelligentBiPlatform-废弃/项目后端初始化.md",
     "leetcode/搜索/104.二叉树最大深度.md",
     "leetcode/搜索/102.层序遍历二叉树.md",
     "leetcode/回溯/46.全排列.md",

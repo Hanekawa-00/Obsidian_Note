@@ -8,29 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4549dd7e9de89892",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭Java基础篇V2.0"
-            }
-          },
-          {
-            "id": "1366fc779af26225",
+            "id": "8ddd7dda010ffd12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/动态规划/118.杨辉三角.md",
+                "file": "面试/java/HashMap扩容流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "118.杨辉三角"
+              "title": "HashMap扩容流程"
+            }
+          },
+          {
+            "id": "c5e218cfb4d752e6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
             }
           }
         ],
@@ -186,14 +191,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1366fc779af26225",
+  "active": "c5e218cfb4d752e6",
   "lastOpenFiles": [
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "未命名.canvas",
+    "面试/java/Untitled Diagram.svg",
+    "面试/java/HashMap扩容流程.md",
+    "面试/java/BIO、NIO、AIO 之间的区别？.md",
     "leetcode/动态规划/118.杨辉三角.md",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "leetcode/搜索/114.二叉树展开为链表.md",
     "leetcode/搜索/未命名.md",
     "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/04-面渣逆袭 JVM.pdf",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
@@ -218,8 +227,6 @@
     "leetcode/搜索/98.验证二叉搜索树.md",
     "leetcode/搜索/94.二叉树的中序遍历.md",
     "Spring Security/笔记.md",
-    "MyProject/IntelligentBiPlatform-废弃/需求分析.md",
-    "leetcode/回溯/79.单词搜索.md",
     "MyProject/IntelligentBiPlatform-废弃",
     "MyProject",
     "leetcode/排序",
@@ -232,8 +239,6 @@
     "Spring Security/assets/image-20231223203225688.png",
     "Spring Security/assets/image-20231223164128030.png",
     "Spring Security/assets/image-20231223020052999.png",
-    "Spring Security/assets/image-20231222203259785.png",
-    "面试/MySQL/B+树索引查询数据全过程.canvas",
-    "未命名.canvas"
+    "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
 }

@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/搜索/114.二叉树展开为链表.md",
+                "file": "leetcode/动态规划/118.杨辉三角.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "114.二叉树展开为链表"
+              "title": "118.杨辉三角"
             }
           }
         ],
@@ -188,8 +188,10 @@
   },
   "active": "1366fc779af26225",
   "lastOpenFiles": [
-    "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
     "leetcode/搜索/114.二叉树展开为链表.md",
+    "leetcode/动态规划/118.杨辉三角.md",
+    "leetcode/搜索/未命名.md",
+    "leetcode/搜索/108.将有序数组转化为二叉搜索树.md",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "三分/04-面渣逆袭 JVM.pdf",
@@ -221,8 +223,6 @@
     "MyProject/IntelligentBiPlatform-废弃",
     "MyProject",
     "leetcode/回溯/22.括号生成.md",
-    "leetcode/回溯/39.组合总和.md",
-    "leetcode/回溯/78. 子集.md",
     "leetcode/排序",
     "三分/面渣逆袭集合框架篇V2.0.pdf",
     "MYSQL高级/assets/image-20230619141412346.png",

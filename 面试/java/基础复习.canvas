@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"26836638cc6908f5","x":-686,"y":-58,"width":106,"height":60,"type":"text","text":"_JDK_"},
+		{"id":"95413552d8333fba","x":-443,"y":-220,"width":381,"height":222,"type":"text","text":"一系列开发工具，比如说：\n- **javac**：Java编译器，将源代码编译为字节码。\n- **java**：Java解释器，运行编译后的字节码。\n- **javadoc**：生成HTML格式的API文档。\n- **jar**：打包工具，将类文件和资源打包成JAR文件。\n- **jdb**：Java调试器，用于调试程序。"},
+		{"id":"837e3aab92efd5f4","x":-443,"y":100,"width":263,"height":100,"type":"text","text":"JRE（Java Runtime Environment）"},
+		{"id":"de26e3bcc06e2109","x":-682,"y":-520,"width":620,"height":240,"type":"text","text":"- 面向对象：`Java` 是一门面向对象的编程语言，主要特点有封装、继承、多态。（面向过程：以过程为核心，通过函数和步骤完成任务。面向对象： 以对象为核核心，通过对象交互完成任务， 程序结构是和对象组成的模块化结构）\n- 平台无关：同时又是一个平台无关的编程语言，一次编译处处运行,只需要在对应平台上安装对应的JDK就可以实现跨平台。\n- 支持多线程：相较于C++没有内置的多线程机制，Java提供了封装好多线程的支持\n- 编译与解释共存：支持JIT编译，也就是即时编译器"},
+		{"id":"b810b0cba1291f30","x":25,"y":2,"width":163,"height":50,"type":"text","text":"核心类库"},
+		{"id":"0379564d7203b4c3","x":25,"y":220,"width":250,"height":68,"type":"text","text":"JVM(Java Virtual Machine)，不同平台JVM不同"},
+		{"id":"93b320f6c96a2a5c","x":-1180,"y":-58,"width":160,"height":60,"type":"text","text":"Java基础"},
+		{"id":"8e286dd4f8b58132","x":231,"y":-672,"width":149,"height":50,"type":"text","text":"面向对象"},
+		{"id":"dbc4a1737b2aa30b","x":517,"y":-860,"width":323,"height":100,"type":"text","text":"**封装**：将一个对象的属性私有化，同时提供一些方法对外可以访问。"},
+		{"id":"a924d59d63b80b2c","x":517,"y":-520,"width":403,"height":200,"type":"text","text":"**多态**：多态允许不同类的对象对同一个消息做出不同的反应，但表现出不同的行为，说人话就是执行同一个方法，Java在运行时根据对象类型产生不同的结果"},
+		{"id":"40235afc49b0b571","x":517,"y":-707,"width":323,"height":120,"type":"text","text":"**继承**：一个子类可以继承父类的字段属性和方法，从提高代码复用性。"}
+	],
+	"edges":[
+		{"id":"f03155fc196c05f7","fromNode":"93b320f6c96a2a5c","fromSide":"right","toNode":"de26e3bcc06e2109","toSide":"left","label":"概述"},
+		{"id":"fc11e1392743479e","fromNode":"93b320f6c96a2a5c","fromSide":"right","toNode":"26836638cc6908f5","toSide":"left","label":"结构"},
+		{"id":"d5de1da8d066bae9","fromNode":"26836638cc6908f5","fromSide":"right","toNode":"95413552d8333fba","toSide":"left"},
+		{"id":"16035ce55006bf2e","fromNode":"26836638cc6908f5","fromSide":"right","toNode":"837e3aab92efd5f4","toSide":"left"},
+		{"id":"51f5f31e5d25eff5","fromNode":"837e3aab92efd5f4","fromSide":"right","toNode":"b810b0cba1291f30","toSide":"left"},
+		{"id":"f3f6cb47002a80af","fromNode":"837e3aab92efd5f4","fromSide":"right","toNode":"0379564d7203b4c3","toSide":"left"},
+		{"id":"984e5809c678f5aa","fromNode":"de26e3bcc06e2109","fromSide":"right","toNode":"8e286dd4f8b58132","toSide":"left"},
+		{"id":"fb354d9baeeb1172","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"dbc4a1737b2aa30b","toSide":"left"},
+		{"id":"d22e49b24e412cf5","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"40235afc49b0b571","toSide":"left"},
+		{"id":"07d4a630812210df","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"a924d59d63b80b2c","toSide":"left"}
+	]
+}

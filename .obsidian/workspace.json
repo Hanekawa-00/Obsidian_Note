@@ -22,24 +22,42 @@
             }
           },
           {
+            "id": "c3fa9d220b568bfc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭Java基础篇V2.0"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "82c611a48d5821db",
+        "type": "tabs",
+        "children": [
+          {
             "id": "c5e218cfb4d752e6",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "未命名.canvas",
+                "file": "面试/java/基础复习.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 797.7672187843443,
+                  "y": -353.4617684890385,
+                  "zoom": -0.36514835797441797
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "未命名"
+              "title": "基础复习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -191,12 +210,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5e218cfb4d752e6",
+  "active": "c3fa9d220b568bfc",
   "lastOpenFiles": [
+    "面试/java/基础复习.canvas",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "未命名.canvas",
-    "面试/java/Untitled Diagram.svg",
     "面试/java/HashMap扩容流程.md",
+    "面试/java/Untitled Diagram.svg",
     "面试/java/BIO、NIO、AIO 之间的区别？.md",
     "leetcode/动态规划/118.杨辉三角.md",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",

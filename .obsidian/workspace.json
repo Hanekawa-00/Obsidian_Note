@@ -6,6 +6,7 @@
       {
         "id": "be8a1243c1af37e6",
         "type": "tabs",
+        "dimension": 56.325301204819276,
         "children": [
           {
             "id": "8ddd7dda010ffd12",
@@ -13,16 +14,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/java/HashMap扩容流程.md",
+                "file": "面试/java/Java集合框架下的类.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashMap扩容流程"
+              "title": "Java集合框架下的类"
             }
           },
           {
-            "id": "c3fa9d220b568bfc",
+            "id": "3a0ac975fe1f4264",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -33,12 +34,12 @@
               "title": "面渣逆袭Java基础篇V2.0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82c611a48d5821db",
         "type": "tabs",
+        "dimension": 43.674698795180724,
         "children": [
           {
             "id": "c5e218cfb4d752e6",
@@ -48,9 +49,9 @@
               "state": {
                 "file": "面试/java/基础复习.canvas",
                 "viewState": {
-                  "x": 797.7672187843443,
-                  "y": -353.4617684890385,
-                  "zoom": -0.36514835797441797
+                  "x": 296.8025841335814,
+                  "y": 39.956154423257544,
+                  "zoom": -0.48337848828650304
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -113,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -210,11 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3fa9d220b568bfc",
+  "active": "8ddd7dda010ffd12",
   "lastOpenFiles": [
-    "面试/java/基础复习.canvas",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "面试/java/HashMap中红黑树和链表的转换时机.md",
     "面试/java/HashMap扩容流程.md",
+    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "面试/java/基础复习.canvas",
+    "2025-01-26.md",
     "面试/java/Untitled Diagram.svg",
     "面试/java/BIO、NIO、AIO 之间的区别？.md",
     "leetcode/动态规划/118.杨辉三角.md",
@@ -245,7 +247,6 @@
     "未命名.md",
     "leetcode/搜索/98.验证二叉搜索树.md",
     "leetcode/搜索/94.二叉树的中序遍历.md",
-    "Spring Security/笔记.md",
     "MyProject/IntelligentBiPlatform-废弃",
     "MyProject",
     "leetcode/排序",

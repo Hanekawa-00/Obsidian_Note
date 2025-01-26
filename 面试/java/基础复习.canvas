@@ -8,9 +8,10 @@
 		{"id":"0379564d7203b4c3","x":25,"y":220,"width":250,"height":68,"type":"text","text":"JVM(Java Virtual Machine)，不同平台JVM不同"},
 		{"id":"93b320f6c96a2a5c","x":-1180,"y":-58,"width":160,"height":60,"type":"text","text":"Java基础"},
 		{"id":"8e286dd4f8b58132","x":231,"y":-672,"width":149,"height":50,"type":"text","text":"面向对象"},
-		{"id":"dbc4a1737b2aa30b","x":517,"y":-860,"width":323,"height":100,"type":"text","text":"**封装**：将一个对象的属性私有化，同时提供一些方法对外可以访问。"},
-		{"id":"a924d59d63b80b2c","x":517,"y":-520,"width":403,"height":200,"type":"text","text":"**多态**：多态允许不同类的对象对同一个消息做出不同的反应，但表现出不同的行为，说人话就是执行同一个方法，Java在运行时根据对象类型产生不同的结果"},
-		{"id":"40235afc49b0b571","x":517,"y":-707,"width":323,"height":120,"type":"text","text":"**继承**：一个子类可以继承父类的字段属性和方法，从提高代码复用性。"}
+		{"id":"40235afc49b0b571","x":517,"y":-707,"width":323,"height":120,"type":"text","text":"**继承**：一个子类可以继承父类的字段属性和方法，从提高代码复用性。"},
+		{"id":"a924d59d63b80b2c","x":517,"y":-520,"width":403,"height":200,"type":"text","text":"**多态**：多态允许不同类的对象对同一个消息做出不同的反应，但表现出不同的行为，说人话就是执行同一个方法，_Java在运行时根据对象类型产生不同的结果（在运行时根据对象的类型进行后期绑定，编译器在编译的时候并不知道对象的类型，在程序执行时调用方法时能够找到正确的方法体）_"},
+		{"id":"dbc4a1737b2aa30b","x":517,"y":-880,"width":323,"height":100,"type":"text","text":"**封装**：将一个对象的属性私有化，同时提供一些方法对外可以访问。"},
+		{"id":"9f1dd6cfb77db5a1","x":1143,"y":-686,"width":317,"height":146,"type":"text","text":"**重写（Override）**：在子类中编写与父类相同的方法，而方法体可以不同，是多态实现的基础条件。"}
 	],
 	"edges":[
 		{"id":"f03155fc196c05f7","fromNode":"93b320f6c96a2a5c","fromSide":"right","toNode":"de26e3bcc06e2109","toSide":"left","label":"概述"},
@@ -22,6 +23,7 @@
 		{"id":"984e5809c678f5aa","fromNode":"de26e3bcc06e2109","fromSide":"right","toNode":"8e286dd4f8b58132","toSide":"left"},
 		{"id":"fb354d9baeeb1172","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"dbc4a1737b2aa30b","toSide":"left"},
 		{"id":"d22e49b24e412cf5","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"40235afc49b0b571","toSide":"left"},
-		{"id":"07d4a630812210df","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"a924d59d63b80b2c","toSide":"left"}
+		{"id":"07d4a630812210df","fromNode":"8e286dd4f8b58132","fromSide":"right","toNode":"a924d59d63b80b2c","toSide":"left"},
+		{"id":"68aba02aa3965d59","fromNode":"a924d59d63b80b2c","fromSide":"right","toNode":"9f1dd6cfb77db5a1","toSide":"left"}
 	]
 }

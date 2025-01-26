@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/java/Java集合框架下的类.md",
+                "file": "面试/java/抽象类和接口有什么区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java集合框架下的类"
+              "title": "抽象类和接口有什么区别"
             }
           },
           {
@@ -34,7 +34,8 @@
               "title": "面渣逆袭Java基础篇V2.0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "82c611a48d5821db",
@@ -49,9 +50,9 @@
               "state": {
                 "file": "面试/java/基础复习.canvas",
                 "viewState": {
-                  "x": 296.8025841335814,
-                  "y": 39.956154423257544,
-                  "zoom": -0.48337848828650304
+                  "x": 1352.7219773937456,
+                  "y": -58.17920800220929,
+                  "zoom": -0.6635882827313684
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -114,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -210,12 +212,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ddd7dda010ffd12",
+  "active": "3a0ac975fe1f4264",
   "lastOpenFiles": [
+    "面试/java/基础复习.canvas",
+    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "面试/java/抽象类和接口有什么区别.md",
+    "面试/java/Java中的序列化是什么？.md",
+    "面试/java/Java集合框架下的类.md",
     "面试/java/HashMap中红黑树和链表的转换时机.md",
     "面试/java/HashMap扩容流程.md",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "面试/java/基础复习.canvas",
     "2025-01-26.md",
     "面试/java/Untitled Diagram.svg",
     "面试/java/BIO、NIO、AIO 之间的区别？.md",
@@ -243,10 +248,6 @@
     "MyProject/IntelligentBiPlatform-废弃/assets",
     "MyProject/IntelligentBiPlatform/未命名.md",
     "leetcode/回溯/46.全排列.md",
-    "leetcode/搜索/101.验证对称二叉树.md",
-    "未命名.md",
-    "leetcode/搜索/98.验证二叉搜索树.md",
-    "leetcode/搜索/94.二叉树的中序遍历.md",
     "MyProject/IntelligentBiPlatform-废弃",
     "MyProject",
     "leetcode/排序",

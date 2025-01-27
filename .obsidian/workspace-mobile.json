@@ -11,14 +11,29 @@
             "id": "b76b5b358f8a9415",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "JUC/JUC.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
               },
-              "icon": "lucide-file",
-              "title": "JUC"
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭Java基础篇V2.0"
+            }
+          },
+          {
+            "id": "04036cf44a1d249e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "面试/java/基础复习.canvas",
+                "viewState": {
+                  "x": -14.959126014993501,
+                  "y": -374.0929190686482,
+                  "zoom": 0.07826530644201142
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "基础复习"
             }
           }
         ]
@@ -125,7 +140,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {},
+          "state": {
+            "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
+          },
           "icon": "lucide-list",
           "title": "大纲"
         }
@@ -147,5 +164,9 @@
     }
   },
   "active": "b76b5b358f8a9415",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "JUC/JUC.md",
+    "三分/面渣逆袭Java基础篇V2.0.pdf",
+    "面试/java/基础复习.canvas"
+  ]
 }

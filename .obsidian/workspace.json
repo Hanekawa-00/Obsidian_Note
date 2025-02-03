@@ -48,6 +48,18 @@
             }
           },
           {
+            "id": "5e47ff8c7178bf75",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
             "id": "1ef467d15e94f99c",
             "type": "leaf",
             "state": {
@@ -81,7 +93,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -178,10 +191,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/链表/142.环形链表2.md"
+                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md"
               },
               "icon": "lucide-list",
-              "title": "142.环形链表2 的大纲"
+              "title": "开发周期 的大纲"
             }
           },
           {
@@ -214,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ef467d15e94f99c",
+  "active": "5e47ff8c7178bf75",
   "lastOpenFiles": [
-    "leetcode/链表/141.环形链表1.md",
     "leetcode/链表/142.环形链表2.md",
+    "leetcode/链表/141.环形链表1.md",
     "leetcode/动态规划/138.单词拆分.md",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "leetcode/回溯/138.随机链表的复制.md",

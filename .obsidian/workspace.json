@@ -36,17 +36,13 @@
             }
           },
           {
-            "id": "ba5f7cb7b86a81ec",
+            "id": "4e48a4bdb8249639",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "leetcode/分治/215.数组中的第k个最大元素.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "215.数组中的第k个最大元素"
+              "title": "新标签页"
             }
           }
         ],
@@ -167,13 +163,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode/分治/215.数组中的第k个最大元素.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "215.数组中的第k个最大元素 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -206,11 +201,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "4e48a4bdb8249639",
   "lastOpenFiles": [
+    "MyProject/intelligent-bi-platform-microServices/库表设计.md",
+    "2025-01-26.md",
     "leetcode/分治/215.数组中的第k个最大元素.md",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
-    "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "leetcode/搜索/207.课程表.md",
     "leetcode/搜索/拓扑排序.md",
     "leetcode/搜索/200.岛屿数量.md",
@@ -237,7 +233,6 @@
     "leetcode/动态规划/118.杨辉三角.md",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "面试/java/抽象类和接口有什么区别.md",
-    "面试/java/Java中的序列化是什么？.md",
     "面试/java/Untitled Diagram.svg",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "三分/04-面渣逆袭 JVM.pdf",

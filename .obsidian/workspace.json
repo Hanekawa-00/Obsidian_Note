@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode/搜索/236.二叉树的最近公共祖先.md",
+                "file": "leetcode/搜索/74.搜索二维矩阵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "236.二叉树的最近公共祖先"
+              "title": "74.搜索二维矩阵"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:回溯",
+                "query": "搜索二维",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,9 +205,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e48a4bdb8249639",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
+    "leetcode/动态规划/未命名",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "2025-01-26.md",
     "leetcode/分治/215.数组中的第k个最大元素.md",
@@ -235,7 +237,6 @@
     "leetcode/数组/128.最长子序列长度.md",
     "面试/java/基础复习.canvas",
     "leetcode/动态规划/121.买卖股票的最佳时机.md",
-    "leetcode/动态规划/118.杨辉三角.md",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "面试/java/Untitled Diagram.svg",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
@@ -246,7 +247,6 @@
     "MyProject/IntelligentBiPlatform-废弃/assets",
     "MyProject/IntelligentBiPlatform-废弃",
     "MyProject",
-    "leetcode/排序",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",

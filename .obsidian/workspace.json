@@ -39,10 +39,14 @@
             "id": "4e48a4bdb8249639",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "leetcode/搜索/236.二叉树的最近公共祖先.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "236.二叉树的最近公共祖先"
             }
           }
         ],
@@ -203,6 +207,7 @@
   },
   "active": "4e48a4bdb8249639",
   "lastOpenFiles": [
+    "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "2025-01-26.md",
     "leetcode/分治/215.数组中的第k个最大元素.md",
@@ -232,7 +237,6 @@
     "leetcode/动态规划/121.买卖股票的最佳时机.md",
     "leetcode/动态规划/118.杨辉三角.md",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "面试/java/抽象类和接口有什么区别.md",
     "面试/java/Untitled Diagram.svg",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "三分/04-面渣逆袭 JVM.pdf",

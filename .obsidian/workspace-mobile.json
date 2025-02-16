@@ -13,30 +13,24 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
+                "file": "三分/面渣逆袭 JVM篇 V2.0.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭Java基础篇V2.0"
+              "title": "面渣逆袭 JVM篇 V2.0"
             }
           },
           {
-            "id": "04036cf44a1d249e",
+            "id": "2af5e9d0a008b6a8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "面试/java/基础复习.canvas",
-                "viewState": {
-                  "x": -14.959126014993501,
-                  "y": -374.0929190686482,
-                  "zoom": 0.07826530644201142
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "基础复习"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +45,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabetical",
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -141,7 +136,9 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭Java基础篇V2.0.pdf"
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-list",
           "title": "大纲"
@@ -159,14 +156,40 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76b5b358f8a9415",
+  "active": "2af5e9d0a008b6a8",
   "lastOpenFiles": [
-    "JUC/JUC.md",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "面试/JVM/JVM.md",
+    "leetcode/链表/206.反转链表.md",
+    "leetcode/动态规划/198.打家劫舍.md",
+    "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
+    "leetcode/动态规划/assets",
+    "leetcode/搜索/200.岛屿数量.md",
+    "leetcode/回溯/138.随机链表的复制.md",
+    "leetcode/动态规划/138.单词拆分.md",
+    "leetcode/动态规划/238.除自身以外数组的乘积.md",
+    "leetcode/动态规划/279.完全平方数.md",
+    "leetcode/数组/189.轮转数组.md",
+    "leetcode/分治/148.排序链表.md",
+    "leetcode/搜索/160.相交链表.md",
+    "leetcode/搜索/拓扑排序.md",
+    "leetcode/搜索/199.二叉树的右视图.md",
+    "leetcode/动态规划/152.乘积最大数组.md",
+    "leetcode/链表/141.环形链表1.md",
+    "leetcode/链表/142.环形链表2.md",
+    "leetcode/搜索/236.二叉树的最近公共祖先.md",
+    "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
+    "leetcode/搜索/207.课程表.md",
+    "leetcode/分治/215.数组中的第k个最大元素.md",
+    "面试/JVM/Drawing 2025-02-16 09.27.17.excalidraw.md",
+    "三分/02-面渣逆袭 Java 集合框架篇.pdf",
+    "面试/java/基础复习.canvas",
+    "三分/面渣逆袭集合框架篇V2.0.pdf",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "面试/java/基础复习.canvas"
+    "三分/面渣逆袭 Spring 篇.pdf",
+    "JUC/JUC.md"
   ]
 }

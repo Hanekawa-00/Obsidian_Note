@@ -20,7 +20,19 @@
             }
           },
           {
-            "id": "2af5e9d0a008b6a8",
+            "id": "c65b5e368dd5939c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-16 10.26.36.excalidraw"
+            }
+          },
+          {
+            "id": "fedaee130a582237",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,20 +44,9 @@
               "icon": "lucide-file",
               "title": "JVM"
             }
-          },
-          {
-            "id": "c65b5e368dd5939c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-16 10.26.36.excalidraw"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,7 +152,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 JVM篇 V2.0.pdf",
+            "file": "面试/JVM/JVM.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -165,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -175,10 +177,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76b5b358f8a9415",
+  "active": "fedaee130a582237",
   "lastOpenFiles": [
-    "面试/JVM/JVM.md",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "面试/JVM/JVM.md",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "leetcode/链表/206.反转链表.md",

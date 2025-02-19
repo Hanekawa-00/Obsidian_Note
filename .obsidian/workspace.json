@@ -42,15 +42,25 @@
               "type": "markdown",
               "state": {
                 "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "开发周期"
             }
+          },
+          {
+            "id": "819a6482d4959c99",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -69,7 +79,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -167,24 +178,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md"
+                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "开发周期 的大纲"
             }
-          },
-          {
-            "id": "91d544e0372adb40",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,12 +202,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "99770f590fb1d291",
+  "active": "819a6482d4959c99",
   "lastOpenFiles": [
     "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/intelligent-bi-platform-microServices/开发量预估.md",

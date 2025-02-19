@@ -50,13 +50,15 @@
             }
           },
           {
-            "id": "819a6482d4959c99",
+            "id": "56794a8c51c3bb8d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
         ],
@@ -186,9 +188,19 @@
               "icon": "lucide-list",
               "title": "开发周期 的大纲"
             }
+          },
+          {
+            "id": "f0e705183fb39b32",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -203,10 +215,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "819a6482d4959c99",
+  "active": "56794a8c51c3bb8d",
   "lastOpenFiles": [
     "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/intelligent-bi-platform-microServices/开发量预估.md",

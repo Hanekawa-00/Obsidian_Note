@@ -53,12 +53,14 @@
             "id": "56794a8c51c3bb8d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "课件/ts课件/听书软件环境安装.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "听书软件环境安装"
             }
           }
         ],
@@ -180,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+                "file": "课件/ts课件/听书软件环境安装.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "开发周期 的大纲"
+              "title": "听书软件环境安装 的大纲"
             }
           },
           {
@@ -200,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -219,8 +221,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56794a8c51c3bb8d",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
+    "MyProject/IntelligentBiPlatform-废弃/项目后端初始化.md",
     "MyProject/intelligent-bi-platform-microServices/工具栈.md",
     "MyProject/intelligent-bi-platform-microServices/开发量预估.md",
     "面试/JVM/JVM.md",
@@ -250,7 +253,6 @@
     "leetcode/动态规划/assets",
     "leetcode/动态规划/279.完全平方数.md",
     "leetcode/动态规划/238.除自身以外数组的乘积.md",
-    "leetcode/动态规划/198.打家劫舍.md",
     "MyProject/intelligent-bi-platform-microServices",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",
     "MyProject/IntelligentBiPlatform-废弃/assets",

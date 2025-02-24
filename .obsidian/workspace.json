@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -171,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +192,7 @@
   },
   "active": "679b90a04f637494",
   "lastOpenFiles": [
+    "面试/JUC/Java并发编程.xmind",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/Test.xmind",
     "面试/JUC/未命名.canvas",

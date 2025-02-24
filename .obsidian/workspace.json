@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3af720ef1cb30ce9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "面试/JUC/JUC.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "JUC"
-            }
-          },
-          {
             "id": "679b90a04f637494",
             "type": "leaf",
             "state": {
@@ -205,8 +188,12 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "3af720ef1cb30ce9",
+  "active": "679b90a04f637494",
   "lastOpenFiles": [
+    "面试/JUC/ReentrantLock和synchronized区别.md",
+    "面试/JUC/Test.xmind",
+    "面试/JUC/未命名.canvas",
+    "面试/JUC/未命名.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.canvas",
     "面试/JUC/Mind 2025-02-24 16.50.30.mindmap.md",
@@ -237,8 +224,6 @@
     "leetcode/数组/189.轮转数组.md",
     "leetcode/数组/128.最长子序列长度.md",
     "leetcode/搜索/拓扑排序.md",
-    "leetcode/搜索/236.二叉树的最近公共祖先.md",
-    "leetcode/搜索/207.课程表.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
     "leetcode/动态规划/assets",
     "MyProject/intelligent-bi-platform-microServices",
@@ -247,7 +232,6 @@
     "MyProject/IntelligentBiPlatform-废弃",
     "leetcode/搜索",
     "MyProject/IntelligentBiPlatform/assets/Pasted Image 20250121120602_967.webp",
-    "MyProject/IntelligentBiPlatform/assets",
     "Spring Security/assets/delegatingfilterproxy.png",
     "面试/MySQL/B+树索引查询数据全过程.canvas",
     "面试/MySQL/assets/Pasted image 20250105135452.webp",

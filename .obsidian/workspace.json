@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae04ff6418c78c8a",
+        "id": "a2833e526fe736da",
         "type": "tabs",
         "children": [
           {
-            "id": "679b90a04f637494",
+            "id": "2d135bc5b5b9e0b3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/03-面渣逆袭Java并发编程.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "03-面渣逆袭Java并发编程"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -76,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -156,16 +153,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "4080358328e67818",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
           }
         ],
         "currentTab": 4
@@ -189,14 +176,14 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "679b90a04f637494",
+  "active": "2d135bc5b5b9e0b3",
   "lastOpenFiles": [
+    "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/Java并发编程.xmind",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/Test.xmind",
     "面试/JUC/未命名.canvas",
     "面试/JUC/未命名.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.canvas",
     "面试/JUC/Mind 2025-02-24 16.50.30.mindmap.md",
     "leetcode/数组/56.合并区间.md",

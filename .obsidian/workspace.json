@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JUC/守护线程.md",
+                "file": "面试/JUC/线程通信.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "守护线程"
+              "title": "线程通信"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "2d135bc5b5b9e0b3",
   "lastOpenFiles": [
-    "面试/JUC/守护线程.md",
+    "面试/JUC/线程通信.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
+    "面试/JUC/守护线程.md",
     "面试/JUC/线程中断.md",
     "面试/JUC/响应中断.md",
     "面试/JUC/Java并发编程.xmind",
@@ -231,7 +232,6 @@
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "leetcode/链表/206.反转链表.md",
-    "leetcode/链表/142.环形链表2.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
     "leetcode/动态规划/assets",
     "MyProject/intelligent-bi-platform-microServices",

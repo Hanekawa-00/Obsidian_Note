@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +195,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "f0e705183fb39b32",
+  "active": "2d135bc5b5b9e0b3",
   "lastOpenFiles": [
     "面试/JUC/守护线程.md",
     "三分/03-面渣逆袭Java并发编程.pdf",

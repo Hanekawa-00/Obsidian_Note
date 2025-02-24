@@ -4,21 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "9f327aa68ad167ef",
+        "id": "ae04ff6418c78c8a",
         "type": "tabs",
         "children": [
           {
-            "id": "b280736c478e556b",
+            "id": "3af720ef1cb30ce9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "leetcode/数组/56.合并区间.md",
-                "mode": "source",
-                "source": false
+                "file": "面试/JUC/JUC.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "56.合并区间"
+              "icon": "lucide-layout-dashboard",
+              "title": "JUC"
+            }
+          },
+          {
+            "id": "679b90a04f637494",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "三分/03-面渣逆袭Java并发编程.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03-面渣逆袭Java并发编程"
             }
           }
         ]
@@ -167,23 +182,13 @@
               "icon": "message-square",
               "title": "Copilot"
             }
-          },
-          {
-            "id": "70d949050c96d572",
-            "type": "leaf",
-            "state": {
-              "type": "mxmind-view",
-              "state": {},
-              "icon": "network",
-              "title": "Mxmind"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 951.5
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,14 +205,16 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b280736c478e556b",
+  "active": "3af720ef1cb30ce9",
   "lastOpenFiles": [
-    "面试/JUC/总结.canvas",
+    "三分/03-面渣逆袭Java并发编程.pdf",
+    "面试/JUC/JUC.canvas",
+    "面试/JUC/Mind 2025-02-24 16.50.30.mindmap.md",
     "leetcode/数组/56.合并区间.md",
+    "面试/JUC/总结.canvas",
     "未命名.md",
     "面试/JUC/响应中断.md",
     "面试/JUC/什么是锁降级.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
     "MyProject/intelligent-bi-platform-microServices/面试/文件分片上传.md",
     "面试/消息队列/消息队列的作用.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
@@ -232,7 +239,6 @@
     "leetcode/搜索/拓扑排序.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "leetcode/搜索/207.课程表.md",
-    "leetcode/搜索/200.岛屿数量.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
     "leetcode/动态规划/assets",
     "MyProject/intelligent-bi-platform-microServices",

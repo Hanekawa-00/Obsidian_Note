@@ -39,14 +39,12 @@
             "id": "4e48a4bdb8249639",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "leetcode/动态规划/279.完全平方数.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/03-面渣逆袭Java并发编程.pdf"
               },
-              "icon": "lucide-file",
-              "title": "279.完全平方数"
+              "icon": "lucide-file-text",
+              "title": "03-面渣逆袭Java并发编程"
             }
           }
         ],
@@ -107,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -205,14 +204,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "4e48a4bdb8249639",
   "lastOpenFiles": [
+    "leetcode/动态规划/279.完全平方数.md",
     "面试/JVM/JVM.md",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "MyProject/intelligent-bi-platform-microServices/面试/文件分片上传.md",
     "MyProject/intelligent-bi-platform-microServices/面试",
     "leetcode/搜索/74.搜索二维矩阵.md",
-    "leetcode/动态规划/279.完全平方数.md",
     "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "leetcode/动态规划/未命名",

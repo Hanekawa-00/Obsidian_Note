@@ -11,12 +11,12 @@
             "id": "2d135bc5b5b9e0b3",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "pdf",
               "state": {
-                "file": "面试/JUC/JUC.md"
+                "file": "三分/03-面渣逆袭Java并发编程.pdf"
               },
-              "icon": "blocks",
-              "title": "JUC"
+              "icon": "lucide-file-text",
+              "title": "03-面渣逆袭Java并发编程"
             }
           }
         ]
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -161,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +182,11 @@
   },
   "active": "2d135bc5b5b9e0b3",
   "lastOpenFiles": [
-    "未命名思维导图.md",
+    "面试/JUC/Java并发编程.xmind",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
-    "面试/JUC/Java并发编程.xmind",
+    "未命名思维导图.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/Test.xmind",
     "面试/JUC/未命名.canvas",
@@ -214,8 +217,6 @@
     "leetcode/链表/206.反转链表.md",
     "leetcode/链表/142.环形链表2.md",
     "leetcode/链表/141.环形链表1.md",
-    "leetcode/数组/189.轮转数组.md",
-    "leetcode/数组/128.最长子序列长度.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
     "leetcode/动态规划/assets",
     "MyProject/intelligent-bi-platform-microServices",

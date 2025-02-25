@@ -36,17 +36,15 @@
             }
           },
           {
-            "id": "4e48a4bdb8249639",
+            "id": "4c5168e03efcac1b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "面试/JUC/CountDownLatch 与 join 方法的区别.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.8.7"
               },
-              "icon": "lucide-file",
-              "title": "CountDownLatch 与 join 方法的区别"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
         ],
@@ -205,8 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e48a4bdb8249639",
+  "active": "4c5168e03efcac1b",
   "lastOpenFiles": [
+    "面试/JUC/Java并发编程.xmind",
+    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
@@ -215,7 +215,6 @@
     "面试/JUC/线程通信.md",
     "面试/JUC/线程中断.md",
     "面试/JUC/守护线程.md",
-    "面试/JUC/Java并发编程.xmind",
     "leetcode/动态规划/279.完全平方数.md",
     "面试/JVM/JVM.md",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
@@ -237,8 +236,6 @@
     "leetcode/动态规划/198.打家劫舍.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "leetcode/动态规划/assets",
-    "leetcode/数组/189.轮转数组.md",
-    "leetcode/动态规划/152.乘积最大数组.md",
     "面试/java/基础复习.canvas",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
     "面试/java/Untitled Diagram.svg",

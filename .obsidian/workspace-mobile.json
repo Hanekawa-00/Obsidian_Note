@@ -59,7 +59,8 @@
               "title": "jvm"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -189,12 +191,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b76b5b358f8a9415",
+  "active": "f8524c89e262ab29",
   "lastOpenFiles": [
+    "日本語/日常会話.md",
+    "日本語",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "面试/JVM/JVM.md",
     "JVM/jvm.md",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "leetcode/链表/206.反转链表.md",

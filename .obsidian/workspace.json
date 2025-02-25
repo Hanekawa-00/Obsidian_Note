@@ -46,23 +46,9 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
-          },
-          {
-            "id": "355a552030a24134",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,7 +203,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "355a552030a24134",
+  "active": "609a7f12bacd9f60",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "日本語/日常会話.md",

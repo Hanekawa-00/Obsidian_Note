@@ -2,6 +2,12 @@
   "obsidian-excalidraw-plugin",
   "image-converter",
   "obsidian-annotator",
+<<<<<<< HEAD
   "obsidian-git",
   "xmind-viewer"
+=======
+  "xmind-viewer",
+  "obsidian-enhancing-mindmap",
+  "obsidian-git"
+>>>>>>> origin/master
 ]

@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭 JVM篇 V2.0.pdf"
+                "file": "三分/03-面渣逆袭Java并发编程.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭 JVM篇 V2.0"
+              "title": "03-面渣逆袭Java并发编程"
             }
           },
           {
@@ -179,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -191,10 +192,12 @@
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
-    "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "面试/JVM/JVM.md",
     "JVM/jvm.md",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "日本語/日常会話.md",
+    "日本語",
+    "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "leetcode/链表/206.反转链表.md",
@@ -223,7 +226,6 @@
     "面试/java/基础复习.canvas",
     "三分/面渣逆袭集合框架篇V2.0.pdf",
     "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "三分/面渣逆袭 Spring 篇.pdf",
-    "JUC/JUC.md"
+    "三分/面渣逆袭 Spring 篇.pdf"
   ]
 }

@@ -46,9 +46,23 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.7"
             }
+          },
+          {
+            "id": "355a552030a24134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,15 +217,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c5168e03efcac1b",
+  "active": "355a552030a24134",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "日本語/日常会話.md",
+    "日本語",
     "面试/JUC/Java并发编程.xmind",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
-    "conflict-files-obsidian-git.md",
     "面试/JUC/线程通信.md",
     "面试/JUC/线程中断.md",
     "面试/JUC/守护线程.md",
@@ -242,7 +258,6 @@
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "三分/04-面渣逆袭 JVM.pdf",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
-    "MyProject/intelligent-bi-platform-microServices",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",

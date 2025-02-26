@@ -11,10 +11,12 @@
             "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭并发编程篇V2.0"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -173,7 +176,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",

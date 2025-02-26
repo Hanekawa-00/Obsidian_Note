@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -166,8 +165,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -175,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,12 +186,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "87e2235862706c08",
   "lastOpenFiles": [
+    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+    "三分/03-面渣逆袭Java并发编程.pdf",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "conflict-files-obsidian-git.md",
     "日本語/日常会話.md",
@@ -201,7 +202,6 @@
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/线程通信.md",
     "面试/JUC/线程中断.md",
     "面试/JUC/守护线程.md",
@@ -216,13 +216,11 @@
     "leetcode/动态规划/未命名",
     "2025-01-26.md",
     "leetcode/分治/215.数组中的第k个最大元素.md",
-    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "leetcode/搜索/207.课程表.md",
     "leetcode/搜索/拓扑排序.md",
     "leetcode/搜索/200.岛屿数量.md",
     "leetcode/链表/206.反转链表.md",
     "leetcode/搜索/199.二叉树的右视图.md",
-    "leetcode/动态规划/198.打家劫舍.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "leetcode/动态规划/assets",
     "面试/java/基础复习.canvas",

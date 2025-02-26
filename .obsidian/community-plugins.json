@@ -1,5 +1,8 @@
 [
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "image-converter",
+  "mxmind",
+  "xmind-viewer"
 ]

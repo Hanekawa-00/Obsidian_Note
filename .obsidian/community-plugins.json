@@ -1,8 +1,12 @@
 [
+<<<<<<< HEAD
   "obsidian-git",
   "obsidian-enhancing-mindmap",
   "obsidian-excalidraw-plugin",
   "image-converter",
   "obsidian-annotator",
   "xmind-viewer"
+=======
+  "mxmind"
+>>>>>>> origin/master
 ]

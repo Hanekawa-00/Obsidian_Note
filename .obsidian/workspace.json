@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -191,6 +192,7 @@
   },
   "active": "609a7f12bacd9f60",
   "lastOpenFiles": [
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "conflict-files-obsidian-git.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",

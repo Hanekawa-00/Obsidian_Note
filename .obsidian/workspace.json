@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "be8a1243c1af37e6",
+        "id": "71a11af4c5d350a2",
         "type": "tabs",
         "children": [
           {
-            "id": "aefafae35f56af92",
+            "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MyProject/intelligent-bi-platform-microServices/开发周期.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "开发周期"
-            }
-          },
-          {
-            "id": "87e2235862706c08",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/03-面渣逆袭Java并发编程.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "03-面渣逆袭Java并发编程"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -166,8 +148,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -175,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,16 +169,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
+    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
-    "conflict-files-obsidian-git.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
+    "三分/03-面渣逆袭Java并发编程.pdf",
+    "三分/面渣逆袭 JVM篇 V2.0.pdf",
+    "conflict-files-obsidian-git.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "日本語/日常会話.md",
     "日本語",
@@ -226,11 +213,7 @@
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "leetcode/动态规划/assets",
     "面试/java/基础复习.canvas",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
     "面试/java/Untitled Diagram.svg",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
-    "三分/04-面渣逆袭 JVM.pdf",
-    "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",

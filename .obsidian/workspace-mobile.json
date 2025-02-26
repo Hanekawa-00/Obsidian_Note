@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "c65b5e368dd5939c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-16 10.26.36.excalidraw"
-            }
-          },
-          {
             "id": "fedaee130a582237",
             "type": "leaf",
             "state": {
@@ -173,13 +161,22 @@
           "icon": "lucide-list",
           "title": "大纲"
         }
+      },
+      {
+        "id": "90d8e1603aabcbd4",
+        "type": "leaf",
+        "state": {
+          "type": "mxmind-view",
+          "state": {},
+          "icon": "network",
+          "title": "Mxmind"
+        }
       }
     ],
     "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -187,11 +184,14 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "mxmind:Mxmind": false
     }
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "面试/JUC/JUC.md",
+    "面试/JUC/未命名.md",
+    "三分/03-面渣逆袭Java并发编程.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "面试/JVM/JVM.md",
     "JVM/jvm.md",
@@ -221,7 +221,6 @@
     "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
     "leetcode/搜索/207.课程表.md",
     "leetcode/分治/215.数组中的第k个最大元素.md",
-    "面试/JVM/Drawing 2025-02-16 09.27.17.excalidraw.md",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "面试/java/基础复习.canvas",
     "三分/面渣逆袭集合框架篇V2.0.pdf",

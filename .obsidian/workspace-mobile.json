@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/03-面渣逆袭Java并发编程.pdf"
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "03-面渣逆袭Java并发编程"
+              "title": "面渣逆袭并发编程篇V2.0"
             }
           },
           {
@@ -177,6 +177,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -189,9 +191,9 @@
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.md",
     "面试/JUC/未命名.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "面试/JVM/JVM.md",
     "JVM/jvm.md",
@@ -220,7 +222,6 @@
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
     "leetcode/搜索/207.课程表.md",
-    "leetcode/分治/215.数组中的第k个最大元素.md",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "面试/java/基础复习.canvas",
     "三分/面渣逆袭集合框架篇V2.0.pdf",

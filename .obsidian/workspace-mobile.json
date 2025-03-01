@@ -46,8 +46,19 @@
               "icon": "lucide-file",
               "title": "jvm"
             }
+          },
+          {
+            "id": "b404300ae435c484",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +164,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 JVM篇 V2.0.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -173,7 +183,7 @@
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +199,9 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76b5b358f8a9415",
+  "active": "b404300ae435c484",
   "lastOpenFiles": [
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.md",
     "面试/JUC/未命名.md",

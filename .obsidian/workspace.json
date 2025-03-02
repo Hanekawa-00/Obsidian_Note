@@ -11,12 +11,14 @@
             "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+                "file": "日本語/表达差异.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "icon": "lucide-file",
+              "title": "表达差异"
             }
           }
         ]
@@ -38,8 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -76,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -172,22 +172,23 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
-      "mxmind:Mxmind": false
+      "mxmind:Mxmind": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "日本語/日常会話.md",
+    "日本語/表达差异.md",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "conflict-files-obsidian-git.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "日本語/日常会話.md",
     "日本語",
     "面试/JUC/Java并发编程.xmind",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
@@ -214,7 +215,6 @@
     "leetcode/链表/206.反转链表.md",
     "leetcode/搜索/199.二叉树的右视图.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
-    "leetcode/动态规划/assets",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",

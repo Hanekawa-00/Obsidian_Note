@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -177,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "727641599e099983",
   "lastOpenFiles": [
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",

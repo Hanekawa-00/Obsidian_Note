@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日本語/表达差异.md",
+                "file": "日本語/1.日语句子结构基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "表达差异"
+              "title": "1.日语句子结构基础"
             }
           },
           {
@@ -47,8 +47,7 @@
               "title": "面渣逆袭并发编程篇V2.0"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -166,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
+                "file": "日本語/1.日语句子结构基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭并发编程篇V2.0 的大纲"
+              "title": "1.日语句子结构基础 的大纲"
             }
           },
           {
@@ -190,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,13 +204,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "61cd64b02d98e5af",
+  "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
-    "面试/JUC/场景题.md",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "日本語/日常会話.md",
+    "日本語/1.日语句子结构基础.md",
     "日本語/表达差异.md",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
+    "面试/JUC/场景题.md",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",

@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "场景题"
             }
+          },
+          {
+            "id": "61cd64b02d98e5af",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭并发编程篇V2.0"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/JUC/场景题.md",
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "场景题 的大纲"
+              "title": "面渣逆袭并发编程篇V2.0 的大纲"
             }
           },
           {
@@ -195,10 +207,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "727641599e099983",
+  "active": "61cd64b02d98e5af",
   "lastOpenFiles": [
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "日本語/日常会話.md",
     "日本語/表达差异.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",

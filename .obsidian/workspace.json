@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日本語/4.俗语转化和表达维度转换思维.md",
+                "file": "日本語/6.一词多”译“语境.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.俗语转化和表达维度转换思维"
+              "title": "6.一词多”译“语境"
             }
           },
           {
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日本語/4.俗语转化和表达维度转换思维.md",
+                "file": "日本語/6.一词多”译“语境.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4.俗语转化和表达维度转换思维 的大纲"
+              "title": "6.一词多”译“语境 的大纲"
             }
           },
           {
@@ -206,10 +206,12 @@
   },
   "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "日本語/5.日语会话中常用句式.md",
+    "日本語/6.一词多”译“语境.md",
+    "日本語/4.俗语转化和表达维度转换思维.md",
     "日本語/1.日语句子结构基础.md",
     "日本語/2.修饰语原则与形式体言解析.md",
     "日本語/3.日语表达习惯.md",
-    "日本語/4.俗语转化和表达维度转换思维.md",
     "日本語/日常会話.md",
     "日本語/表达差异.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
@@ -240,8 +242,6 @@
     "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "leetcode/动态规划/未命名",
-    "2025-01-26.md",
-    "leetcode/分治/215.数组中的第k个最大元素.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

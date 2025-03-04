@@ -18,8 +18,19 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭并发编程篇V2.0"
             }
+          },
+          {
+            "id": "a80954fa9ed2e98b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -172,16 +182,16 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
-      "mxmind:Mxmind": false
+      "mxmind:Mxmind": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf3df382ec32b60",
+  "active": "a80954fa9ed2e98b",
   "lastOpenFiles": [
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",

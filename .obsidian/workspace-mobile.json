@@ -61,8 +61,7 @@
               "title": "1.日语句子结构基础"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +167,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "日本語/1.日语句子结构基础.md",
+            "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -192,7 +191,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -204,8 +202,9 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b404300ae435c484",
+  "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "日本語/1.日语句子结构基础.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "JVM/jvm.md",
     "三分/03-面渣逆袭Java并发编程.pdf",

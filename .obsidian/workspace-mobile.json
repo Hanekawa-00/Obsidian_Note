@@ -51,12 +51,14 @@
             "id": "b404300ae435c484",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+                "file": "日本語/1.日语句子结构基础.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "icon": "lucide-file",
+              "title": "1.日语句子结构基础"
             }
           }
         ],
@@ -166,7 +168,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
+            "file": "日本語/1.日语句子结构基础.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -190,6 +192,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -203,8 +206,8 @@
   },
   "active": "b404300ae435c484",
   "lastOpenFiles": [
-    "JVM/jvm.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
+    "JVM/jvm.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.md",
     "面试/JUC/未命名.md",

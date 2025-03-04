@@ -51,14 +51,17 @@
             "id": "b404300ae435c484",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "日本語/1.日语句子结构基础.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "1.日语句子结构基础"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,6 +167,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -188,7 +192,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -199,15 +202,16 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b404300ae435c484",
+  "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "日本語/1.日语句子结构基础.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
+    "JVM/jvm.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "面试/JUC/JUC.md",
     "面试/JUC/未命名.md",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "面试/JVM/JVM.md",
-    "JVM/jvm.md",
     "日本語/日常会話.md",
     "日本語",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",

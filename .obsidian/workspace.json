@@ -20,13 +20,17 @@
             }
           },
           {
-            "id": "a80954fa9ed2e98b",
+            "id": "11ee8b80b828ce3d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -186,8 +190,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a80954fa9ed2e98b",
+  "active": "11ee8b80b828ce3d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "面试/JUC/场景题.md",
+    "日本語/7.常用表达.md",
+    "日本語/6.一词多”译“语境.md",
+    "日本語/5.日语会话中常用句式.md",
+    "日本語/4.俗语转化和表达维度转换思维.md",
+    "日本語/3.日语表达习惯.md",
+    "日本語/2.修饰语原则与形式体言解析.md",
+    "日本語/1.日语句子结构基础.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
@@ -195,7 +208,6 @@
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
-    "conflict-files-obsidian-git.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "日本語/日常会話.md",
     "日本語",
@@ -216,15 +228,7 @@
     "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
     "leetcode/动态规划/未命名",
-    "2025-01-26.md",
-    "leetcode/分治/215.数组中的第k个最大元素.md",
-    "leetcode/搜索/207.课程表.md",
-    "leetcode/搜索/拓扑排序.md",
-    "leetcode/搜索/200.岛屿数量.md",
-    "leetcode/链表/206.反转链表.md",
-    "leetcode/搜索/199.二叉树的右视图.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
-    "leetcode/动态规划/assets",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",
     "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",

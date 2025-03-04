@@ -33,8 +33,7 @@
               "title": "1.日语句子结构基础"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日本語/1.日语句子结构基础.md",
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.日语句子结构基础 的大纲"
+              "title": "面渣逆袭并发编程篇V2.0 的大纲"
             }
           },
           {
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,11 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0113e2b8519e5332",
+  "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "日本語/1.日语句子结构基础.md",
     "日本語/3.日语表达习惯.md",
     "日本語/2.修饰语原则与形式体言解析.md",
-    "日本語/1.日语句子结构基础.md",
     "日本語/7.常用表达.md",
     "日本語/6.一词多”译“语境.md",
     "日本語/5.日语会话中常用句式.md",

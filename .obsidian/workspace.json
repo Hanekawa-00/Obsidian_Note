@@ -11,12 +11,14 @@
             "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭RocketMQ篇.pdf"
+                "file": "日本語/2.修饰语原则与形式体言解析.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭RocketMQ篇"
+              "icon": "lucide-file",
+              "title": "2.修饰语原则与形式体言解析"
             }
           }
         ]
@@ -178,6 +180,7 @@
   },
   "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "三分/面渣逆袭RocketMQ篇.pdf",
     "三分/面渣逆袭-分布式篇.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "sync-test.md",
@@ -213,7 +216,6 @@
     "leetcode/动态规划/279.完全平方数.md",
     "面试/JVM/JVM.md",
     "MyProject/intelligent-bi-platform-microServices/面试",
-    "leetcode/动态规划/未命名",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

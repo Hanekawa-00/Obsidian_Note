@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+                "file": "三分/面渣逆袭RocketMQ篇.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "title": "面渣逆袭RocketMQ篇"
             }
           }
         ]
@@ -136,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
+                "file": "三分/面渣逆袭RocketMQ篇.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭并发编程篇V2.0 的大纲"
+              "title": "面渣逆袭RocketMQ篇 的大纲"
             }
           },
           {
@@ -178,12 +178,13 @@
   },
   "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "三分/面渣逆袭-分布式篇.pdf",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "sync-test.md",
     "2025-01-26.md",
     "日本語/1.日语句子结构基础.md",
     "未命名.md",
     "3.md",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "日本語/3.日语表达习惯.md",
     "日本語/2.修饰语原则与形式体言解析.md",
     "日本語/7.常用表达.md",
@@ -211,7 +212,6 @@
     "面试/JUC/守护线程.md",
     "leetcode/动态规划/279.完全平方数.md",
     "面试/JVM/JVM.md",
-    "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "MyProject/intelligent-bi-platform-microServices/面试",
     "leetcode/动态规划/未命名",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",

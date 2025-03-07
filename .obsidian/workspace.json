@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+                "file": "三分/面渣逆袭 Spring 篇.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "title": "面渣逆袭 Spring 篇"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf",
+                "file": "三分/面渣逆袭 Spring 篇.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭并发编程篇V2.0 的大纲"
+              "title": "面渣逆袭 Spring 篇 的大纲"
             }
           },
           {
@@ -157,12 +157,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,13 +179,15 @@
   },
   "active": "1c73118bb2cbbcfb",
   "lastOpenFiles": [
+    "面试/框架相关/Spring.xmind",
+    "面试/框架相关",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",
     "面试/JUC/Java并发编程.xmind",
     "日本語/2.修饰语原则与形式体言解析.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "三分/面渣逆袭RocketMQ篇.pdf",
     "三分/面渣逆袭-分布式篇.pdf",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "sync-test.md",
     "2025-01-26.md",
     "日本語/1.日语句子结构基础.md",
@@ -206,7 +207,6 @@
     "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "日本語/日常会話.md",
-    "日本語",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",

@@ -18,8 +18,21 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭 Spring 篇"
             }
+          },
+          {
+            "id": "e675deaedb1f1b05",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c73118bb2cbbcfb",
+  "active": "e675deaedb1f1b05",
   "lastOpenFiles": [
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",

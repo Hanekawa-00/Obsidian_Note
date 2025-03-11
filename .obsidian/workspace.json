@@ -18,8 +18,19 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭 Spring 篇"
             }
+          },
+          {
+            "id": "4118c054ea70e592",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c73118bb2cbbcfb",
+  "active": "4118c054ea70e592",
   "lastOpenFiles": [
+    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
@@ -204,7 +216,6 @@
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "日本語/日常会話.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",

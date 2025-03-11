@@ -29,8 +29,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4118c054ea70e592",
+  "active": "1c73118bb2cbbcfb",
   "lastOpenFiles": [
     "三分/面渣逆袭 Spring 篇.pdf",
     "面试/框架相关/Spring.xmind",

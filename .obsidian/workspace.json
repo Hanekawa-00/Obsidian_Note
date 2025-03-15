@@ -11,14 +11,12 @@
             "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "日本語/7.常用表达.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/面渣逆袭 Spring 篇.pdf"
               },
-              "icon": "lucide-file",
-              "title": "7.常用表达"
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭 Spring 篇"
             }
           },
           {
@@ -104,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945
+    "width": 351.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -188,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +204,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
+    "日本語/7.常用表达.md",
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",
     "日本語/1.日语句子结构基础.md",
@@ -214,7 +215,6 @@
     "日本語/4.俗语转化和表达维度转换思维.md",
     "日本語/5.日语会话中常用句式.md",
     "日本語/6.一词多”译“语境.md",
-    "日本語/7.常用表达.md",
     "日本語/日常会話.md",
     "日本語/表达差异.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
@@ -240,7 +240,6 @@
     "面试/JVM/JVM.md",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "MyProject/intelligent-bi-platform-microServices/面试/文件分片上传.md",
-    "MyProject/intelligent-bi-platform-microServices/面试",
     "leetcode/搜索/74.搜索二维矩阵.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",

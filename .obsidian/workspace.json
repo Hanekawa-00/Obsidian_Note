@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "71a11af4c5d350a2",
+        "id": "aeb4efab3199db89",
         "type": "tabs",
         "children": [
           {
-            "id": "ccf3df382ec32b60",
+            "id": "1c73118bb2cbbcfb",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,29 +20,13 @@
             }
           },
           {
-            "id": "727641599e099983",
+            "id": "4118c054ea70e592",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/JUC/场景题.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "场景题"
-            }
-          },
-          {
-            "id": "61cd64b02d98e5af",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "title": "新标签页"
             }
           }
         ]
@@ -163,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日本語/7.常用表达.md",
+                "file": "三分/面渣逆袭 Spring 篇.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "7.常用表达 的大纲"
+              "title": "面渣逆袭 Spring 篇 的大纲"
             }
           },
           {
@@ -204,43 +188,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf3df382ec32b60",
+  "active": "1c73118bb2cbbcfb",
   "lastOpenFiles": [
-    "日本語/7.常用表达.md",
+    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",
-    "日本語/1.日语句子结构基础.md",
-    "日本語/2.修饰语原则与形式体言解析.md",
-    "日本語/3.日语表达习惯.md",
-    "日本語/4.俗语转化和表达维度转换思维.md",
-    "日本語/5.日语会话中常用句式.md",
-    "日本語/6.一词多”译“语境.md",
-    "日本語/日常会話.md",
-    "日本語/表达差异.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
+    "面试/JUC/Java并发编程.xmind",
+    "日本語/2.修饰语原则与形式体言解析.md",
+    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
+    "三分/面渣逆袭RocketMQ篇.pdf",
+    "三分/面渣逆袭-分布式篇.pdf",
+    "sync-test.md",
+    "2025-01-26.md",
+    "日本語/1.日语句子结构基础.md",
+    "未命名.md",
+    "3.md",
+    "日本語/3.日语表达习惯.md",
+    "日本語/7.常用表达.md",
+    "日本語/6.一词多”译“语境.md",
+    "日本語/5.日语会话中常用句式.md",
+    "日本語/4.俗语转化和表达维度转换思维.md",
+    "conflict-files-obsidian-git.md",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（算法篇）.pdf",
     "代码随想录/代码随想录知识星球精华（最强八股文）第五版（Java篇）.pdf",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "三分/03-面渣逆袭Java并发编程.pdf",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
-    "conflict-files-obsidian-git.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "日本語",
-    "面试/JUC/Java并发编程.xmind",
+    "日本語/日常会話.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/线程通信.md",
     "面试/JUC/线程中断.md",
     "面试/JUC/守护线程.md",
     "leetcode/动态规划/279.完全平方数.md",
-    "面试/JVM/JVM.md",
-    "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
-    "MyProject/intelligent-bi-platform-microServices/面试/文件分片上传.md",
-    "leetcode/搜索/74.搜索二维矩阵.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭 Spring 篇.pdf"
+                "file": "三分/面渣逆袭 MyBatis.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭 Spring 篇"
+              "title": "面渣逆袭 MyBatis"
             }
           },
           {
@@ -167,7 +167,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 Spring 篇.pdf",
+            "file": "三分/面渣逆袭 MyBatis.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -205,6 +205,9 @@
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "面试/框架相关/中心主题.xmind",
+    "面试/框架相关/逻辑图_2025-03-18-08-28.xmind",
+    "三分/面渣逆袭 Spring 篇.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "日本語/1.日语句子结构基础.md",
     "JVM/jvm.md",
@@ -239,8 +242,6 @@
     "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "面试/java/基础复习.canvas",
-    "三分/面渣逆袭集合框架篇V2.0.pdf",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "三分/面渣逆袭 Spring 篇.pdf"
+    "三分/面渣逆袭集合框架篇V2.0.pdf"
   ]
 }

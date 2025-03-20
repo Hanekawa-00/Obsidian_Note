@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭 MyBatis.pdf"
+                "file": "三分/面渣逆袭RocketMQ篇.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭 MyBatis"
+              "title": "面渣逆袭RocketMQ篇"
             }
           },
           {
@@ -181,7 +181,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 MyBatis.pdf",
+            "file": "三分/面渣逆袭RocketMQ篇.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -219,9 +219,10 @@
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "三分/面渣逆袭-分布式篇.pdf",
+    "三分/面渣逆袭 MyBatis.pdf",
     "临时.md",
     "日本語/1.日语句子结构基础.md",
-    "三分/面渣逆袭 MyBatis.pdf",
     "三分/面渣逆袭 Spring 篇.pdf",
     "面试/框架相关/中心主题.xmind",
     "面试/框架相关/逻辑图_2025-03-18-08-28.xmind",
@@ -255,7 +256,6 @@
     "leetcode/链表/141.环形链表1.md",
     "leetcode/链表/142.环形链表2.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
-    "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
     "面试/java/基础复习.canvas"
   ]
 }

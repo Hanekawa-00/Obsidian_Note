@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭RocketMQ篇.pdf"
+                "file": "三分/面渣逆袭计算机网络.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭RocketMQ篇"
+              "title": "面渣逆袭计算机网络"
             }
           },
           {
@@ -181,7 +181,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭RocketMQ篇.pdf",
+            "file": "三分/面渣逆袭计算机网络.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -219,6 +219,7 @@
   },
   "active": "b76b5b358f8a9415",
   "lastOpenFiles": [
+    "三分/面渣逆袭RocketMQ篇.pdf",
     "三分/面渣逆袭-分布式篇.pdf",
     "三分/面渣逆袭 MyBatis.pdf",
     "临时.md",
@@ -241,7 +242,6 @@
     "leetcode/链表/206.反转链表.md",
     "leetcode/动态规划/198.打家劫舍.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
-    "leetcode/动态规划/assets",
     "leetcode/搜索/200.岛屿数量.md",
     "leetcode/回溯/138.随机链表的复制.md",
     "leetcode/动态规划/138.单词拆分.md",

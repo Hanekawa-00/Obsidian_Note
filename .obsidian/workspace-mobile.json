@@ -12,12 +12,14 @@
             "id": "fedaee130a582237",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭计算机网络.pdf"
+                "file": "面试/JVM/JVM.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭计算机网络"
+              "icon": "lucide-file",
+              "title": "JVM"
             }
           },
           {
@@ -175,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "计算机网络.md",
+            "file": "面试/JVM/JVM.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -211,7 +213,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "621f1f2c273ee970",
+  "active": "fedaee130a582237",
   "lastOpenFiles": [
     "三分/面渣逆袭计算机网络.pdf",
     "计算机网络.md",

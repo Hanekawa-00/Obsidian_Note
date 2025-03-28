@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aeb4efab3199db89",
+        "id": "4c5606f0a789a20a",
         "type": "tabs",
         "children": [
           {
-            "id": "4118c054ea70e592",
+            "id": "82f2eb5e28e8c261",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "日本語/7.常用表达.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "7.常用表达"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -135,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭 Spring 篇.pdf",
+                "file": "日本語/7.常用表达.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭 Spring 篇 的大纲"
+              "title": "7.常用表达 的大纲"
             }
           },
           {
@@ -150,12 +153,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -175,29 +178,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "82f2eb5e28e8c261",
   "lastOpenFiles": [
+    "日本語/日常会話.md",
+    "日本語/3.日语表达习惯.md",
+    "日本語/2.修饰语原则与形式体言解析.md",
+    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
+    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/计算机基础/计算机基础.xmind",
     "面试/计算机基础",
     "面试/框架相关/Mybatis.xmind",
-    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
     "软考",
     "计算机网络.md",
-    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",
     "面试/JUC/Java并发编程.xmind",
-    "日本語/2.修饰语原则与形式体言解析.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
-    "三分/面渣逆袭RocketMQ篇.pdf",
     "sync-test.md",
     "2025-01-26.md",
     "日本語/1.日语句子结构基础.md",
     "未命名.md",
     "3.md",
-    "日本語/3.日语表达习惯.md",
     "日本語/7.常用表达.md",
     "日本語/6.一词多”译“语境.md",
     "日本語/5.日语会话中常用句式.md",
@@ -205,7 +208,6 @@
     "conflict-files-obsidian-git.md",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "日本語/日常会話.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",

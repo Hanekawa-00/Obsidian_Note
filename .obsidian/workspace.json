@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1c73118bb2cbbcfb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/面渣逆袭 Spring 篇.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 Spring 篇"
-            }
-          },
-          {
             "id": "4118c054ea70e592",
             "type": "leaf",
             "state": {

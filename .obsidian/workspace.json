@@ -11,10 +11,12 @@
             "id": "6fd10955dd2c82a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭操作系统.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭操作系统"
             }
           }
         ]
@@ -134,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "三分/面渣逆袭操作系统.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "面渣逆袭操作系统 的大纲"
             }
           },
           {
@@ -173,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "6fd10955dd2c82a5",
   "lastOpenFiles": [
     "日本語/7.常用表达.md",
     "日本語/日常会話.md",

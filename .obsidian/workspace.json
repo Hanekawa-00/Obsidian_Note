@@ -33,8 +33,7 @@
               "title": "面渣逆袭操作系统"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭操作系统.pdf",
+                "file": "面试/计算机基础/操作系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭操作系统 的大纲"
+              "title": "操作系统 的大纲"
             }
           },
           {
@@ -176,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4762fa4e146f1a1d",
+  "active": "ecfe6880ca007482",
   "lastOpenFiles": [
-    "面试/计算机基础/操作系统.md",
     "三分/面渣逆袭操作系统.pdf",
+    "面试/计算机基础/操作系统.md",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "计算机网络.md",
     "面试/计算机基础/assets/image.png",

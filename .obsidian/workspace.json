@@ -8,35 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fd10955dd2c82a5",
+            "id": "ecfe6880ca007482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机网络.md",
+                "file": "面试/计算机基础/操作系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计算机网络"
+              "title": "操作系统"
             }
           },
           {
-            "id": "d88a92ee98f71c32",
+            "id": "4762fa4e146f1a1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/面渣逆袭操作系统.pdf"
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭操作系统"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭操作系统.pdf",
+                "file": "面试/计算机基础/操作系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭操作系统 的大纲"
+              "title": "操作系统 的大纲"
             }
           },
           {
@@ -173,11 +170,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,11 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d88a92ee98f71c32",
+  "active": "ecfe6880ca007482",
   "lastOpenFiles": [
-    "计算机网络.md",
-    "未命名.md",
     "三分/面渣逆袭操作系统.pdf",
+    "面试/计算机基础/操作系统.md",
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
+    "计算机网络.md",
+    "面试/计算机基础/assets/image.png",
+    "面试/计算机基础/assets",
+    "未命名.md",
     "日本語/7.常用表达.md",
     "日本語/日常会話.md",
     "日本語/3.日语表达习惯.md",
@@ -209,8 +211,6 @@
     "面试/框架相关/Mybatis.xmind",
     "软考",
     "面试/框架相关/Spring.xmind",
-    "面试/框架相关",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "面试/JUC/场景题.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "sync-test.md",
@@ -229,7 +229,6 @@
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/线程通信.md",
     "面试/JUC/线程中断.md",
-    "面试/JUC/守护线程.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",
@@ -240,7 +239,6 @@
     "Spring Security/assets/securitycontextholder.png",
     "Spring Security/assets/multi-securityfilterchain-17016804731631.png",
     "Spring Security/assets/image-20231223203225688.png",
-    "Spring Security/assets/image-20231223164128030.png",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
 }

@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "4762fa4e146f1a1d",
+            "id": "31ad34e754c13224",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭操作系统.pdf"
+                "file": "三分/面渣逆袭 Redis 篇.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭操作系统"
+              "title": "面渣逆袭 Redis 篇"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "ecfe6880ca007482",
   "lastOpenFiles": [
-    "三分/面渣逆袭操作系统.pdf",
+    "三分/面渣逆袭 Redis 篇.pdf",
     "面试/计算机基础/操作系统.md",
+    "三分/面渣逆袭操作系统.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "计算机网络.md",
     "面试/计算机基础/assets/image.png",
@@ -211,7 +212,6 @@
     "面试/计算机基础",
     "面试/框架相关/Mybatis.xmind",
     "软考",
-    "面试/框架相关/Spring.xmind",
     "面试/JUC/场景题.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "sync-test.md",

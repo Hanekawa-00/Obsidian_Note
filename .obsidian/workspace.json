@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "31ad34e754c13224",
+            "id": "7c18aea174f6bdbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/redis/Set的常用场景.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Set的常用场景"
+            }
+          },
+          {
+            "id": "582c13762c599e4b",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -34,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,10 +207,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31ad34e754c13224",
+  "active": "582c13762c599e4b",
   "lastOpenFiles": [
+    "面试/redis/Set的常用场景.md",
     "面试/计算机基础/操作系统.md",
+    "2025-04-02.md",
     "三分/面渣逆袭 Redis 篇.pdf",
+    "面试/redis",
     "三分/面渣逆袭操作系统.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
     "计算机网络.md",
@@ -212,7 +229,6 @@
     "面试/计算机基础/计算机基础.xmind",
     "面试/计算机基础",
     "面试/框架相关/Mybatis.xmind",
-    "软考",
     "面试/JUC/场景题.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "sync-test.md",
@@ -230,7 +246,6 @@
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/线程通信.md",
-    "面试/JUC/线程中断.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

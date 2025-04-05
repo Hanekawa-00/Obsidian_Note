@@ -39,12 +39,14 @@
             "id": "582c13762c599e4b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭 Redis 篇.pdf"
+                "file": "2025-04-05.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 Redis 篇"
+              "icon": "lucide-file",
+              "title": "2025-04-05"
             }
           }
         ],
@@ -105,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.51103591918945,
-    "collapsed": true
+    "width": 351.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -209,17 +210,19 @@
   },
   "active": "582c13762c599e4b",
   "lastOpenFiles": [
-    "面试/redis/Set的常用场景.md",
-    "面试/计算机基础/操作系统.md",
+    "2025-01-26.md",
+    "2025-04-05.md",
     "2025-04-02.md",
+    "未命名.md",
+    "计算机网络.md",
+    "面试/redis/Set的常用场景.md",
     "三分/面渣逆袭 Redis 篇.pdf",
+    "面试/计算机基础/操作系统.md",
     "面试/redis",
     "三分/面渣逆袭操作系统.pdf",
     "三分/面渣逆袭并发编程篇V2.0.pdf",
-    "计算机网络.md",
     "面试/计算机基础/assets/image.png",
     "面试/计算机基础/assets",
-    "未命名.md",
     "日本語/7.常用表达.md",
     "日本語/日常会話.md",
     "日本語/3.日语表达习惯.md",
@@ -232,7 +235,6 @@
     "面试/JUC/场景题.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "sync-test.md",
-    "2025-01-26.md",
     "日本語/1.日语句子结构基础.md",
     "3.md",
     "日本語/6.一词多”译“语境.md",
@@ -245,7 +247,6 @@
     "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
-    "面试/JUC/线程通信.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

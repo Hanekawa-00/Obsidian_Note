@@ -6,19 +6,8 @@
       {
         "id": "74a7213536b7675b",
         "type": "tabs",
+        "dimension": 60.47040971168437,
         "children": [
-          {
-            "id": "b76b5b358f8a9415",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "三分/面渣逆袭 Spring 篇.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 Spring 篇"
-            }
-          },
           {
             "id": "fedaee130a582237",
             "type": "leaf",
@@ -59,6 +48,27 @@
               },
               "icon": "lucide-file",
               "title": "1.日语句子结构基础"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e784ac390e3f0254",
+        "type": "tabs",
+        "dimension": 39.52959028831563,
+        "children": [
+          {
+            "id": "621f1f2c273ee970",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机网络.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "计算机网络"
             }
           }
         ]
@@ -167,7 +177,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 Spring 篇.pdf",
+            "file": "面试/JVM/JVM.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -203,25 +213,30 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b76b5b358f8a9415",
+  "active": "fedaee130a582237",
   "lastOpenFiles": [
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
-    "日本語/1.日语句子结构基础.md",
+    "三分/面渣逆袭计算机网络.pdf",
+    "计算机网络.md",
+    "面试/计算机基础/计算机基础.xmind",
+    "面试/计算机基础/如何高效做笔记_2025-03-22-09-58.xmind",
+    "面试/计算机基础/航天器.xmind",
+    "面试/计算机基础/航天器_2025-03-22-09-57.xmind",
+    "面试/计算机基础/思维导图_2025-03-22-09-56.xmind",
+    "面试/计算机基础/中心主题.xmind",
+    "面试/计算机基础/空白思维导图_2025-03-22-09-55.xmind",
+    "面试/计算机基础/逻辑图_2025-03-22-09-53.xmind",
+    "面试/计算机基础/思维导图_2025-03-22-09-52.xmind",
+    "面试/JVM/JVM.md",
     "JVM/jvm.md",
-    "三分/03-面渣逆袭Java并发编程.pdf",
+    "日本語/1.日语句子结构基础.md",
     "面试/JUC/JUC.md",
     "面试/JUC/未命名.md",
-    "三分/面渣逆袭 JVM篇 V2.0.pdf",
-    "面试/JVM/JVM.md",
     "日本語/日常会話.md",
-    "日本語",
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
-    "代码随想录/代码随想录知识星球精华（最强八股文）第五版（面经篇）.pdf",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "leetcode/链表/206.反转链表.md",
     "leetcode/动态规划/198.打家劫舍.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
-    "leetcode/动态规划/assets",
     "leetcode/搜索/200.岛屿数量.md",
     "leetcode/回溯/138.随机链表的复制.md",
     "leetcode/动态规划/138.单词拆分.md",
@@ -236,11 +251,6 @@
     "leetcode/链表/141.环形链表1.md",
     "leetcode/链表/142.环形链表2.md",
     "leetcode/搜索/236.二叉树的最近公共祖先.md",
-    "leetcode/搜索/153.寻找旋转排序数组的最小值.md",
-    "三分/02-面渣逆袭 Java 集合框架篇.pdf",
-    "面试/java/基础复习.canvas",
-    "三分/面渣逆袭集合框架篇V2.0.pdf",
-    "三分/面渣逆袭Java基础篇V2.0.pdf",
-    "三分/面渣逆袭 Spring 篇.pdf"
+    "面试/java/基础复习.canvas"
   ]
 }

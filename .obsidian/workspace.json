@@ -44,8 +44,19 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭并发编程篇V2.0"
             }
+          },
+          {
+            "id": "d2b5831de78e9894",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -187,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +214,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf3df382ec32b60",
+  "active": "d2b5831de78e9894",
   "lastOpenFiles": [
+    "三分/面渣逆袭 Spring 篇.pdf",
     "日本語/7.常用表达.md",
     "面试/框架相关/Spring.xmind",
     "面试/框架相关",

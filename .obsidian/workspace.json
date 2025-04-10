@@ -4,51 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "f0c13ca8cb458817",
+        "id": "71a11af4c5d350a2",
         "type": "tabs",
         "children": [
           {
-            "id": "ecfe6880ca007482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/计算机基础/操作系统.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "操作系统"
-            }
-          },
-          {
-            "id": "7c18aea174f6bdbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试/redis/Set的常用场景.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Set的常用场景"
-            }
-          },
-          {
-            "id": "582c13762c599e4b",
+            "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭 Redis 篇.pdf"
+                "file": "三分/面渣逆袭 Spring 篇.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭 Redis 篇"
+              "title": "面渣逆袭 Spring 篇"
+            }
+          },
+          {
+            "id": "727641599e099983",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/JUC/场景题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "场景题"
+            }
+          },
+          {
+            "id": "61cd64b02d98e5af",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭并发编程篇V2.0"
+            }
+          },
+          {
+            "id": "be41cc4d1afcaa7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-04-05.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-05"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/计算机基础/操作系统.md",
+                "file": "日本語/7.常用表达.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操作系统 的大纲"
+              "title": "7.常用表达 的大纲"
             }
           },
           {
@@ -207,45 +219,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "582c13762c599e4b",
+  "active": "be41cc4d1afcaa7f",
   "lastOpenFiles": [
-    "面试/redis/Set的常用场景.md",
-    "面试/计算机基础/操作系统.md",
-    "2025-04-02.md",
-    "三分/面渣逆袭 Redis 篇.pdf",
-    "面试/redis",
-    "三分/面渣逆袭操作系统.pdf",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
-    "计算机网络.md",
+    "conflict-files-obsidian-git.md",
     "面试/计算机基础/assets/image.png",
-    "面试/计算机基础/assets",
-    "未命名.md",
-    "日本語/7.常用表达.md",
-    "日本語/日常会話.md",
-    "日本語/3.日语表达习惯.md",
-    "日本語/2.修饰语原则与形式体言解析.md",
-    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
-    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/计算机基础/计算机基础.xmind",
+    "面试/计算机基础/操作系统.md",
+    "面试/计算机基础/assets",
     "面试/计算机基础",
     "面试/框架相关/Mybatis.xmind",
-    "面试/JUC/场景题.md",
-    "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
-    "sync-test.md",
-    "2025-01-26.md",
+    "面试/redis/Set的常用场景.md",
+    "面试/redis",
+    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
+    "软考",
+    "计算机网络.md",
+    "未命名.md",
+    "2025-04-05.md",
+    "三分/面渣逆袭 Spring 篇.pdf",
+    "日本語/7.常用表达.md",
+    "面试/框架相关/Spring.xmind",
+    "面试/框架相关",
     "日本語/1.日语句子结构基础.md",
-    "3.md",
-    "日本語/6.一词多”译“语境.md",
-    "日本語/5.日语会话中常用句式.md",
+    "日本語/2.修饰语原则与形式体言解析.md",
+    "日本語/3.日语表达习惯.md",
     "日本語/4.俗语转化和表达维度转换思维.md",
-    "conflict-files-obsidian-git.md",
+    "日本語/5.日语会话中常用句式.md",
+    "日本語/6.一词多”译“语境.md",
+    "日本語/日常会話.md",
+    "日本語/表达差异.md",
+    "面试/JUC/场景题.md",
+    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "MyProject/intelligent-bi-platform-microServices/开发周期.md",
     "MyProject/intelligent-bi-platform-microServices/库表设计.md",
     "面试/JUC/CountDownLatch 与 join 方法的区别.md",
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
     "面试/JUC/JUC.md",
     "面试/JUC/ReentrantLock和synchronized区别.md",
     "面试/JUC/线程通信.md",
+    "面试/JUC/线程中断.md",
+    "面试/JUC/守护线程.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

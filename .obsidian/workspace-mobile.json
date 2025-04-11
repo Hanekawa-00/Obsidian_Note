@@ -33,7 +33,8 @@
               "title": "面渣逆袭 Redis 篇"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,14 +172,13 @@
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "mxmind:Mxmind": false,
-      "obsidian-git:Open Git source control": false
+      "mxmind:Mxmind": false
     }
   },
-  "active": "4432061a8248a3c8",
+  "active": "81710c5bd64bb954",
   "lastOpenFiles": [
-    "三分/面渣逆袭 Redis 篇.pdf",
     "面试/redis/Q.md",
+    "三分/面渣逆袭 Redis 篇.pdf",
     "面试/JVM/JVM.md",
     "三分/面渣逆袭计算机网络.pdf",
     "计算机网络.md",

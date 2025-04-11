@@ -4,6 +4,6 @@
   "image-converter",
   "mxmind",
   "xmind-viewer",
-  "obsidian-git",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-git"
 ]

@@ -22,6 +22,12 @@
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
     "excalidraw-embeddable-theme": "text",
-    "excalidraw-open-md": "checkbox"
+    "excalidraw-open-md": "checkbox",
+    "updated": "datetime",
+    "年度": "date",
+    "status": "multitext",
+    "月份": "date",
+    "周数": "date",
+    "评分": "number"
   }
 }

@@ -182,20 +182,53 @@ sequenceDiagram
 	- **主节点压力:** 执行 `BGSAVE` 会消耗主节点的 CPU 和内存（fork 操作），如果数据量大，可能导致主节点短暂卡顿。同时，传输 RDB 文件会消耗大量的网络带宽。
 	- **从节点压力:** 从节点在接收 RDB 文件并加载到内存期间，通常会清空旧数据，且加载过程可能阻塞，导致从节点在这段时间内无法提供服务。
 	- **复制风暴:** 如果一个主节点挂了很多从节点，当主节点重启恢复后，所有从节点可能同时发起全量同步请求，瞬间给主节点带来巨大的压力（CPU、内存、网络），可能导致主节点再次不稳定。
+---
 # Redis Sentinel(哨兵机制)
 >解决故障转移需要手动的问题，最大限度减少服务不可用时间（停机时间）
+## 了解多少
+Redis Sentinel 是一个**分布式系统**，由一个或多个 Sentinel节点（进程）组成（提高Sentinel自身的高可用性，和利用投票选举机制防止误判）。它运行在 Redis 集群的**外部**（通常部署在独立的服务器上，或者与 Redis 节点同机但独立进程），负责**监控** Redis 主从集群的状态，并在主节点出现故障时**自动执行故障转移**操作，同时也能**通知**客户端(jedis等Java客户端框架)集群状态的变化，提高了Redis的高可用性。
+
+---
 ## 应用场景
 1. **实现 Redis 高可用 (High Availability, HA):** 当主节点失效时，能自动、快速地完成主从切换，保证 Redis 服务持续可用，**最大限度地减少停机时间**。
 2. **服务发现 (Service Discovery):** 为客户端提供当前**主节点**的地址信息。客户端不再直连固定的 Master IP，而是连接 Sentinel 集群，由 Sentinel告知当前谁是 Master。
 ---
 ## 核心价值
-Sentinel 的核心价值在于**自动化**。它将原来需要人工处理的故障发现、故障确认、节点选举、主从切换、配置更新等一系列复杂操作自动化，极大地提高了 Redis 服务的**可靠性**和**可用性**。
+Sentinel 的核心价值在于**自动化**。它将原来需要人工处理的故障发现、故障确认、节点选举、主从切换、配置更新等一系列复杂操作自动化，极大地提高了 Redis 服务的**数据一致性**和**可用性**。
 
 ---
-## 了解多少
-Redis Sentinel 是一个**分布式系统**，由一个或多个 Sentinel 实例（进程）组成。它运行在 Redis 集群的**外部**（通常部署在独立的服务器上，或者与 Redis 节点同机但独立进程），负责**监控** Redis 主从集群的状态，并在主节点出现故障时**自动执行故障转移**操作，同时也能**通知**客户端集群状态的变化。
-
+## 原理
+1. **监控（Monitoring）**：
+	- 每个 Sentinel 实例会**定期**向它监控的所有 Master 和 Slave 节点发送 `PING` 命令，检查节点是否存活。**(心跳检测)**
+	- Sentinel 还会向 Master 和 Slave 发送 `INFO` 命令，获取节点的详细信息，如角色（Master/Slave）、复制状态、连接的 Slave 列表等。
+	- Sentinel 节点之间通过 Redis 的 **Pub/Sub (发布/订阅)** 机制，在特定的频道 (`__sentinel__:hello`) 上**互相广播自己的存在**以及**对 Master 状态的判断**。这使得 Sentinel 能够发现彼此，并了解其他 Sentinel 对 Master 的看法。
+2. **故障检测 (Failure Detection):**
+	1. **主观下线 (Subjective Down, SDOWN):**
+		- 如果一个 Sentinel 实例在配置的 `down-after-milliseconds` 时间内，没有收到某个节点（Master 或 Slave）的有效 PING 回复，Sentinel就会**单方面**认为这个节点**主观下线**了。(tmd,不就是心跳检测超时嘛)
+	2. **客观下线 (Objective Down, ODOWN):**
+		- 当一个 Sentinel 认为 Master 主观下线后，它会向其他 Sentinel 实例发送 `SENTINEL is-master-down-by-addr` 命令，询问它们是否也认为该 Master 下线了。
+		- 如果收到**足够数量**（达到预设的 `quorum` 配置值）的其他 Sentinel 实例也确认该 Master 主观下线，那么这个 Sentinel 就会将该 Master 标记为**客观下线**。
+3. **Sentinel的领导者选举 (Leader Election among Sentinels):**
+	- 一旦 Master 被判定为 ODOWN（客观下线），所有认为它 ODOWN 的 Sentinel 实例会开始**选举一个领导者 (Leader Sentinel)** 来负责执行具体的故障转移操作。
+	- 选举过程基于 **Raft 算法**的一个变种。简单来说，每个 Sentinel 都可以成为候选者，通过投票争取成为 Leader。获得**超过半数** (N/2 + 1，N 是 Sentinel 总数) 选票的 Sentinel 成为 Leader。如果一轮没选出来，会增加选举轮次 (term) 并重新选举。
+4. **故障转移 (Failover Execution):**
+	- **选出新 Master:** Leader Sentinel 从 ODOWN Master 的所有 Slave 中，按照一定规则（优先级 `replica-priority` 最高 -> 复制偏移量 `offset` 最大（复制主节点内容最多） -> 运行 ID `runid` 最小）挑选一个最合适的 Slave 作为新的 Master。
+	- **提升 Slave:** Leader Sentinel 向选中的 Slave 发送 `SLAVEOF NO ONE` (或 `REPLICAOF NO ONE`) 命令，使其断开与旧 Master 的复制关系，转变角色成为新的 Master。
+	- **重新指向 (Reconfigure Slaves):** Leader Sentinel 向其他剩余的 Slave 发送 `REPLICAOF new_master_ip new_master_port` 命令，让它们开始从新的 Master 复制数据。
+	- **降级旧 Master:** Leader Sentinel 会继续监视那个已经 ODOWN 的旧 Master。如果它后来恢复了，Sentinel 会向它发送 `REPLICAOF` 命令，让它变成新 Master 的 Slave，防止“双主”情况（脑裂）。
+5. **通知 (Notification):**
+    - Sentinel 会将故障转移的结果（新的 Master 地址）通过发布/订阅机制通知给客户端（如果客户端订阅了相关事件）。Sentinel 感知型的客户端库（如 Jedis、Lettuce 的 Sentinel 模式）能够接收这些通知并自动切换到新的 Master 地址。
 ---
+## Redis Sentinel 领导者选举 (Leader Election)
+>在 Redis Sentinel 集群中，当主节点被判定为客观下线（ODOWN）时，需要立即执行故障转移操作（如选择新 Master、重新配置 Slaves）。如果多个 Sentinel 实例同时尝试执行这些操作，可能导致“脑裂”（Split-Brain）问题，即同时有多个 Sentinel 以为自己是领导者，导致数据不一致或操作冲突。
+
+ Sentinel 领导者选举是在一个 Master 节点被判定为 ODOWN 后，由所有监控该 Master 的 Sentinel 实例共同参与的一个**分布式选举过程**。其目标是从这些 Sentinel 中选出一个**唯一的 Leader**，该 Leader 将获得执行后续故障转移操作的**独占权限**。
+[[面渣逆袭 Redis 篇.pdf#page=26&selection=216,0,222,13|面渣逆袭 Redis 篇, 页面 26]]
+**选举过程**：
+- **候选者声明：** 任何检测到 ODOWN 的 Sentinel 可以成为候选者（Candidate）。它会向其他 **Sentinel** 发送投票请求。
+- **投票机制：** 每个 Sentinel 只能投票给**第一个**请求投票的候选者（类似“一票制”），并且只能投给自己所在的任期（Epoch轮次）。投票是单向的：一旦投出，就不能收回。
+- **多数票决定：** 如果一个候选者获得**超过半数**（N/2 + 1，其中 N 是 Sentinel 总数）的选票，它就成为新的 Leader。如果没有候选者获得多数票，选举失败，所有 Sentinel 会等待一个随机时间后重试。
+- **任期（Epoch）管理：** 每个选举轮次都有一个递增的 Epoch 号，确保新选举的任期高于旧的。如果一个 Sentinel 发现自己不是 Leader，它会接受新 Leader 的命令。
 
 
  

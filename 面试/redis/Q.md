@@ -201,7 +201,7 @@ Sentinel 的核心价值在于**自动化**。它将原来需要人工处理的�
 1. **监控（Monitoring）**：
 	- 每个 Sentinel 实例会**定期**向它监控的所有 Master 和 Slave 节点发送 `PING` 命令，检查节点是否存活。**(心跳检测)**
 	- Sentinel 还会向 Master 和 Slave 发送 `INFO` 命令，获取节点的详细信息，如角色（Master/Slave）、复制状态、连接的 Slave 列表等。
-	- Sentinel 节点之间通过 Redis 的 **Pub/Sub (发布/订阅)** 机制，在特定的频道 (`__sentinel__:hello`) 上**互相广播自己的存在**以及**对 Master 状态的判断**。这使得 Sentinel 能够发现彼此，并了解其他 Sentinel 对 Master 的看法。
+	- **Sentinel 节点**之间通过 Redis 的 **Pub/Sub (发布/订阅)** 机制，在特定的频道 (`__sentinel__:hello`) 上**互相广播自己的存在**以及**对 Master 状态的判断**。这使得 Sentinel 能够发现彼此，并了解其他 Sentinel 对 Master 的看法。
 2. **故障检测 (Failure Detection):**
 	1. **主观下线 (Subjective Down, SDOWN):**
 		- 如果一个 Sentinel 实例在配置的 `down-after-milliseconds` 时间内，没有收到某个节点（Master 或 Slave）的有效 PING 回复，Sentinel就会**单方面**认为这个节点**主观下线**了。(tmd,不就是心跳检测超时嘛)
@@ -229,4 +229,102 @@ Sentinel 的核心价值在于**自动化**。它将原来需要人工处理的�
 - **投票机制：** 每个 Sentinel 只能投票给**第一个**请求投票的候选者（类似“一票制”），并且只能投给自己所在的任期（Epoch轮次）。投票是单向的：一旦投出，就不能收回。
 - **多数票决定：** 如果一个候选者获得**超过半数**（N/2 + 1，其中 N 是 Sentinel 总数）的选票，它就成为新的 Leader。如果没有候选者获得多数票，选举失败，所有 Sentinel 会等待一个随机时间后重试。
 - **任期（Epoch）管理：** 每个选举轮次都有一个递增的 Epoch 号，确保新选举的任期高于旧的。如果一个 Sentinel 发现自己不是 Leader，它会接受新 Leader 的命令。
+---
+## Q 
+1. **Sentinel 为什么要进行 Leader 选举？**
+    
+    - **回答:** 为了保证在 Master 故障时，只有一个 Sentinel 实例负责执行故障转移操作，避免多个 Sentinel 同时操作导致冲突、状态混乱和 Failover 失败。确保了故障转移的唯一性、一致性和有序性。
+2. **Sentinel Leader 选举的过程是怎样的？**
+    
+    - **回答:** 基于 Raft 思想的投票机制。Sentinel 发现 Master ODOWN 后，增加自身 `epoch`，成为候选者，向其他 Sentinel 发送带 `epoch` 的拉票请求。其他 Sentinel 基于 `epoch` 检查和“同一 epoch 先到先得”的原则投票。获得超过半数选票的候选者成为 Leader。
+3. **Epoch (纪元) 在选举中起什么作用？**
+    
+    - **回答:** Epoch 用于区分不同的选举轮次或故障转移尝试。它能防止过时的选举请求或投票干扰当前的选举过程。Sentinel 只会处理不低于其当前 `epoch` 的请求，并在同一 `epoch` 内只投一次票，保证了选举的时效性和一致性。
+4. **如果一轮选举没有选出 Leader 怎么办？**
+    
+    - **回答:** 会发生选举超时。未能当选的候选者或未投票的 Sentinel 会等待一个随机的时间，然后增加自己的 `epoch`，发起新一轮的选举。随机延迟有助于错开请求，提高下一轮成功的概率。
+5. **Leader 选举如何防止“脑裂”？**
+    
+    - **回答:** 选举本身要求获得**超过半数**的 Sentinel 投票才能成为 Leader。在发生网络分区时，只有包含**多数派 Sentinel** 的那个分区才有可能选出 Leader 并执行故障转移。少数派分区即使认为 Master ODOWN，也无法获得足够的选票来选举出 Leader，因此不会错误地执行 Failover，从而避免了因 Sentinel 集群分裂而导致的脑裂问题（在 Failover 决策层面）
+---
 # Redis集群（Redis Cluster）
+1. **数据量过大：** 单个 Redis 实例的内存无法容纳全部业务数据。(数据热点集中，资源利用不均匀)
+2. **写并发过高：** 单个 Master 节点的写 QPS (Queries Per Second) 达到瓶颈，无法满足业务需求。（因为写操作在主从架构中只能通过主节点来实现单机器写性能瓶颈）
+---
+## 了解
+ Redis Cluster 是 Redis 官方提供的**分布式、去中心化、高可用**的解决方案。它将数据自动**分片 (Sharding)** 到多个 Redis 节点上，每个节点负责一部分数据和集群状态的维护。客户端可以直接连接到集群中的**任意**节点，并被**自动重定向**到正确的节点进行操作。
+ 
+---
+## 原理
+1. **数据分片 - 哈希槽 (Hash Slots):**
+    - Redis Cluster 预设了 **16384 (0 - 16383)** 个哈希槽。
+    - 集群中的**每个 Master 节点**负责处理**一部分**哈希槽。例如，3 个 Master 的集群，可能 Node A 负责 0-5460，Node B 负责 5461-10922，Node C 负责 10923-16383。
+    - 当需要对一个 Key 进行操作时（如 SET key value），集群会使用 `CRC16(key) % 16384` 算法计算出这个 Key 属于哪个槽。
+    - 然后根据集群维护的**槽位映射关系 (Slot Map)**，确定负责这个槽的 Master 节点是哪一个，并将操作请求发送到该节点。
+    
+2. **节点 (Node):** 集群中的每个 Redis 实例都称为一个节点。节点可以是 Master 或 Replica (Slave)。所有节点都参与维护集群状态。
+    
+3. **去中心化架构 (Decentralized):**
+    - 集群中的所有Redis节点通过**Gossip 协议**互相通信，交换状态信息（如节点存活状态、槽位分配信息、节点角色等）。
+    - **没有中心协调节点**（像 ZooKeeper 或 Sentinel 集群那样）。每个节点都保存了**完整**的集群状态信息（主要是槽位到节点的映射）。
+    
+4. **Gossip 协议:**
+    - 用于节点间的**状态同步**和**故障检测**。
+    - 每个节点会定期随机选择一些其他节点发送 `PING` 消息，对方回复 `PONG`。消息中携带了该节点自身的状态以及它所知道的部分其他节点的状态。
+    - 通过这种方式，节点状态信息（如节点下线、新的槽位分配）会逐渐传播到整个集群。
+    - **故障检测:** 如果一个节点在一定时间内无法与大多数其他节点通信，或者大多数节点都认为某个节点 PING 不通，该节点会被标记为**疑似下线 (PFAIL - Possible Fail)** 或**确认下线 (FAIL)**。
+    
+5. **高可用与故障转移 (Built-in HA):**
+    - 每个 Master 节点可以有一个或多个 Replica 节点。
+    - 当一个 Master 节点被集群中的**大多数** Master 节点标记为 FAIL 状态后，会触发**自动故障转移**。
+    - 该 Master 的所有 Replica 会进行**选举**（类似于 Sentinel 的 Leader 选举，但由集群内部节点完成，基于 Raft 思想），选出一个 Replica 来接替 Master 的角色。
+    - 选举出的新 Master 会接管原来 Master 负责的槽位，并开始接受写请求。
+    - 整个过程由集群内部节点自动完成，不需要外部 Sentinel。
+	
+6. **客户端路由 (Client Routing):**
+    - 客户端**需要是 Cluster-aware** 的（如 Jedis Cluster, Lettuce 的 Cluster 模式）。
+    - 客户端可以连接到集群中的**任意**一个节点发起请求。
+    - 如果请求的 Key 所在的槽正好由当前连接的节点负责，则直接处理。
+    - 如果 Key 所在的槽不由当前节点负责，该节点会回复一个 **`MOVED` 重定向错误**，告诉客户端这个槽现在由哪个节点 (`ip:port`) 负责。
+    - **智能客户端**会缓存这份槽位映射关系 (Slot Map)，后续请求会直接发送到正确的节点。当收到 `MOVED` 时，客户端会更新本地缓存的 Slot Map。
+    - 还有一种 `ASK` 重定向，用于在槽位迁移过程中临时将请求导向目标节点。
+```mermaid
+sequenceDiagram
+    participant Client
+    participant NodeA (Slots 0-5k)
+    participant NodeB (Slots 5k-10k)
+
+    Client->>NodeA: SET key_in_slot_7000 value
+    NodeA-->>Client: MOVED 7000 NodeB_ip:NodeB_port
+    Client->>Client: Update local Slot Map cache (Slot 7000 -> NodeB)
+    Client->>NodeB: SET key_in_slot_7000 value
+    NodeB-->>Client: OK
+    Client->>NodeB: GET key_in_slot_7000 (Directly to correct node)
+    NodeB-->>Client: value
+
+```
+---
+## Q
+1. **Redis Cluster 解决了什么问题？相比 Sentinel 有什么优势？**
+    
+    - **回答:** Cluster 主要解决了**数据分片 (Sharding)** 的问题，突破了单机内存和写性能瓶颈，实现了**水平扩展**。相比 Sentinel（只解决单 Master 集群的 HA），Cluster **内置了高可用**机制，无需额外部署 Sentinel，并且能够管理**分布式**的数据集。
+2. **Redis Cluster 是如何进行数据分片的？**
+    
+    - **回答:** 通过**哈希槽 (Hash Slots)**。预设 16384 个槽，每个 Key 通过 `CRC16(key) % 16384` 计算得到所属的槽。集群中的每个 Master 节点负责一部分槽。客户端根据 Key 计算出槽，再根据集群的槽位映射关系找到负责该槽的 Master 节点进行操作。
+3. **Redis Cluster 如何实现高可用和故障转移？**
+    
+    - **回答:** 每个 Master 可以有多个 Replica(从节点)。节点间通过 **Gossip 协议**监控彼此状态。当一个 Master 被多数 Master 判定为 FAIL 时，其 Replicas 会进行选举（基于 Raft 思想），选出新的 Master 接管槽位。这个过程是集群**内部自动完成**的。
+4. **什么是 Gossip 协议？在 Redis Cluster 中起什么作用？**
+    
+    - **回答:** 一种去中心化的信息传播协议。在 Cluster 中用于：
+        - **节点发现:** 新节点加入时通知其他节点。
+        - **状态同步:** 传播节点存活状态、角色、负责的槽位等信息。
+        - **故障检测:** 通过 PING/PONG 消息判断节点是否存活，为故障转移提供依据。
+5. **客户端如何与 Redis Cluster 交互？`MOVED` 和 `ASK` 重定向是什么？**
+    
+    - **回答:** 客户端需要是 Cluster-aware 的。连接任意节点，如果操作的 Key 不在该节点，会收到 `MOVED` 或 `ASK` 重定向。
+        - **`MOVED`:** 表示 Key 所属的槽**永久地**由另一个节点负责，客户端应更新本地槽位缓存，并**重试**到新节点。
+        - **`ASK`:** 表示 Key 所属的槽正在**迁移中**，本次请求应**临时**发送到目标节点执行（使用 `ASKING` 命令先声明），但**不更新**本地槽位缓存。
+6. **Redis Cluster 对批量操作 (如 MSET/MGET) 有什么限制？**
+    
+    - **回答:** 原生的 `MSET`/`MGET` 等命令要求所有涉及的 Key 必须在**同一个槽**内。如果 Key 分布在不同槽（通常情况），直接执行会失败。Cluster-aware 的客户端库通常会**拆分**批量操作，按 Slot 分组后分别发送到对应的节点，最后**聚合**结果返回给用户，对用户透明，但性能开销比单实例高。也可以使用 Hash Tags (`{...}`) 将相关的 Key 强制分配到同一个槽。

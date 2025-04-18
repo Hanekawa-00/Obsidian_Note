@@ -270,14 +270,14 @@ Sentinel 的核心价值在于**自动化**。它将原来需要人工处理的�
     
 4. **Gossip 协议:**
     - 用于节点间的**状态同步**和**故障检测**。
-    - 每个节点会定期随机选择一些其他节点发送 `PING` 消息，对方回复 `PONG`。消息中携带了该节点自身的状态以及它所知道的部分其他节点的状态。
+    - **每个节点会定期随机选择一些其他节点发送 `PING` 消息，对方回复 `PONG`。消息中携带了该节点自身的状态以及它所知道的部分其他节点的状态。**
     - 通过这种方式，节点状态信息（如节点下线、新的槽位分配）会逐渐传播到整个集群。
     - **故障检测:** 如果一个节点在一定时间内无法与大多数其他节点通信，或者大多数节点都认为某个节点 PING 不通，该节点会被标记为**疑似下线 (PFAIL - Possible Fail)** 或**确认下线 (FAIL)**。
     
 5. **高可用与故障转移 (Built-in HA):**
     - 每个 Master 节点可以有一个或多个 Replica 节点。
     - 当一个 Master 节点被集群中的**大多数** Master 节点标记为 FAIL 状态后，会触发**自动故障转移**。
-    - 该 Master 的所有 Replica 会进行**选举**（类似于 Sentinel 的 Leader 选举，但由集群内部节点完成，基于 Raft 思想），选出一个 Replica 来接替 Master 的角色。
+    - 该 Master 的所有 Replica （从节点）会进行**选举**（类似于 Sentinel 的 Leader 选举，但由集群内部节点完成，基于 Raft 思想），选出一个 Replica 来接替 **Master** （像在Serntinel中，是选举执行故障转移的Sentinel-Leader）的角色。
     - 选举出的新 Master 会接管原来 Master 负责的槽位，并开始接受写请求。
     - 整个过程由集群内部节点自动完成，不需要外部 Sentinel。
 	
@@ -327,4 +327,205 @@ sequenceDiagram
         - **`ASK`:** 表示 Key 所属的槽正在**迁移中**，本次请求应**临时**发送到目标节点执行（使用 `ASKING` 命令先声明），但**不更新**本地槽位缓存。
 6. **Redis Cluster 对批量操作 (如 MSET/MGET) 有什么限制？**
     
-    - **回答:** 原生的 `MSET`/`MGET` 等命令要求所有涉及的 Key 必须在**同一个槽**内。如果 Key 分布在不同槽（通常情况），直接执行会失败。Cluster-aware 的客户端库通常会**拆分**批量操作，按 Slot 分组后分别发送到对应的节点，最后**聚合**结果返回给用户，对用户透明，但性能开销比单实例高。也可以使用 Hash Tags (`{...}`) 将相关的 Key 强制分配到同一个槽。
+    - **回答:** 原生的 `MSET`/`MGET` 等命令要求所有涉及的 Key 必须在**同一个槽**内。如果 Key 分布在不同槽（通常情况），直接执行会失败。Cluster-aware 的客户端库通常会**拆分**批量操作，**按 Slot 分组后分别发送到对应的节点**，最后**聚合**结果返回给用户，对用户透明，但性能开销比单实例高。也可以使用 Hash Tags (`{...}`) 将相关的 Key 强制分配到同一个槽。
+---
+## 集群伸缩
+>在实际生产环境中，业务流量和数据量不是一成不变的。
+1. **扩容 (Scale Out):** 当现有集群的内存不够用，或者处理能力（特别是写 QPS）达到瓶颈时，需要**添加新的 Master 节点**，并将一部分哈希槽（以及对应的数据）从现有节点迁移到新节点上。
+2. **缩容 (Scale In):** 当集群资源过剩（比如业务高峰期过后），为了节省成本，可以**移除 Master 节点**，并将其负责的哈希槽（及数据）迁移到其他节点上。
+==TODO==
+# 缓存设计
+## 缓存穿透
+>缓存穿透是指查询的 Key 在缓存中不存在，也不在数据库中，导致请求每次都“穿过”缓存直接查询数据库，造成数据库压力倍增。
+### 原理
+ 缓存通常通过 Key-Value 存储（如 Redis），当请求 Key 时，先查缓存；如果缓存中没有，再查数据库。如果 Key 从未存在过（如恶意查询），缓存不会被填充，请求反复击中数据库。
+ ```mermaid
+ sequenceDiagram
+    participant Client as Client
+    participant Cache as Cache (e.g., Redis)
+    participant DB as Database
+
+    Client->>Cache: Query Key (e.g., "product:999999")
+    Cache-->>Client: Cache Miss (Key not found)
+    Client->>DB: Query Key
+    DB-->>Client: Key not found (or error if overloaded)
+    Note over Client,DB: Repeated queries cause DB overload
+    alt Malicious Attack
+        Client->>Cache: Multiple queries for non-existent Keys
+        Cache-->>Client: Cache Miss each time
+        DB-->>Client: DB crashes due to high load
+    end
+
+```
+### 如何避免
+ 1. ==使用布隆过滤器预检查 Key 是否可能存在。==
+ 2. ==缓存空值或默认值（如将不存在的 Key 缓存一段时间）。==
+ 3. 限流请求（如使用 Redis 的限流插件）。
+ 4. 监控和报警系统。
+```java
+import com.google.common.hash.BloomFilter;
+import com.google.common.hash.Funnels;
+import redis.clients.jedis.Jedis;
+
+import java.nio.charset.Charset;
+import java.util.concurrent.TimeUnit;
+
+public class CachePenetrationExample {
+    private static BloomFilter<String> bloomFilter = BloomFilter.create(Funnels.stringFunnel(Charset.defaultCharset()), 1000000, 0.01);  // 假设百万级别数据，错误率1%
+    private static Jedis jedis = new Jedis("localhost", 6379);  // Redis连接
+
+    public static String getFromCacheOrDB(String key) {
+        if (!bloomFilter.mightContain(key)) {  // 1. 先用布隆过滤器检查
+            return null;  // Key 不可能存在，直接返回
+        }
+
+        String cachedValue = jedis.get(key);  // 2. 查询缓存
+        if (cachedValue != null) {
+            return cachedValue;  // 缓存命中
+        }
+
+        // 3. 缓存未命中，查询数据库（模拟）
+        String dbValue = queryDatabase(key);  // 假设这个方法查询数据库
+        if (dbValue != null) {
+            jedis.setex(key, 60, dbValue);  // 缓存该值，过期时间60秒
+        } else {
+            // 缓存空值，防止穿透（设置短过期时间）
+            jedis.setex(key, 10, "NULL");  // 缓存 "NULL" 10秒
+        }
+        return dbValue;
+    }
+
+    private static String queryDatabase(String key) {
+        // 模拟数据库查询，返回 null 如果不存在
+        return null;  // In real scenario, query DB here
+    }
+
+    public static void main(String[] args) {
+        bloomFilter.put("existing_key");  // 预先添加已知存在的 Key 到布隆过滤器
+        String result = getFromCacheOrDB("non_existing_key");
+        System.out.println("Result: " + result);  // Should return null quickly
+    }
+}
+
+```
+### Q
+1. **什么是缓存穿透？如何预防？** 回答：缓存穿透是查询不存在 Key 时击中数据库的场景。预防：用**布隆过滤器或缓存空值。**
+2. **布隆过滤器在缓存穿透中的作用？** 回答：它快速判断 Key 是否可能存在(是否在预设范围内)，减少无效数据库查询，但可能有假正例。
+3. **如果缓存穿透发生，会对系统有什么影响？** 回答：数据库负载激增，可能导致雪崩效应；解决需结合限流和监控。
+---
+## 缓存击穿
+>在高并发系统中，当==一个==热门 Key（高频访问数据）过期时，大量请求同时击中数据库，导致该 Key 的查询压力瞬间爆发。（与雪崩相似，但更局部化。）
+### 原理
+>缓存击穿是缓存中一个高热 Key 过期或失效时，瞬间涌入的请求直接击中数据库，造成数据库压力。
+```mermaid
+sequenceDiagram
+    participant Client as Clients (Multiple)
+    participant Cache as Cache
+    participant DB as Database
+
+    Cache->>Cache: Hot Key expires
+    loop Concurrent Requests
+        Client->>Cache: Query Hot Key
+        Cache-->>Client: Cache Miss
+        Client->>DB: Query Hot Key
+        DB-->>Client: Return Data
+        Client->>Cache: Set Hot Key (rebuild cache)
+    end
+    Note over DB: DB overloaded due to concurrent queries
+
+```
+### 如何避免
+1. ==使用互斥锁重建缓存。==(如果不加锁更新，则可能会有大量的请求同时去查询数据库并写入缓存)
+2. 设置随机过期时间。
+3. 预加载热门 Key。
+```java
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.params.SetParams;
+
+public class CacheBreakdownExample {
+    private static Jedis jedis = new Jedis("localhost", 6379);
+
+    public static String getHotKey(String key) {
+        String value = jedis.get(key);
+        if (value != null) {
+            return value;  // 缓存命中
+        }
+
+        // 加锁重建缓存
+        if (jedis.set("lock:" + key, "1", new SetParams().ex(5)) == "OK") {  // 尝试获取锁，5秒过期
+            try {
+                value = queryDatabase(key);  // 查询数据库
+                if (value != null) {
+                    jedis.setex(key, 60, value);  // 重新缓存，60秒过期
+                }
+            } finally {
+                jedis.del("lock:" + key);  // 释放锁
+            }
+        } else {
+            // 锁已被占用，等待或重试
+            Thread.sleep(50);  // 简单等待
+            return getHotKey(key);  // 递归重试
+        }
+        return value;
+    }
+
+    private static String queryDatabase(String key) {
+        return "Hot Data";  // 模拟
+    }
+}
+
+```
+### Q
+1. **缓存击穿和穿透的区别？** 回答：击穿针对高热 Key 过期，穿透针对不存在 Key。
+2. **如何防止缓存击穿？** 回答：用互斥锁或随机过期时间。
+---
+## 缓存雪崩
+> 当大量 Key 同时过期，导致请求雪崩式击中数据库。
+```mermaid
+sequenceDiagram
+    participant Cache as Cache
+    Cache->>Cache: Multiple Keys expire at once
+    loop Massive Requests
+        Client->>Cache: Query Keys
+        Cache-->>Client: Cache Miss
+        Client->>DB: Query Keys
+    end
+    Note over DB: DB overwhelmed, potential crash
+
+```
+### 如何避免
+ 1. ==随机化过期时间==。
+ 2. 缓存预热。
+ 3. 降级策略。
+ ```java
+ jedis.setex(key, 60 + (int)(Math.random() * 30), value);  // 随机过期
+```
+---
+## 布隆过滤器
+>布隆过滤器（Bloom Filter）是一种**空间效率极高**的**概率型**数据结构。它用于判断一个元素**是否可能存在**于一个集合中。
+- **空间效率极高**：使用二进制存储数据？
+- **概率型**：判断不是100％准确：
+	- 当判断不存在则一定不存在
+	- 当判断可能存在，但是实际上可能不存在
+### 原理
+- 用一个很长的位数组 `m` 和 ==`k` 个不同的哈希函数==。
+- **添加元素 x：** 用 `k` 个哈希函数分别计算 `x` 的哈希值，得到 `k` 个在位数组中的位置，将这些位置的 bit 置为 1。
+- **查询元素 y：** 用 `k` 个哈希函数分别计算 `y` 的哈希值，得到 `k` 个位置。检查这 `k` 个位置上的 bit：
+    - 如果**有任何一个 bit 是 0**，则 `y` **绝对不存在**。
+    - 如果**所有 bit 都是 1**，则 `y` **可能存在**（有可能是误判）。
+### Q
+1. **面试官：什么是布隆过滤器？它有什么特点？**
+    - **回答要点：** 它是一种节省空间的概率型数据结构，用来判断一个元素是否可能在一个集合中。特点是：空间效率高、查询速度快、允许一定的误判率（False Positive），但绝不会漏判（No False Negative）。即，它说不存在，就一定不存在；它说存在，则可能存在。
+2. **面试官：布隆过滤器主要用在什么场景？能解决什么问题？**
+    - **回答要点：** 最经典的场景是解决**缓存穿透**问题，防止大量查询不存在数据的请求打垮数据库。还可以用于网页爬虫 URL 去重、垃圾邮件黑名单过滤、检查用户名/邮箱是否已注册等需要快速判断“是否存在”的场景。核心是利用它的“不存在”判断绝对准确的特性，快速过滤掉无效请求/数据。
+3. **面试官：布隆过滤器的误判率是怎么产生的？可以控制吗？**
+    - **回答要点：** 误判（False Positive）是因为不同的元素经过哈希函数计算后，可能会映射到位数组的相同位置上。当查询一个实际不存在的元素时，如果它对应的所有位都因为其他元素而被置为 1 了，就会误判为“可能存在”。误判率可以通过调整三个参数来控制：位数组大小 `m`、哈希函数个数 `k` 和预计插入元素的数量 `n`。通常 `m` 越大、`k` 越合适（不是越多越好），误判率越低，但空间占用和计算成本会增加。在给`n` 和期望的误判定 率 `p` 后，可以计算出最优的 `m` 和 `k`。
+4. **面试官：布隆过滤器能删除元素吗？为什么？**
+    - **回答要点：** 标准的布隆过滤器**不能安全地删除元素**。==因为一个位被置为 1 可能是由多个不同的元素哈希映射过来的。==如果直接将某个元素对应的位清零，可能会影响其他共享这些位的元素，导致查询其他元素时出现漏判（False Negative），这是布隆过滤器设计上不允许的。如果需要删除功能，可以考虑使用它的变种，如计数布隆过滤器 (Counting Bloom Filter)，它在每个位上存一个计数器而不是简单的 0/1。
+5. **面试官：如何选择布隆过滤器的参数（位数组大小 m, 哈希函数个数 k）？**
+    - **回答要点：** 参数的选择是一个权衡过程，主要取决于两个因素：预估要存储的元素数量 `n` 和可接受的最大误判率 `p`。有数学公式可以根据 `n` 和 `p` 计算出最优的 `m` 和 `k`。简单来说：
+        - `m` (位数组大小) ≈ `- (n * ln(p)) / (ln(2)^2)`
+        - `k` (哈希函数个数) ≈ `(m / n) * ln(2)`
+        - 在实际应用中，通常不需要手算，像 Guava 这样的库会自动根据你提供的 `n` 和 `p` 来选择合适的 `m` 和 `k`。关键是理解 `n` 和 `p` 是输入，`m` 和 `k` 是为了达到目标而计算出来的结果。
+---
+## 缓存和数据库的数据一致性

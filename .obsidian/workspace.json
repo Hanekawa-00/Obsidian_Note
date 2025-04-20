@@ -33,8 +33,7 @@
               "title": "面渣逆袭 Redis 篇"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭 Redis 篇.pdf",
+                "file": "面试/redis/Q.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭 Redis 篇 的大纲"
+              "title": "Q 的大纲"
             }
           },
           {
@@ -167,17 +166,16 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da74a1cb0f255eb5",
+  "active": "21501123641c7723",
   "lastOpenFiles": [
-    "面试/redis/Q.md",
     "三分/面渣逆袭 Redis 篇.pdf",
+    "面试/redis/Q.md",
     "面试/redis/assets/image.png",
     "Niki/2025-04-20.md",
     "面试/计算机基础/操作系统.md",

@@ -794,7 +794,6 @@ public void updateUserData_DelayedDoubleDelete(Long userId, UserData newData) {
 - **场景：** 电商平台的商品详情页价格展示。
 - **问题：** 商品价格是热点数据，访问量巨大，需要缓存。价格可能随时被运营人员修改。必须保证用户看到的商品价格是相对准确的。
 - **Redis Cluster 应用与一致性策略：**
-    
     1. **缓存结构：** 使用 Redis Cluster，以商品 ID (`productId`) 作为 Key，存储商品价格等信息。利用 Cluster 的数据分片能力分散海量商品数据。
     2. **读流程 (Cache Aside):** 用户访问商品详情页 -> 应用先根据 `productId` 从 Redis Cluster 读取商品信息。命中则直接展示。未命中则从数据库查询，并回填到 Redis Cluster，设置过期时间。
     3. **写流程 (价格更新):** 运营人员在后台修改商品价格。
@@ -805,7 +804,6 @@ public void updateUserData_DelayedDoubleDelete(Long userId, UserData newData) {
         - **消费者服务：** 独立的缓存同步服务监听 MQ。
             1. 接收到包含 `productId` 的消息。
             2. 根据 `productId` 删除 Redis Cluster 中对应的缓存 Key。
-    
     - **效果：**
         - 价格更新后，数据库立即是最新值。
         - 缓存会在短暂的延迟（MQ 传输和消费者处理时间）后被删除。

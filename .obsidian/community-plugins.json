@@ -2,5 +2,6 @@
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
   "image-converter",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "obsidian-git"
 ]

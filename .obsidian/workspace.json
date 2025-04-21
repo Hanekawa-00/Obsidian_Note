@@ -51,10 +51,12 @@
             "id": "0c6ead7dad32366b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭 Redis 篇.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭 Redis 篇"
             }
           }
         ],
@@ -220,11 +222,11 @@
   },
   "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
-    "Niki/2025-04-21.md",
-    "面试/redis/Q.md",
     "三分/面渣逆袭 Redis 篇.pdf",
-    "软考/第1章+计算机系统知识.pdf",
+    "面试/redis/Q.md",
     "软考/1.md",
+    "Niki/2025-04-21.md",
+    "软考/第1章+计算机系统知识.pdf",
     "软考/笔记/第一章 计算机科学基础.md",
     "软考/笔记/第二章 计算机系统知识.md",
     "面试/计算机基础/操作系统.md",

@@ -154,6 +154,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -169,6 +170,7 @@
   "active": "b09ce3052ffe6403",
   "lastOpenFiles": [
     "三分/面渣逆袭 Redis 篇.pdf",
+    "Niki/2025-04-21.md",
     "面试/redis/Q.md",
     "Niki/2025-04-17.md",
     "软考/笔记/第二章 计算机系统知识.md",
@@ -204,7 +206,6 @@
     "leetcode/动态规划/138.单词拆分.md",
     "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "leetcode/动态规划/279.完全平方数.md",
-    "leetcode/数组/189.轮转数组.md",
     "面试/java/基础复习.canvas"
   ]
 }

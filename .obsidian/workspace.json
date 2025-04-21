@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,10 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da74a1cb0f255eb5",
+  "active": "0c6ead7dad32366b",
   "lastOpenFiles": [
-    "三分/面渣逆袭 Redis 篇.pdf",
     "面试/redis/Q.md",
+    "三分/面渣逆袭 Redis 篇.pdf",
     "软考/1.md",
     "Niki/2025-04-21.md",
     "软考/第1章+计算机系统知识.pdf",

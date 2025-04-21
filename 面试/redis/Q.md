@@ -818,11 +818,11 @@ public void updateUserData_DelayedDoubleDelete(Long userId, UserData newData) {
 ## 热点key(s)处理
 >Redis 热点 Key 指的是在 Redis 缓存中，某个 Key 在短时间内被访问的频率远高于其他 Key，导致对存储该 Key 的 Redis 实例造成过高负载。
 ### 热点发现
-1. **Redis 命令监控：** 使用 Redis 的 `MONITOR` 命令可以实时打印收到的所有命令，通过分析命令频率来发现热点 Key。但 `MONITOR` 会消耗大量资源，不适合生产环境长时间开启。
+1. **==Redis 命令监控==：** 使用 Redis 的 `MONITOR` 命令可以实时打印收到的所有命令，通过分析命令频率来发现热点 Key。但 `MONITOR` 会消耗大量资源，不适合生产环境长时间开启。
 2. **Redis 自带工具：** Redis 4.0+ 提供了 `redis-cli --hotkeys` 命令，可以分析 RDB 文件，找出热点 Key。这是一个离线分析工具，不会影响线上服务。
 3. **网络流量分析：** 通过抓包分析 Redis 实例的网络流量，统计访问频率最高的 Key。
 4. **应用日志分析：** 在应用代码中记录 Redis 访问日志，然后进行统计分析。
-5. **Redis Proxy/客户端监控：** 使用 Redis Proxy (如 Twemproxy, Codis) 或增强型客户端，它们可以在请求到达 Redis 之前进行统计和分析。
+5. **==Redis Proxy/客户端监控==：** 使用 Redis Proxy (如 Twemproxy, Codis) 或增强型客户端，它们可以在请求到达 Redis 之前进行统计和分析。
 6. **云服务商监控：** 如果使用云厂商提供的 Redis 服务，通常会有自带的热点 Key 监控功能。
 ### 如何处理：
 >核心思想是分担服务器压力

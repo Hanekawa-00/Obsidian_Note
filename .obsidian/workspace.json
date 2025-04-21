@@ -11,12 +11,14 @@
             "id": "21501123641c7723",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "软考/第1章+计算机系统知识.pdf"
+                "file": "Niki/2025-04-21.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "第1章+计算机系统知识"
+              "icon": "lucide-file",
+              "title": "2025-04-21"
             }
           },
           {
@@ -207,9 +209,10 @@
   },
   "active": "21501123641c7723",
   "lastOpenFiles": [
+    "软考/第1章+计算机系统知识.pdf",
+    "Niki/2025-04-21.md",
     "软考/1.md",
     "软考/笔记/第一章 计算机科学基础.md",
-    "软考/第1章+计算机系统知识.pdf",
     "软考/笔记/第二章 计算机系统知识.md",
     "面试/计算机基础/操作系统.md",
     "面试/计算机基础/计算机网络.md",
@@ -244,7 +247,6 @@
     "面试/JUC/场景题.md",
     "Excalidraw/Drawing 2024-11-28 13.03.21.excalidraw.md",
     "sync-test.md",
-    "日本語/1.日语句子结构基础.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

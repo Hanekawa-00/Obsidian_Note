@@ -833,3 +833,4 @@ public void updateUserData_DelayedDoubleDelete(Long userId, UserData newData) {
 	- **数据同步和一致性问题：** 如果热点 Key 的数据发生变化，需要更新所有副本 Key 的数据，或者删除所有副本 Key。这增加了写操作的复杂性。
 	- **需要修改客户端逻辑：** 客户端需要知道如何生成和访问副本 Key。
 	- **资源占用：** 复制数据会占用更多 Redis 存储空间。
+# Redis运维

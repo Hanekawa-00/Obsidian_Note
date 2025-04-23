@@ -33,7 +33,8 @@
               "title": "Q"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +140,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "三分/面渣逆袭 Redis 篇.pdf",
+            "file": "面试/redis/Q.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -166,10 +167,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "81710c5bd64bb954",
+  "active": "b09ce3052ffe6403",
   "lastOpenFiles": [
-    "Niki/2025-04-23.md",
     "三分/面渣逆袭 Redis 篇.pdf",
+    "Niki/2025-04-23.md",
     "面试/redis/Q.md",
     "Niki/2025-04-22.md",
     "Niki/2025-04-21.md",

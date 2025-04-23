@@ -871,3 +871,92 @@ public void updateUserData_DelayedDoubleDelete(Long userId, UserData newData) {
     
 - **事务的局限性：** Redis 事务（`MULTI`/`EXEC`）可以解决原子性问题（在 `EXEC` 执行期间不会被其他命令打断），并且可以通过 `WATCH` 机制实现乐观锁来处理竞态条件。但是，==Redis 事务有一个**致命的局限性**：它**不支持条件逻辑**。==你只能把一系列命令打包发送给 Redis，Redis 会按顺序执行，但你不能说“如果上一步的 GET 命令返回的值大于 0，那么就执行 DECR 命令，否则执行别的”。事务中的命令是预先确定好的，无法根据执行过程中的中间结果动态改变。
 - **Lua 脚本的优势：** Lua 脚本弥补了 Redis 事务在条件逻辑上的不足。它允许你在 Redis 服务器端编写一段 Lua 代码，这段代码可以包含多个 Redis 命令，并且可以在脚本内部根据命令的执行结果进行判断、循环等控制流操作。最重要的是，Redis 会将整个 Lua 脚本作为一个**原子单元**来执行。
+# Redis底层结构
+## 跳表
+>Sorted Set (ZSet) 在数据量较大时会使用**跳跃表 (Skiplist)**。
+### 了解
+跳跃表 (Skiplist) 是一种有序的数据结构，它通过在多个层级上维护有序链表，实现快速的查找、插入和删除操作。它的核心思想是“空间换时间”，通过增加节点额外的指针（索引层）来加速查找。
+### 核心原理
+1. **多层链表：** 跳跃表由==多层有序链表==组成。最底层（Level 1）包含**所有元素**，并且是按照分数（score）从小到大排序的标准双向链表。
+2. **索引层：** 从 Level 2 开始，每一层都是其下一层链表的一个“==子集==”。也就是说，Level i 中的节点都存在于 Level i-1 中。
+3. **概率性升级：** 当向跳跃表中插入一个新节点时，该节点会首先被插入到最底层（Level 1）。然后，根据一个**随机的概率**（通常是 0.5，就像抛硬币），决定是否将这个节点也提升到 Level 2。如果提升了，再以同样的概率决定是否提升到 Level 3，以此类推，==直到某个层级提升失败或者达到预设的最大层高。==这种随机性保证了跳跃表在**平均情况**下是“平衡”的，即各层节点数量符合一定比例，从而保证了 O(log N) 的平均性能。
+4. **查找过程：** 从==最高层==链表的头部开始查找。在当前层，**向后遍历**，直到找到一个节点，它的分数**大于或等于**要查找的目标分数，或者到达当前层的**末尾**。如果下一个节点的分数大于目标分数（或者到达末尾），则**下降一层**，从当前节点继续向后查找。重复这个过程，直到下降到最底层（Level 1）。在 Level 1，向后遍历直到找到目标节点或确定不存在。
+5. **节点结构：** 跳跃表中的每个节点包含：
+    - `score`: 用于排序的分数 (double 类型)。
+    - `member`: 实际存储的元素 (SDS 字符串)。
+    - `backward`: 指向 Level 1 中前一个节点的指针 (只在 Level 1 有效，用于实现双向链表和反向遍历)。
+    - `level[]`: 一个数组，包含多个层级的信息。数组的大小就是该节点的层高。`level[i]` 包含：
+        - `forward`: 指向 Level i 中下一个节点的指针。
+        - `span`: 表示从当前节点到 `forward` 指针指向的下一个节点之间，在 Level 1 中间隔了多少个节点（包括 `forward` 指向的节点自身）。这个 `span` 信息是 Redis 用来高效计算排名的关键。
+```mermaid
+graph TD
+    subgraph Skiplist
+        direction LR
+        Head(Head)
+        subgraph Level4
+            direction LR
+            Head4(Head) -->|span=...| NodeA4
+        end
+        subgraph Level3
+            direction LR
+            Head3(Head) -->|span=...| NodeA3 -->|span=...| NodeC3
+        end
+        subgraph Level2
+            direction LR
+            Head2(Head) -->|span=...| NodeA2 -->|span=...| NodeB2 -->|span=...| NodeC2
+        end
+        subgraph Level1
+            direction LR
+            Head1(Head) -->|span=...| NodeA1 -->|span=...| NodeB1 -->|span=...| NodeC1 -->|span=...| NodeD1 -->|span=...| NodeE1 -->|span=...| Null1(NULL)
+            NodeA1 <-->|backward| Head1
+            NodeB1 <-->|backward| NodeA1
+            NodeC1 <-->|backward| NodeB1
+            NodeD1 <-->|backward| NodeC1
+            NodeE1 <-->|backward| NodeD1
+        end
+        Head --> Head4
+        Head --> Head3
+        Head --> Head2
+        Head --> Head1
+
+        NodeA4 --> NodeC3
+        NodeA3 --> NodeA2
+        NodeC3 --> NodeC2
+        NodeA2 --> NodeA1
+        NodeB2 --> NodeB1
+        NodeC2 --> NodeC1
+
+        NodeA1[Node A<br>Score: 10]
+        NodeB1[Node B<br>Score: 20]
+        NodeC1[Node C<br>Score: 30]
+        NodeD1[Node D<br>Score: 40]
+        NodeE1[Node E<br>Score: 50]
+
+        NodeA2[Node A<br>Score: 10]
+        NodeB2[Node B<br>Score: 20]
+        NodeC2[Node C<br>Score: 30]
+
+        NodeA3[Node A<br>Score: 10]
+        NodeC3[Node C<br>Score: 30]
+
+        NodeA4[Node A<br>Score: 10]
+
+    end
+
+```
+### Q
+1. **Q: 什么是跳跃表？它主要用于 Redis 的哪种数据类型？**
+    - **A:** 跳跃表是一种概率型有序数据结构，通过多层链表实现快速查找。在 Redis 中，它主要用于实现 Sorted Set (ZSet) 类型，特别是当 ZSet 元素数量较多时。
+2. **Q: 跳跃表相比于平衡树（如红黑树）有什么优势？**
+    - **A:** 主要优势在于**实现简单**。虽然平均时间复杂度都是 O(log N)，但跳跃表的插入、删除、查找逻辑比平衡树要简单得多，代码量更少，更不容易出错。此外，跳跃表在实现范围查找和排名操作方面也非常高效。
+3. **Q: 跳跃表的查找、插入、删除操作的时间复杂度是多少？为什么？**
+    - **A:** 平均时间复杂度是 O(log N)。这是因为通过多层索引，每次查找/插入/删除时，都能以对数级别的步长“跳跃”前进，类似于二分查找。最坏情况时间复杂度是 O(N)，但由于层高是随机决定的，出现最坏情况（所有节点层高都很低或很高）的概率非常小。
+4. **Q: 跳跃表的层高是如何确定的？**
+    - **A:** 新插入节点的层高是**随机生成**的。通常使用一个概率因子 p (例如 0.5)。从 Level 1 开始，以概率 p 决定是否升级到 Level 2；如果升级成功，再以概率 p 决定是否升级到 Level 3，以此类推，直到升级失败或达到预设的最大层高。
+5. **Q: Redis 的 Sorted Set 除了跳跃表，还使用了什么底层结构？为什么？**
+    - **A:** 当 Sorted Set 元素数量较多时，Redis 同时使用了**跳跃表**和**哈希表**。
+        - **跳跃表：** 用于根据分数进行排序、范围查找 (`ZRANGEBYSCORE`, `ZRANK`, `ZSCORE` 等需要有序性的操作)。
+        - **哈希表：** 用于存储 member 到 score 的映射，以及 member 到跳跃表节点的映射。这样可以通过 member 以 O(1) 的平均时间复杂度快速查找其分数 (`ZSCORE`) 或在跳跃表中的节点，进而进行删除等操作。
+    - 结合使用是为了兼顾按分数操作的高效性 (跳跃表) 和按 member 操作的高效性 (哈希表)。
+6. **Q: 跳跃表如何实现高效的排名查询？**
+    - **A:** Redis 的跳跃表节点中存储了 `span` 信息。`span` 表示从当前节点的某个层级的 `forward` 指针指向的下一个节点之间，在 Level 1 中跨越了多少个节点。在进行排名查询时，从最高层开始遍历，每当沿着 `forward` 指针“跳跃”到一个节点时，就将当前节点的 `span` 值累加到排名计数中。这样，无需遍历 Level 1 的所有节点，就能快速计算出目标节点的排名。

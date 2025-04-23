@@ -168,8 +168,9 @@
   },
   "active": "81710c5bd64bb954",
   "lastOpenFiles": [
-    "面试/redis/Q.md",
+    "Niki/2025-04-23.md",
     "三分/面渣逆袭 Redis 篇.pdf",
+    "面试/redis/Q.md",
     "Niki/2025-04-22.md",
     "Niki/2025-04-21.md",
     "Niki/2025-04-17.md",
@@ -204,7 +205,6 @@
     "leetcode/搜索/200.岛屿数量.md",
     "leetcode/回溯/138.随机链表的复制.md",
     "leetcode/动态规划/138.单词拆分.md",
-    "leetcode/动态规划/238.除自身以外数组的乘积.md",
     "面试/java/基础复习.canvas"
   ]
 }

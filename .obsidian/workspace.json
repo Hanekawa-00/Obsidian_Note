@@ -51,12 +51,14 @@
             "id": "f906ec7707dff5a7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭 Redis 篇.pdf"
+                "file": "Niki/2025-04-26.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 Redis 篇"
+              "icon": "lucide-file",
+              "title": "2025-04-26"
             }
           }
         ],
@@ -202,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,14 +221,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f906ec7707dff5a7",
+  "active": "609a7f12bacd9f60",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Niki/2025-04-26.md",
+    "Niki/2025-04-23.md",
+    "Niki/2025-04-22.md",
+    "三分/面渣逆袭 Redis 篇.pdf",
     "面试/redis/Q.md",
     "软考/1.md",
     "prompt/Google 官方提示工程 (Prompt Engineering)白皮书-baoyu.io.pdf",
     "prompt/Leetcode.md",
     "prompt/后端学习.md",
-    "三分/面渣逆袭 Redis 篇.pdf",
     "prompt",
     "Niki/2025-04-21.md",
     "软考/第1章+计算机系统知识.pdf",
@@ -240,7 +245,6 @@
     "Niki/2025-04-20.md",
     "面试/redis/assets/Screenshot_20250413_084918_Obsidian.jpg",
     "面试/redis/assets/image.png",
-    "conflict-files-obsidian-git.md",
     "面试/redis/Set的常用场景.md",
     "面试/redis/assets",
     "软考/软件设计师考试大纲.pdf",
@@ -258,8 +262,6 @@
     "日本語/7.常用表达.md",
     "日本語/日常会話.md",
     "日本語/3.日语表达习惯.md",
-    "日本語/2.修饰语原则与形式体言解析.md",
-    "面试/JUC/场景题.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

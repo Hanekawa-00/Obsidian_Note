@@ -25,12 +25,14 @@
             "id": "1b7f2c61909ba8dd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
+                "file": "Niki/2025-04-27.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq"
+              "icon": "lucide-file",
+              "title": "2025-04-27"
             }
           }
         ],
@@ -196,8 +198,8 @@
   },
   "active": "1b7f2c61909ba8dd",
   "lastOpenFiles": [
-    "面试/MySQL/Q.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "面试/MySQL/Q.md",
     "面试/MySQL/assets/sql.svg",
     "软考/1.md",
     "面试/redis/Q.md",

@@ -132,3 +132,44 @@ LIMIT limit_value [OFFSET offset_value];
 10. **`ORDER BY`**: 排序。根据 ORDER BY 子句指定的列对最终结果集进行排序。此时，可以使用 SELECT 子句中定义的列别名。
     
 11. **`LIMIT / OFFSET` (或 TOP, ROWNUM 等):** 分页。根据 LIMIT 和 OFFSET 子句（或其他数据库系统的等效子句），限制返回的行数，用于实现分页。这个通常是最后执行的步骤。
+### 实例
+
+1. 假设我们有 `orders` 表: `order_id`, `user_id`, `order_amount`, `order_date`。
+	**需求：** 统计每个用户(`group by user_id`)的订单总金额，只统计 2023 年的订单，并且只显示订单总金额大于 1000 元的用户，最后按总金额降序排列，取前 10 条记录。
+```sql
+	SELECT user_id, SUM(order_amount) AS total_amount -- 8. SELECT (选择列，可以使用聚合函数和别名)
+	FROM orders -- 1. FROM (指定数据来源)
+	WHERE order_date >= '2023-01-01' AND order_date < '2024-01-01' -- 4. WHERE (行过滤，发生在分组前)
+	GROUP BY user_id -- 5. GROUP BY (按用户分组)
+	HAVING SUM(order_amount) > 1000 -- 7. HAVING (分组后过滤，可以使用聚合函数)
+	ORDER BY total_amount DESC -- 10. ORDER BY (按总金额降序排序，可以使用 SELECT 中的别名)
+	LIMIT 10; -- 11. LIMIT (限制返回行数)
+	```
+2. **场景：** 社交平台需要找出粉丝数量超过 10000 的用户，并按粉丝数量降序显示前 50 名。
+*   **问题：** 需要对用户进行分组（每个用户一组），计算粉丝总数，然后过滤，最后排序和分页。
+*   **执行顺序应用：**
+
+    假设有 `followers` 表 (follower_id, followed_user_id)。
+
+    **需求：** 查询粉丝数大于 10000 的用户，并按粉丝数降序排列前 50 名。
+
+    ```sql
+    SELECT followed_user_id, COUNT(follower_id) AS follower_count -- 7. SELECT (选择用户ID和粉丝数)
+    FROM followers -- 1. FROM (指定数据来源表)
+    -- 这里没有 WHERE 子句，因为没有行级别的过滤需求
+    GROUP BY followed_user_id -- 5. GROUP BY (按被关注用户分组)
+    HAVING COUNT(follower_id) > 10000 -- 6. HAVING (过滤粉丝数大于10000的组)
+    ORDER BY follower_count DESC -- 8. ORDER BY (按粉丝数降序排序，使用 SELECT 中的别名)
+    LIMIT 50; -- 9. LIMIT (限制返回前50条)
+    ```
+
+    **执行流程：**
+    1.  从 `followers` 表中获取所有数据。
+    2.  将数据按 `followed_user_id` 分组。
+    3.  对每个组（每个被关注用户），计算其粉丝数量 (`COUNT(follower_id)`)。
+    4.  过滤掉粉丝数量小于等于 10000 的组。
+    5.  选择每个符合条件的组的 `followed_user_id` 和计算出的粉丝数量。
+    6.  按粉丝数量降序排列结果。
+    7.  取出前 50 条记录。
+
+    **效果：** 通过遵循 SQL 的执行顺序，我们能够清晰地表达业务逻辑，并让数据库按照高效的方式执行查询（先分组聚合，再过滤）。

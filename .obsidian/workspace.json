@@ -33,8 +33,7 @@
               "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+                "file": "面试/MySQL/Q.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq 的大纲"
+              "title": "Q 的大纲"
             }
           },
           {
@@ -194,11 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b7f2c61909ba8dd",
+  "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "面试/MySQL/Q.md",
     "面试/MySQL/assets/sql.svg",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "软考/1.md",
     "面试/redis/Q.md",
     "软考/第2章+程序设计语言基础知识.pdf",

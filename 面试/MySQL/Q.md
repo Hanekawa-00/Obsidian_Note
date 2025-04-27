@@ -24,3 +24,5 @@
         - **使用小表驱动大表：** 在某些场景下，让结果集较小的表先进行筛选，再与大表连接。
 5. **Q: 为什么 MySQL 不直接支持 FULL OUTER JOIN？如何模拟？**
     - **A:** MySQL 早期版本设计如此。模拟方法是使用 LEFT JOIN 和 RIGHT JOIN 的结果集通过 UNION 操作合并。UNION 会自动去重。
+
+![[sql.svg]]

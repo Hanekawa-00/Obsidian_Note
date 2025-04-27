@@ -197,6 +197,7 @@
   "active": "1b7f2c61909ba8dd",
   "lastOpenFiles": [
     "面试/MySQL/Q.md",
+    "面试/MySQL/assets/sql.svg",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "软考/1.md",
     "面试/redis/Q.md",
@@ -241,7 +242,6 @@
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",
-    "Spring Security/assets/securitycontextholder.png",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
 }

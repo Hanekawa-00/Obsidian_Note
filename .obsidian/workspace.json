@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/redis/Q.md",
+                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Q 的大纲"
+              "title": "面渣逆袭MySQL篇V2.0_zsxq 的大纲"
             }
           },
           {
@@ -188,8 +188,8 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false
     }

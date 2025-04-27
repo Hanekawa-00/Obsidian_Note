@@ -9,7 +9,7 @@
 - 添加Redis等缓存
 ---
 ## 多表合并查询
-1. **Q: 内连接和左外连接有什么区别？举例说明。**
+1. **Q: 内连接(inner join)和左外连接(left join)有什么区别？举例说明。**
     - **A:** 内连接只返回两个表都匹配的行（交集），左外连接返回左表所有行以及右表匹配的行（左表为主）。举例：查询“哪些客户下过订单”用内连接；查询“所有客户及其订单（即使没下过订单）”用左外连接。
 2. **Q: 什么时候用右外连接？它和左外连接能互相转换吗？**
     - **A:** 右外连接以右表为主，返回右表所有行及左表匹配行。例如，查询“所有订单及其对应客户（即使客户不存在）”。左右外连接可以互相转换，只需交换 FROM 和 JOIN 后面的表位置即可。
@@ -99,3 +99,36 @@
         - **EXISTS 缺点：** 只能判断是否存在，不能直接获取子查询中的其他列信息。
 5. **Q: IN 子查询中如果返回 NULL 值会有什么影响？**
     - **A:** 如果子查询返回的列表包含 NULL 值，那么 `WHERE column IN (..., NULL, ...)` 这样的条件可能会导致意外的结果。因为 `value IN (..., NULL, ...)` 对于任何非 NULL 的 `value` 都会判断为 UNKNOWN（未知），导致无法匹配。而 `WHERE column NOT IN (..., NULL, ...)` 对于任何值都会判断为 UNKNOWN，导致没有任何行返回。这是一个常见的陷阱。**而 `EXISTS` 子查询通常不受 NULL 值影响。**
+## SQL执行顺序
+```sql
+SELECT DISTINCT column_list
+FROM table_name 
+[JOIN ...]
+WHERE condition
+GROUP BY grouping_column(s)
+HAVING group_condition
+ORDER BY sorting_column(s)
+LIMIT limit_value [OFFSET offset_value];
+```
+
+1. **`FROM`**: 确定数据来源。首先，确定需要从哪些表获取数据。如果涉及多个表，会进行笛卡尔积操作（虽然优化器通常会避免直接计算完整的笛卡尔积）。
+    
+2. **`JOIN`**: 表连接。根据 JOIN 条件将 FROM 子句中指定的表连接起来，生成一个更大的中间结果集。
+    
+3. **`ON`**: JOIN 的连接条件。在 JOIN 过程中，根据 ON 子句指定的条件进行匹配。
+    
+4. **`WHERE`**: 行过滤。根据 WHERE 子句指定的条件，从 JOIN 生成的中间结果集中筛选出符合条件的行。**注意：** **在这个阶段，SELECT 子句中的列别名是不可用的，因为 SELECT 子句还没执行。(只是构建了语句，或者说是查询逻辑)**
+    
+5. **`GROUP BY`**: 分组。根据 GROUP BY 子句指定的列，将 WHERE 过滤后的结果集进行分组。
+    
+6. **`CUBE / ROLLUP` (可选):** 更高级的分组操作，生成更详细的聚合结果。
+    
+7. **`HAVING`**: 分组后过滤。对 GROUP BY 分组后的结果进行过滤。与 WHERE 不同，HAVING 可以使用聚合函数（如 COUNT(), SUM(), AVG()）作为过滤条件。
+    
+8. **`SELECT`**: 选择列。根据 SELECT 子句指定的列，从 HAVING 过滤后的结果集中选择需要显示的列。此时，可以在 SELECT 列表中使用列别名。
+    
+9. **`DISTINCT` (可选):** 去重。如果指定了 DISTINCT，则从 SELECT 选出的结果集中移除重复的行。
+    
+10. **`ORDER BY`**: 排序。根据 ORDER BY 子句指定的列对最终结果集进行排序。此时，可以使用 SELECT 子句中定义的列别名。
+    
+11. **`LIMIT / OFFSET` (或 TOP, ROWNUM 等):** 分页。根据 LIMIT 和 OFFSET 子句（或其他数据库系统的等效子句），限制返回的行数，用于实现分页。这个通常是最后执行的步骤。

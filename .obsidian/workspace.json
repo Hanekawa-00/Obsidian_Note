@@ -11,14 +11,12 @@
             "id": "da74a1cb0f255eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Niki/2025-04-30.md",
-                "mode": "source",
-                "source": false
+                "file": "手書きメモ/テスト.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2025-04-30"
+              "icon": "lucide-file-text",
+              "title": "テスト"
             }
           },
           {
@@ -90,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.51103591918945,
-    "collapsed": true
+    "width": 349.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -192,9 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
     "手書きメモ/目標.md",
+    "Niki/2025-04-30.md",
     "手書きメモ/テスト.pdf",
     "手書きメモ",
     "templates/blank.pdf",
@@ -203,7 +201,6 @@
     "handwritten-notes",
     "Niki/2025-04-29.md",
     "面试/MySQL/Q.md",
-    "Niki/2025-04-30.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "Niki/2025-04-27.md",
     "面试/MySQL/assets/sql.svg",

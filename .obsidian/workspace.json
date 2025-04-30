@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/MySQL/Q.md",
+                "file": "Niki/2025-04-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q"
+              "title": "2025-04-30"
             }
           },
           {
@@ -194,6 +194,7 @@
   },
   "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
+    "Niki/2025-04-30.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "面试/MySQL/Q.md",
     "Niki/2025-04-27.md",

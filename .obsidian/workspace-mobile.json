@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "handwritten-notes/test.pdf",
+            "file": "手書きメモ/目標.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -157,8 +157,11 @@
   },
   "active": "81710c5bd64bb954",
   "lastOpenFiles": [
-    "手書きメモ/New note.pdf",
+    "手書きメモ/テスト.pdf",
     "手書きメモ/目標.md",
+    "templates/blank.pdf",
+    "templates",
+    "手書きメモ/New note.pdf",
     "handwritten-notes/test.pdf",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "handwritten-notes",
@@ -167,16 +170,13 @@
     "面试/redis/Q.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "手書きメモ",
-    "三分/面渣逆袭RocketMQ篇.pdf",
     "Niki/2025-04-29.md",
-    "三分/面渣逆袭 Redis 篇.pdf",
     "Niki/2025-04-23.md",
     "Niki/2025-04-22.md",
     "Niki/2025-04-21.md",
     "Niki/2025-04-17.md",
     "软考/笔记/第二章 计算机系统知识.md",
     "未命名 1.md",
-    "软考/软件设计师考试大纲.pdf",
     "软考/笔记/第一章 计算机科学基础.md",
     "Niki/2025-04-14.md",
     "Niki/Invalid date.md",

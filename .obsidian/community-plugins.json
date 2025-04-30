@@ -3,5 +3,6 @@
   "obsidian-excalidraw-plugin",
   "image-converter",
   "obsidian-local-rest-api",
-  "obsidian-git"
+  "obsidian-git",
+  "handwritten-notes"
 ]

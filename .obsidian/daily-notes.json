@@ -1,5 +1,5 @@
 {
   "folder": "/Niki",
-  "autorun": true,
+  "autorun": false,
   "template": "template/template"
 }

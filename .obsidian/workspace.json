@@ -11,12 +11,14 @@
             "id": "da74a1cb0f255eb5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "手書きメモ/テスト.pdf"
+                "file": "手書きメモ/目標.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "テスト"
+              "icon": "lucide-file",
+              "title": "目標"
             }
           },
           {
@@ -186,14 +188,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "handwritten-notes:Create empty handwritten note": false
     }
   },
   "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
+    "手書きメモ/テスト.pdf",
     "手書きメモ/目標.md",
     "Niki/2025-04-30.md",
-    "手書きメモ/テスト.pdf",
     "手書きメモ",
     "templates/blank.pdf",
     "templates",
@@ -229,7 +232,6 @@
     "template/template.md",
     "Niki/2025-04-17.md",
     "Niki/2025-04-14.md",
-    "2025-04-05.md",
     "面试/计算机基础/assets/image.png",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",

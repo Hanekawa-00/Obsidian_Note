@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "目標"
             }
+          },
+          {
+            "id": "d54e5331da74c201",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭MySQL篇V2.0_zsxq"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "手書きメモ/目標.md",
+            "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,10 +168,10 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "81710c5bd64bb954",
+  "active": "d54e5331da74c201",
   "lastOpenFiles": [
-    "手書きメモ/テスト.pdf",
     "手書きメモ/目標.md",
+    "手書きメモ/テスト.pdf",
     "templates/blank.pdf",
     "templates",
     "手書きメモ/New note.pdf",

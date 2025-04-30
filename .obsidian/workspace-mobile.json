@@ -11,12 +11,14 @@
             "id": "81710c5bd64bb954",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭 Spring 篇.pdf"
+                "file": "手書きメモ/目標.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭 Spring 篇"
+              "icon": "lucide-file",
+              "title": "目標"
             }
           }
         ]
@@ -125,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "面试/MySQL/Q.md",
+            "file": "handwritten-notes/test.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,11 +157,15 @@
   },
   "active": "81710c5bd64bb954",
   "lastOpenFiles": [
+    "手書きメモ/New note.pdf",
+    "手書きメモ/目標.md",
+    "handwritten-notes/test.pdf",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
+    "handwritten-notes",
+    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/MySQL/Q.md",
     "面试/redis/Q.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
-    "手書きメモ/目標.md",
     "手書きメモ",
     "三分/面渣逆袭RocketMQ篇.pdf",
     "Niki/2025-04-29.md",
@@ -173,15 +179,10 @@
     "软考/软件设计师考试大纲.pdf",
     "软考/笔记/第一章 计算机科学基础.md",
     "Niki/2025-04-14.md",
-    "软考/笔记",
     "Niki/Invalid date.md",
     "template/template.md",
-    "template",
-    "Niki",
     "面试/redis/assets/Screenshot_20250413_084918_Obsidian.jpg",
-    "面试/redis/assets",
     "面试/JVM/JVM.md",
-    "三分/面渣逆袭计算机网络.pdf",
     "计算机网络.md",
     "JVM/jvm.md",
     "日本語/1.日语句子结构基础.md",

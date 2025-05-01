@@ -11,14 +11,12 @@
             "id": "da74a1cb0f255eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "手書きメモ/目標.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
               },
-              "icon": "lucide-file",
-              "title": "目標"
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
           },
           {
@@ -194,8 +192,8 @@
   },
   "active": "da74a1cb0f255eb5",
   "lastOpenFiles": [
-    "手書きメモ/テスト.pdf",
     "手書きメモ/目標.md",
+    "手書きメモ/テスト.pdf",
     "Niki/2025-04-30.md",
     "手書きメモ",
     "templates/blank.pdf",

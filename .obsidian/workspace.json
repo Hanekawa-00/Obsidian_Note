@@ -195,9 +195,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "zk-prefixer:创建时间戳笔记": false,
       "publish:发布更改": false,
       "switcher:打开快速切换": false,
@@ -214,10 +211,10 @@
   },
   "active": "1b7f2c61909ba8dd",
   "lastOpenFiles": [
-    "面试/MySQL/Q.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
-    "MYSQL高级/day01-MySQL课件.md",
     "手書きメモ/目標.md",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "面试/MySQL/Q.md",
+    "MYSQL高级/day01-MySQL课件.md",
     "面试/JVM/JVM.md",
     "面试/JUC/JUC.md",
     "手書きメモ/テスト.pdf",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/JVM/JVM.md",
+                "file": "手書きメモ/目標.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JVM"
+              "title": "目標"
             }
           },
           {
@@ -33,7 +33,8 @@
               "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,6 +179,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "zk-prefixer:创建时间戳笔记": false,
       "publish:发布更改": false,
       "switcher:打开快速切换": false,
@@ -192,11 +196,12 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "da74a1cb0f255eb5",
+  "active": "1b7f2c61909ba8dd",
   "lastOpenFiles": [
-    "面试/JUC/JUC.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "手書きメモ/目標.md",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "面试/JVM/JVM.md",
+    "面试/JUC/JUC.md",
     "手書きメモ/テスト.pdf",
     "Niki/2025-04-30.md",
     "手書きメモ",
@@ -231,8 +236,6 @@
     "面试/redis/assets/image.png",
     "面试/redis/Set的常用场景.md",
     "template/template.md",
-    "Niki/2025-04-17.md",
-    "Niki/2025-04-14.md",
     "面试/计算机基础/assets/image.png",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",

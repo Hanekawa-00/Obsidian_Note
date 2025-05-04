@@ -253,3 +253,49 @@ LIMIT limit_value [OFFSET offset_value];
 - **MEMORY**：Memory 存储引擎将数据存放在内存中，因此速度非常快。它适合用于临时表或数据量不大的情况。
 
 **总结来说，对于日常开发的业务系统，几乎找不到什么理由不使用默认的 InnoDB 存储引擎**。InnoDB 提供的事务、崩溃恢复、行级锁等能力对于保证数据完整性和高并发应用至关重要。MyISAM 可能适用于特定的**读多写少且对事务和崩溃恢复没有要求**的场景，但这种情况相对较少。Memory 则适用于对读写速度要求极高且数据不需要持久化的临时场景。
+# 日志
+## Binlog
+**Binlog 是 MySQL 的二进制日志，属于 MySQL 的 Server 层，独立于存储引擎**。它记录了所有对数据库进行更改的操作，但不包括像 `SELECT` 和 `SHOW` 这类的查询操作。Binlog 的主要作用包括**数据恢复、主从复制、主主复制以及主从同步**。
+
+**Binlog 的作用和用途：**
+
+- **数据恢复：** 如果误删了数据，可以使用 binlog 回退到误删之前的状态. MySQL 提供了 `mysqlbinlog` 工具来查看 binlog 文件的内容，可以用于恢复数据、查看数据变更等.
+- **主从复制：** Binlog 是实现 MySQL 主从同步的基础. 从库（slave）会读取主库（master）的 binlog 来进行数据同步.
+    - 主库将数据改变记录到 binlog 中.
+    - 从库连接主库请求 binlog，主库创建一个 log dump 线程发送 binlog 内容.
+    - 从库的 IO 线程接收 binlog 内容，保存到中继日志（relay log）中.
+    - 从库的 SQL 线程读取 relay log 并解析执行，实现数据一致.
+- **数据备份和同步：** 数据库的数据备份、主备、主主、主从都离不开 binlog，需要依靠 binlog 来同步数据，保证数据一致性.
+
+**Binlog 的记录格式：**
+
+MySQL 提供了三种 binlog 格式:
+
+- **STATEMENT 格式：** 记录的是主库数据库的写指令（SQL 语句）. 这种格式性能较高，但对于像 `now()` 这样的函数或者获取系统参数的操作，可能导致主从数据不同步的问题.
+- **ROW 格式（默认）：** 记录的是主库数据库修改后的具体数据. 这种格式能够保证同步数据的一致性，解决了使用 STATEMENT 格式时可能出现的数据不一致问题. 通常情况下都指定为 ROW 格式，因为它为数据库的恢复与同步带来了更好的可靠性. 但这种格式需要更大的容量来记录，比较占用空间，恢复与同步时会更消耗 IO 资源，影响执行速度. 大批量写操作时会产生大量的日志，因为 row 格式会记录每一行数据的修改.
+- **MIXED 格式：** 是 STATEMENT 和 ROW 两种格式的混合使用. MySQL 会判断这条 SQL 语句是否可能引起数据不一致，如果是，就用 ROW 格式，否则就用 STATEMENT 格式.
+
+可以通过 `binlog_format` 参数配置 binlog 格式.
+
+**Binlog 的写入机制：**
+
+Binlog 的写入时机非常简单. 事务执行过程中，先把日志写到 binlog cache. 事务提交的时候，再把 binlog cache 写到 binlog 文件中. 为了确保一个事务的 binlog 不会被拆开，无论事务多大，也要确保一次性写入. 系统会给每个线程分配一个块内存作为 binlog cache.
+
+写入 binlog 时，数据会先写入缓存，当缓冲区满了再由操作系统将数据一次性刷入磁盘. 
+
+## 两阶段提交机制
+**阶段 1: 准备阶段 (Prepare Phase)**
+1. **写入 Redo Log (Prepare 状态):** InnoDB 存储引擎会将事务的所有修改操作写入 Redo Log Buffer，并将事务状态标记为“准备好提交”(**Prepared**)。然后，Redo Log Buffer 中的数据会被刷写到磁盘的 Redo Log 文件中（但此时事务在 InnoDB 层面还未正式提交）。这个刷盘操作是强制性的，以确保即使系统崩溃，Redo Log 也记录了事务的修改。
+**阶段 2: 提交阶段 (Commit Phase)**
+
+2. **写入 Binlog:** 事务协调器（通常是 Binlog 模块）会生成这个事务对应的 Binlog 事件，并写入 Binlog Buffer。然后，Binlog Buffer 中的数据会被刷写到磁盘的 Binlog 文件中。Binlog 的刷盘策略由 `sync_binlog` 参数控制。
+    
+3. **提交 InnoDB 事务:** Binlog 刷盘成功后，协调器会通知 InnoDB 存储引擎正式提交事务。InnoDB 会在内存中完成事务的提交操作（比如释放锁），并更新事务的状态为“已提交”。
+    
+4. **清理工作:** 事务完成后，会进行一些清理工作，比如释放锁、清理 Undo Log 等。
+    
+**异常处理：**
+- **如果在准备阶段（写入 Redo Log 后，写入 Binlog 前）系统崩溃：** Redo Log 中记录了事务的修改，但 Binlog 中没有。恢复时，数据库会发现 Redo Log 中的事务处于“准备好提交”状态，==但 Binlog 中没有对应的记录==，此时会认为这个事务未提交，进行回滚（利用 Undo Log）。数据恢复到崩溃前的状态，不会丢失数据。
+- **如果在提交阶段（写入 Binlog 后，提交 InnoDB 事务前）系统崩溃：** Redo Log 中记录了事务的修改并处于“准备好提交”状态，Binlog 中也记录了事务。恢复时，数据库会发现 Redo Log 中的事务处于“准备好提交”状态，==并且在 Binlog 中找到了对应的记录==，此时会认为这个事务已经提交，会继续完成 InnoDB 的提交操作（即使数据页还没刷盘，也可以通过 Redo Log 恢复）。数据会被正确提交。
+
+**为什么需要 Redo Log 的 Prepare 状态？** 在阶段 1 写入 Redo Log 时，事务被标记为 Prepared。这个状态非常关键。如果在 Binlog 刷盘前崩溃，恢复时通过 Redo Log 看到 Prepared 状态但 Binlog 中没有记录，就知道这个事务没有完成，需要回滚。如果在 Binlog 刷盘后崩溃，恢复时通过 Binlog 找到对应的记录，再通过 Redo Log 看到 Prepared 状态，就知道这个事务应该被提交。这个 Prepared 状态是连接 Redo Log 和 Binlog 的“桥梁”。

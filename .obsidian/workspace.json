@@ -44,9 +44,23 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭并发编程篇V2.0"
             }
+          },
+          {
+            "id": "d9ba89afca56fb3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,44 +217,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "d9ba89afca56fb3a",
   "lastOpenFiles": [
+    "2025-04-05.md",
     "conflict-files-obsidian-git.md",
+    "面试/计算机基础/计算机网络.md",
+    "面试/redis/assets/Screenshot_20250413_084918_Obsidian.jpg",
+    "面试/redis/assets/image.png",
+    "面试/redis/assets",
+    "面试/redis/Q.md",
+    "面试/MySQL/assets/sql.svg",
+    "面试/MySQL/Q.md",
+    "软考/软件设计师考试大纲.pdf",
+    "软考/考前冲刺-重点讲解.pdf",
+    "软考/第9章+数据库技术基础.pdf",
+    "软考/第8章+算法设计与分析.pdf",
+    "软考/第6章+结构化开发方法.pdf",
+    "软考/第5章+软件工程基础知识.pdf",
+    "软考/第4章+操作系统.pdf",
+    "软考/第3章+数据结构02.pdf",
+    "软考/第3章+数据结构01.pdf",
+    "软考/笔记/第二章 计算机系统知识.md",
+    "软考/笔记/第一章 计算机科学基础.md",
+    "手書きメモ/目標.md",
+    "template/template.md",
+    "prompt/Leetcode.md",
+    "prompt/后端学习.md",
+    "Niki/2025-04-29.md",
+    "Niki/2025-04-30.md",
+    "Niki/2025-04-21.md",
+    "Niki/2025-04-27.md",
+    "Niki/2025-04-26.md",
+    "Niki/2025-04-23.md",
+    "Niki/2025-04-20.md",
+    "Niki/2025-04-22.md",
+    "Niki/2025-04-17.md",
+    "Niki/2025-04-14.md",
     "面试/计算机基础/assets/image.png",
-    "面试/计算机基础/计算机基础.xmind",
     "面试/计算机基础/操作系统.md",
-    "面试/计算机基础/assets",
-    "面试/计算机基础",
-    "面试/框架相关/Mybatis.xmind",
     "面试/redis/Set的常用场景.md",
-    "面试/redis",
-    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
-    "软考",
     "计算机网络.md",
     "未命名.md",
-    "2025-04-05.md",
-    "三分/面渣逆袭 Spring 篇.pdf",
     "日本語/7.常用表达.md",
-    "面试/框架相关/Spring.xmind",
-    "面试/框架相关",
-    "日本語/1.日语句子结构基础.md",
-    "日本語/2.修饰语原则与形式体言解析.md",
-    "日本語/3.日语表达习惯.md",
-    "日本語/4.俗语转化和表达维度转换思维.md",
-    "日本語/5.日语会话中常用句式.md",
-    "日本語/6.一词多”译“语境.md",
-    "日本語/日常会話.md",
-    "日本語/表达差异.md",
-    "面试/JUC/场景题.md",
-    "面试/JUC/CyclicBarrier和CountDownLatch的区别？.md",
-    "MyProject/intelligent-bi-platform-microServices/开发周期.md",
-    "MyProject/intelligent-bi-platform-microServices/库表设计.md",
-    "面试/JUC/CountDownLatch 与 join 方法的区别.md",
-    "面试/JUC/JUC.md",
-    "面试/JUC/ReentrantLock和synchronized区别.md",
-    "面试/JUC/线程通信.md",
-    "面试/JUC/线程中断.md",
-    "面试/JUC/守护线程.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",
@@ -248,9 +266,6 @@
     "MYSQL高级/assets/image-20230619141412346.png",
     "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
     "Spring Security/assets/securityfilterchain.png",
-    "Spring Security/assets/securitycontextholder.png",
-    "Spring Security/assets/multi-securityfilterchain-17016804731631.png",
-    "Spring Security/assets/image-20231223203225688.png",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
 }

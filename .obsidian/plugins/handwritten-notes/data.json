@@ -1,0 +1,12 @@
+{
+  "defaultPath": "/handwritten-notes/",
+  "assetUrl": "",
+  "useRelativePaths": false,
+  "showWelcomeModal": false,
+  "collapseEmbeds": false,
+  "favoriteTemplate": "templatepdf_xodo.pdf",
+  "templatesAtCustom": false,
+  "templatesPath": "/templates/",
+  "openInNewTab": false,
+  "createFolderIfNotExists": false
+}

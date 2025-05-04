@@ -1,0 +1,178 @@
+<svg width="900" height="750" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <defs>
+    <!-- Define the basic circles -->
+    <circle id="circleA" cx="50" cy="50" r="40" stroke="black" stroke-width="1" />
+    <circle id="circleB" cx="100" cy="50" r="40" stroke="black" stroke-width="1" />
+    <!-- Define masks for different join types -->
+    <!-- Mask for Inner Join (Intersection) -->
+    <mask id="mask-inner">
+      <use href="#circleA" fill="white"/>
+      <use href="#circleB" fill="white" style="mask: url(#mask-inner-helper);"/>
+    </mask>
+    <mask id="mask-inner-helper">
+       <use href="#circleA" fill="white"/>
+    </mask>
+    <!-- Mask for Left Join (A + Intersection) -->
+    <mask id="mask-left">
+      <use href="#circleA" fill="white"/>
+    </mask>
+    <!-- Mask for Right Join (B + Intersection) -->
+    <mask id="mask-right">
+      <use href="#circleB" fill="white"/>
+    </mask>
+    <!-- Mask for Left Join Excluding Inner (A only) -->
+    <mask id="mask-left-only">
+       <use href="#circleA" fill="white"/>
+       <use href="#circleB" fill="black"/>
+    </mask>
+    <!-- Mask for Right Join Excluding Inner (B only) -->
+     <mask id="mask-right-only">
+       <use href="#circleB" fill="white"/>
+       <use href="#circleA" fill="black"/>
+    </mask>
+    <!-- Mask for Full Outer Join (A + B + Intersection) -->
+    <mask id="mask-full-outer">
+       <use href="#circleA" fill="white"/>
+       <use href="#circleB" fill="white"/>
+    </mask>
+    <!-- Mask for Full Outer Join Excluding Inner (A only + B only) -->
+    <mask id="mask-full-outer-excluding-inner">
+        <!-- Draw A and B white, then draw intersection black -->
+        <use href="#circleA" fill="white"/>
+        <use href="#circleB" fill="white"/>
+        <!-- Need a way to define intersection and make it black, complex -->
+        <!-- Approximation: Use left-only and right-only masks combined -->
+         <g mask="url(#mask-left-only)">
+             <rect x="0" y="0" width="150" height="100" fill="white"/>
+         </g>
+         <g mask="url(#mask-right-only)">
+              <rect x="0" y="0" width="150" height="100" fill="white"/>
+         </g>
+         <!-- This combination logic within SVG masks is tricky. A simpler visual might be needed -->
+    </mask>
+    <!-- Reusable filled shape (covers both circles) to apply masks -->
+    <rect id="fill-area" x="10" y="10" width="130" height="80" fill="darkred"/>
+  </defs>
+  <!-- Title -->
+  <text x="450" y="40" font-size="24" font-weight="bold" text-anchor="middle">SQL JOINS</text>
+  <!-- Grid Layout (Approximate positions) -->
+  <!-- Row 1 -->
+  <g transform="translate(50, 80)"> <!-- Left Join -->
+    <g mask="url(#mask-left)">
+       <use href="#fill-area"/>
+    </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+    <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">LEFT JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+    </text>
+  </g>
+  <g transform="translate(375, 80)"> <!-- Inner Join -->
+     <!-- Complex mask needed for pure intersection, approximation below -->
+     <g mask="url(#mask-inner)">
+        <use href="#fill-area"/>
+     </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+     <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">INNER JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+    </text>
+  </g>
+  <g transform="translate(700, 80)"> <!-- Right Join -->
+    <g mask="url(#mask-right)">
+       <use href="#fill-area"/>
+    </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+    <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">RIGHT JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+    </text>
+  </g>
+  <!-- Row 2 -->
+   <g transform="translate(50, 300)"> <!-- Left Join Excluding Inner -->
+    <g mask="url(#mask-left-only)">
+       <use href="#fill-area"/>
+    </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+     <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">LEFT JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+      <tspan x="75" dy="1.2em">WHERE B.Key IS NULL</tspan>
+    </text>
+  </g>
+   <g transform="translate(375, 300)"> <!-- Full Outer Join -->
+    <g mask="url(#mask-full-outer)">
+       <use href="#fill-area"/>
+    </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+     <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">FULL OUTER JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+    </text>
+  </g>
+  <g transform="translate(700, 300)"> <!-- Right Join Excluding Inner -->
+    <g mask="url(#mask-right-only)">
+       <use href="#fill-area"/>
+    </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+     <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">RIGHT JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+       <tspan x="75" dy="1.2em">WHERE A.Key IS NULL</tspan>
+    </text>
+  </g>
+  <!-- Row 3 (Just the last one) -->
+   <g transform="translate(375, 520)"> <!-- Full Outer Join Excluding Inner -->
+     <!-- The mask for this is complex and likely incorrect above -->
+     <!-- Showing the outline only as the mask is hard -->
+     <!-- A better approach might involve drawing shapes directly -->
+    <g mask="url(#mask-full-outer-excluding-inner)">
+        <use href="#fill-area"/>
+     </g>
+    <use href="#circleA" fill="none"/>
+    <use href="#circleB" fill="none"/>
+    <text x="50" y="55" text-anchor="middle">A</text>
+    <text x="100" y="55" text-anchor="middle">B</text>
+     <text x="75" y="120" text-anchor="middle" font-size="10" font-family="monospace">
+      <tspan x="75" dy="1.2em">SELECT &lt;select_list&gt;</tspan>
+      <tspan x="75" dy="1.2em">FROM TableA A</tspan>
+      <tspan x="75" dy="1.2em">FULL OUTER JOIN TableB B</tspan>
+      <tspan x="75" dy="1.2em">ON A.Key = B.Key</tspan>
+      <tspan x="75" dy="1.2em">WHERE A.Key IS NULL</tspan>
+      <tspan x="75" dy="1.2em">OR B.Key IS NULL</tspan>
+    </text>
+  </g>
+  <!-- Source Text -->
+  <text x="450" y="730" font-size="10" text-anchor="middle" fill="#777">Based on C.L. Moffatt, 2008 diagram</text>
+</svg>
+

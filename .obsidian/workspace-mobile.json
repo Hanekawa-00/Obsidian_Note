@@ -25,12 +25,14 @@
             "id": "d54e5331da74c201",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
+                "file": "手書きメモ/day1/簡単な自己紹介.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq"
+              "icon": "lucide-file",
+              "title": "簡単な自己紹介"
             }
           }
         ],
@@ -170,7 +172,11 @@
   },
   "active": "d54e5331da74c201",
   "lastOpenFiles": [
+    "手書きメモ/day1/day1.pdf",
+    "手書きメモ/day1/簡単な自己紹介.md",
+    "手書きメモ/day1",
     "手書きメモ/目標.md",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "手書きメモ/テスト.pdf",
     "templates/blank.pdf",
     "templates",
@@ -178,11 +184,8 @@
     "handwritten-notes/test.pdf",
     "三分/02-面渣逆袭 Java 集合框架篇.pdf",
     "handwritten-notes",
-    "三分/面渣逆袭 Spring 篇.pdf",
     "面试/MySQL/Q.md",
     "面试/redis/Q.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
-    "手書きメモ",
     "Niki/2025-04-29.md",
     "Niki/2025-04-23.md",
     "Niki/2025-04-22.md",
@@ -205,7 +208,6 @@
     "面试/JVM/Drawing 2025-02-16 10.26.36.excalidraw.md",
     "面试/JVM/有哪些垃圾回收算法，JVM使用的是哪种算法？有什么好处.md",
     "leetcode/链表/206.反转链表.md",
-    "leetcode/动态规划/198.打家劫舍.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050-1.webp",
     "面试/java/基础复习.canvas"
   ]

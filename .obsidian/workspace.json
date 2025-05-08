@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fakeid.md",
+                "file": "面试/MySQL/Q.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fakeid"
+              "title": "Q"
             }
           }
         ],
@@ -209,8 +209,8 @@
   },
   "active": "ac65c0e6325a2761",
   "lastOpenFiles": [
-    "面试/MySQL/Q.md",
     "fakeid.md",
+    "面试/MySQL/Q.md",
     "手書きメモ/day1/簡単な自己紹介.md",
     "手書きメモ/day1/day1.pdf",
     "手書きメモ/day1",

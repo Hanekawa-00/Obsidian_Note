@@ -39,10 +39,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "三分/面渣逆袭并发编程篇V2.0.pdf"
+                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "面渣逆袭并发编程篇V2.0"
+              "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
           }
         ],
@@ -191,6 +191,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:创建时间戳笔记": false,
+      "publish:发布更改": false,
+      "handwritten-notes:Create empty handwritten note": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -203,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "609a7f12bacd9f60",
   "lastOpenFiles": [
+    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "conflict-files-obsidian-git.md",
     "2025-04-05.md",
     "面试/计算机基础/计算机网络.md",
@@ -244,7 +248,6 @@
     "面试/redis/Set的常用场景.md",
     "计算机网络.md",
     "未命名.md",
-    "日本語/7.常用表达.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

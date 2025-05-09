@@ -2,7 +2,9 @@
   "obsidian-annotator",
   "obsidian-excalidraw-plugin",
   "image-converter",
-  "obsidian-local-rest-api",
+  "mxmind",
+  "xmind-viewer",
   "obsidian-git",
+  "obsidian-local-rest-api",
   "handwritten-notes"
 ]

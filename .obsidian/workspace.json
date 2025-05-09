@@ -23,14 +23,12 @@
             "id": "727641599e099983",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "面试/JUC/场景题.md",
-                "mode": "source",
-                "source": false
+                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
               },
-              "icon": "lucide-file",
-              "title": "场景题"
+              "icon": "lucide-file-text",
+              "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
           }
         ],
@@ -196,6 +194,7 @@
   },
   "active": "727641599e099983",
   "lastOpenFiles": [
+    "面试/JUC/场景题.md",
     "conflict-files-obsidian-git.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "手書きメモ/day1/簡単な自己紹介.md",

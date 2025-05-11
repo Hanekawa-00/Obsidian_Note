@@ -11,12 +11,14 @@
             "id": "ccf3df382ec32b60",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "软考/第11章+标准化和软件知识产权基础知识.pdf"
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "第11章+标准化和软件知识产权基础知识"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -179,8 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf3df382ec32b60",
+  "active": "a25efaba2121d761",
   "lastOpenFiles": [
+    "未命名.md",
+    "未命名 1.md",
+    "软考/第11章+标准化和软件知识产权基础知识.pdf",
     "软考/考前冲刺-重点讲解.pdf",
     "软考/软件设计师考试大纲.pdf",
     "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
@@ -193,12 +198,10 @@
     "手書きメモ/day1/簡単な自己紹介.md",
     "手書きメモ/day1/day1.pdf",
     "手書きメモ/day1",
-    "三分/面渣逆袭并发编程篇V2.0.pdf",
     "2025-04-05.md",
     "面试/计算机基础/计算机网络.md",
     "面试/redis/assets/Screenshot_20250413_084918_Obsidian.jpg",
     "面试/redis/assets/image.png",
-    "面试/redis/assets",
     "面试/redis/Q.md",
     "面试/MySQL/assets/sql.svg",
     "面试/MySQL/Q.md",
@@ -220,7 +223,6 @@
     "Niki/2025-04-14.md",
     "面试/计算机基础/assets/image.png",
     "面试/计算机基础/操作系统.md",
-    "面试/redis/Set的常用场景.md",
     "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
     "面试/java/Untitled Diagram.svg",

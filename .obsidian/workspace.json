@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "软考/第7章 面向对象技术.pdf"
+                "file": "软考/第11章+标准化和软件知识产权基础知识.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "第7章 面向对象技术"
+              "title": "第11章+标准化和软件知识产权基础知识"
             }
           }
         ]
@@ -179,10 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "ccf3df382ec32b60",
   "lastOpenFiles": [
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "软考/考前冲刺-重点讲解.pdf",
+    "软考/软件设计师考试大纲.pdf",
+    "软考/软件设计师考试32小时通关 (薛大龙) (Z-Library).pdf",
     "软考/第7章 面向对象技术.pdf",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "三分/pdf7637481255200416062.tmp",
     "三分/pdf15341624397803351110.tmp",
     "面试/JUC/场景题.md",
@@ -199,9 +202,6 @@
     "面试/redis/Q.md",
     "面试/MySQL/assets/sql.svg",
     "面试/MySQL/Q.md",
-    "软考/软件设计师考试大纲.pdf",
-    "软考/考前冲刺-重点讲解.pdf",
-    "软考/第9章+数据库技术基础.pdf",
     "软考/笔记/第二章 计算机系统知识.md",
     "软考/笔记/第一章 计算机科学基础.md",
     "手書きメモ/目標.md",

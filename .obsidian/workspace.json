@@ -44,9 +44,19 @@
               "icon": "lucide-file-text",
               "title": "面渣逆袭MySQL篇V2.0_zsxq"
             }
+          },
+          {
+            "id": "aca905b5f8b41921",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,6 +201,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mxmind:Mxmind": false,
       "zk-prefixer:创建时间戳笔记": false,
       "publish:发布更改": false,
       "switcher:打开快速切换": false,
@@ -205,11 +216,11 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "ac65c0e6325a2761",
+  "active": "aca905b5f8b41921",
   "lastOpenFiles": [
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "三分/pdf11544009266917358088.tmp",
     "conflict-files-obsidian-git.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "面试/MySQL/Q.md",
     "fakeid.md",
     "手書きメモ/day1/簡単な自己紹介.md",

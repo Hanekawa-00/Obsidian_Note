@@ -153,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+                "file": "面试/设计模式/设计模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq 的大纲"
+              "title": "设计模式 的大纲"
             }
           },
           {
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +196,7 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "1b7f2c61909ba8dd",
+  "active": "8de939be85afb3db",
   "lastOpenFiles": [
     "MyProject/未命名.md",
     "面试/设计模式/设计模式.md",

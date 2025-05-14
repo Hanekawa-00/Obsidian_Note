@@ -1,0 +1,124 @@
+sequenceDiagram
+    participant UI as User Interface
+    participant SM as State Manager (Redux)
+    participant TS as TransactionService
+    participant AS as AccountService
+    participant CS as CategoryService
+    participant SS as SyncService
+    participant IES as ImportExportService
+    participant STS as StatisticsService
+    participant DBS as DatabaseService
+    participant FS as Tauri FileSystem
+    participant WD as WebDAV Server
+    
+    %% 应用初始化流程
+    Note over UI,DBS: 应用启动与初始化
+    UI->>DBS: initialize()
+    DBS->>DBS: migrate()
+    DBS-->>UI: initialization complete
+    UI->>AS: getAll()
+    AS->>DBS: executeQuery("SELECT * FROM accounts")
+    DBS-->>AS: accounts data
+    AS-->>UI: accounts
+    UI->>CS: getAll()
+    CS->>DBS: executeQuery("SELECT * FROM categories")
+    DBS-->>CS: categories data
+    CS-->>UI: categories
+    
+    %% 添加交易记录流程
+    Note over UI,DBS: 添加新交易记录
+    UI->>SM: dispatch(createTransactionAction)
+    SM->>TS: create(transactionData)
+    TS->>DBS: transaction(() => {...})
+    DBS->>DBS: executeQuery("INSERT INTO transactions...")
+    DBS-->>TS: transaction id
+    TS->>AS: calculateBalances()
+    AS->>DBS: executeQuery("UPDATE accounts...")
+    DBS-->>AS: success
+    AS-->>TS: updated balances
+    TS-->>SM: new transaction
+    SM-->>UI: updated state
+    
+    %% WebDAV同步流程
+    Note over UI,WD: WebDAV同步流程
+    UI->>SM: dispatch(syncAction)
+    SM->>SS: sync()
+    SS->>DBS: executeQuery("SELECT * FROM sync_metadata")
+    DBS-->>SS: sync metadata
+    SS->>WD: connect(serverURL, username, password)
+    WD-->>SS: connection established
+    SS->>WD: getFile("data.json")
+    WD-->>SS: remote data
+    SS->>SS: compareVersions(local, remote)
+    SS->>DBS: transaction(() => {...})
+    DBS->>DBS: executeQuery("UPDATE/INSERT transactions...")
+    DBS-->>SS: success
+    SS->>WD: putFile("data.json", mergedData)
+    WD-->>SS: upload success
+    SS->>DBS: executeQuery("UPDATE sync_metadata...")
+    DBS-->>SS: success
+    SS-->>SM: sync complete
+    SM-->>UI: updated state
+    
+    %% CSV导出流程
+    Note over UI,FS: CSV导出流程
+    UI->>SM: dispatch(exportCSVAction)
+    SM->>IES: exportCSV(filePath, options)
+    IES->>TS: getAll(filters)
+    TS->>DBS: executeQuery("SELECT * FROM transactions...")
+    DBS-->>TS: transactions data
+    TS-->>IES: transactions
+    IES->>IES: convertToCSV(transactions)
+    IES->>FS: writeTextFile(filePath, csvContent)
+    FS-->>IES: write success
+    IES-->>SM: export complete
+    SM-->>UI: notification("导出成功")
+    
+    %% CSV导入流程
+    Note over UI,FS: CSV导入流程
+    UI->>SM: dispatch(importCSVAction)
+    SM->>IES: importCSV(filePath, mappings)
+    IES->>FS: readTextFile(filePath)
+    FS-->>IES: csv content
+    IES->>IES: parseCSV(csvContent)
+    IES->>IES: mapFields(parsedData, mappings)
+    IES->>DBS: transaction(() => {...})
+    IES->>TS: create(transactionData) [多次调用]
+    TS->>DBS: executeQuery("INSERT INTO transactions...")
+    DBS-->>TS: success
+    TS-->>IES: new transactions
+    IES->>AS: calculateBalances()
+    AS->>DBS: executeQuery("UPDATE accounts...")
+    DBS-->>AS: success
+    AS-->>IES: updated
+    IES-->>SM: import complete
+    SM-->>UI: notification("导入成功")
+    
+    %% 数据可视化流程
+    Note over UI,DBS: 数据可视化流程
+    UI->>SM: dispatch(getStatisticsAction)
+    SM->>STS: getCategoryBreakdown(startDate, endDate, "expense")
+    STS->>DBS: executeQuery("SELECT * FROM transactions...")
+    DBS-->>STS: transactions data
+    STS->>STS: calculateStatistics(transactions)
+    STS-->>SM: statistics data
+    SM-->>UI: updated state
+    UI->>UI: renderPieChart(statistics)
+    
+    %% 账户管理流程
+    Note over UI,DBS: 账户管理流程
+    UI->>SM: dispatch(createAccountAction)
+    SM->>AS: create(accountData)
+    AS->>DBS: executeQuery("INSERT INTO accounts...")
+    DBS-->>AS: account id
+    AS-->>SM: new account
+    SM-->>UI: updated state
+    
+    %% 分类管理流程
+    Note over UI,DBS: 分类管理流程
+    UI->>SM: dispatch(updateCategoryAction)
+    SM->>CS: update(categoryId, categoryData)
+    CS->>DBS: executeQuery("UPDATE categories...")
+    DBS-->>CS: success
+    CS-->>SM: updated category
+    SM-->>UI: updated state

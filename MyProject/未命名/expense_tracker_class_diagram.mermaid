@@ -1,0 +1,212 @@
+classDiagram
+    class Transaction {
+        +string id
+        +string type
+        +number amount
+        +string currency
+        +string categoryId
+        +string accountId
+        +Date date
+        +string description
+        +string[] tags
+        +string[] pictures
+        +Date createdAt
+        +Date updatedAt
+        +string syncStatus
+        +create(data: TransactionData): Transaction
+        +update(data: Partial~TransactionData~): Transaction
+        +delete(): boolean
+        +attachTag(tagId: string): void
+        +removeTag(tagId: string): void
+        +attachPicture(pictureUrl: string): void
+        +removePicture(pictureUrl: string): void
+    }
+
+    class Account {
+        +string id
+        +string name
+        +string type
+        +string currency
+        +number initialBalance
+        +number currentBalance
+        +string icon
+        +string color
+        +number order
+        +boolean isArchived
+        +Date createdAt
+        +Date updatedAt
+        +create(data: AccountData): Account
+        +update(data: Partial~AccountData~): Account
+        +delete(): boolean
+        +archive(): void
+        +unarchive(): void
+        +calculateBalance(): number
+    }
+
+    class Category {
+        +string id
+        +string name
+        +string type
+        +string parentId
+        +string icon
+        +string color
+        +number order
+        +boolean isDefault
+        +Date createdAt
+        +Date updatedAt
+        +create(data: CategoryData): Category
+        +update(data: Partial~CategoryData~): Category
+        +delete(): boolean
+        +getSubcategories(): Category[]
+    }
+
+    class Tag {
+        +string id
+        +string name
+        +string color
+        +Date createdAt
+        +Date updatedAt
+        +create(data: TagData): Tag
+        +update(data: Partial~TagData~): Tag
+        +delete(): boolean
+    }
+
+    class WebDAVConfig {
+        +string serverURL
+        +string username
+        +string password
+        +string syncPath
+        +boolean autoSync
+        +number syncInterval
+        +Date lastSyncTime
+        +boolean syncOnWifiOnly
+        +save(): void
+        +validateConnection(): Promise~boolean~
+    }
+
+    class TransactionService {
+        +getAll(filters?: FilterOptions): Transaction[]
+        +getById(id: string): Transaction
+        +create(data: TransactionData): Transaction
+        +update(id: string, data: Partial~TransactionData~): Transaction
+        +delete(id: string): boolean
+        +getByAccount(accountId: string): Transaction[]
+        +getByCategory(categoryId: string): Transaction[]
+        +getByTag(tagId: string): Transaction[]
+        +getByDateRange(startDate: Date, endDate: Date): Transaction[]
+        +search(query: string): Transaction[]
+        +getStatistics(options: StatOptions): StatisticsResult
+    }
+
+    class AccountService {
+        +getAll(includeArchived?: boolean): Account[]
+        +getById(id: string): Account
+        +create(data: AccountData): Account
+        +update(id: string, data: Partial~AccountData~): Account
+        +delete(id: string): boolean
+        +archive(id: string): void
+        +unarchive(id: string): void
+        +calculateBalances(): void
+        +getNetWorth(): number
+    }
+
+    class CategoryService {
+        +getAll(type?: string): Category[]
+        +getById(id: string): Category
+        +create(data: CategoryData): Category
+        +update(id: string, data: Partial~CategoryData~): Category
+        +delete(id: string): boolean
+        +getSubcategories(parentId: string): Category[]
+        +getDefaultCategories(): Category[]
+    }
+
+    class TagService {
+        +getAll(): Tag[]
+        +getById(id: string): Tag
+        +create(data: TagData): Tag
+        +update(id: string, data: Partial~TagData~): Tag
+        +delete(id: string): boolean
+    }
+
+    class SyncService {
+        -WebDAVClient client
+        -boolean isSyncing
+        +configure(config: WebDAVConfig): void
+        +testConnection(): Promise~boolean~
+        +sync(): Promise~SyncResult~
+        +syncStatus(): SyncStatus
+        +lastSyncTime(): Date
+        +resolveConflict(transaction: Transaction): Promise~Transaction~
+        -compareVersions(local: Transaction[], remote: Transaction[]): SyncPlan
+        -uploadChanges(changes: Transaction[]): Promise~void~
+        -downloadChanges(changes: Transaction[]): Promise~void~
+    }
+
+    class ImportExportService {
+        +importCSV(filePath: string, mappings: FieldMapping): Promise~ImportResult~
+        +exportCSV(filePath: string, options: ExportOptions): Promise~ExportResult~
+        +validateCSV(filePath: string): Promise~ValidationResult~
+        +getFieldMappingSuggestions(headers: string[]): FieldMapping
+    }
+
+    class DatabaseService {
+        -Connection connection
+        +initialize(): Promise~void~
+        +executeQuery(query: string, params: any[]): Promise~any~
+        +transaction<T>(callback: (tx: Transaction) => Promise<T>): Promise<T>
+        +migrate(): Promise~void~
+        +backup(path: string): Promise~void~
+        +restore(path: string): Promise~void~
+    }
+
+    class StatisticsService {
+        +getMonthlyExpenses(year: number, month: number): CategoryStatistics[]
+        +getIncomeVsExpenseTrend(startDate: Date, endDate: Date): TrendData[]
+        +getCategoryBreakdown(startDate: Date, endDate: Date, type: string): CategoryBreakdown[]
+        +getTagStatistics(startDate: Date, endDate: Date): TagStatistics[]
+        +getNetWorthTrend(startDate: Date, endDate: Date): NetWorthData[]
+        +getCustomStatistics(options: CustomStatOptions): CustomStatResult
+    }
+
+    class UIStateManager {
+        +showModal(name: string, props?: any): void
+        +hideModal(name: string): void
+        +setLoading(isLoading: boolean): void
+        +setError(error: Error | null): void
+        +showNotification(message: string, type: string): void
+        +hideNotification(): void
+        +setCurrentPage(page: string): void
+    }
+
+    class SettingsService {
+        +getSettings(): AppSettings
+        +updateSettings(settings: Partial~AppSettings~): AppSettings
+        +getTheme(): ThemeSettings
+        +setTheme(theme: ThemeSettings): void
+        +getLocale(): string
+        +setLocale(locale: string): void
+        +getWebDAVConfig(): WebDAVConfig
+        +updateWebDAVConfig(config: Partial~WebDAVConfig~): WebDAVConfig
+    }
+
+    Transaction "*" -- "1" Account: belongs to
+    Transaction "*" -- "1" Category: categorized as
+    Transaction "*" -- "*" Tag: tagged with
+    TransactionService -- Transaction: manages
+    AccountService -- Account: manages
+    CategoryService -- Category: manages
+    TagService -- Tag: manages
+    SyncService -- WebDAVConfig: uses
+    SyncService -- Transaction: synchronizes
+    SyncService -- Account: synchronizes
+    SyncService -- Category: synchronizes
+    SyncService -- Tag: synchronizes
+    ImportExportService -- Transaction: imports/exports
+    ImportExportService -- Account: imports/exports
+    ImportExportService -- Category: imports/exports
+    StatisticsService -- Transaction: analyzes
+    DatabaseService -- TransactionService: provides data access
+    DatabaseService -- AccountService: provides data access
+    DatabaseService -- CategoryService: provides data access
+    DatabaseService -- TagService: provides data access
+    SettingsService -- WebDAVConfig: manages

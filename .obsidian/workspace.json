@@ -11,12 +11,14 @@
             "id": "c0af05bbedabc3e0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf"
+                "file": "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq"
+              "icon": "lucide-file",
+              "title": "尚硅谷-Java+大模型-硅谷小智（医疗版）"
             }
           }
         ]
@@ -180,8 +182,21 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "a25efaba2121d761",
+  "active": "c0af05bbedabc3e0",
   "lastOpenFiles": [
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
+    "课件/langchain4j/images/v2-db52b20a89a5dc3bde66da11691a7438_1440w.jpg",
+    "课件/langchain4j/images/v2-b88f750dc797da4f9cc45da0fdd482dc_1440w.jpg",
+    "课件/langchain4j/images/v2-55c2f61aceb86313711d50a5e6e9f8fd_1440w.jpg",
+    "课件/langchain4j/images/rag-retrieval-f525d2937abc08fed5cec36a7f08a4c3.png",
+    "课件/langchain4j/images/image-20250420170954862.png",
+    "课件/langchain4j/images/image-20250418154427237.png",
+    "课件/langchain4j/images/image-20250418122620225.png",
+    "课件/langchain4j/images/image-20250412003645783.png",
+    "课件/langchain4j/images/image-20250412000639815.png",
+    "课件/langchain4j/images/image-20250411235448310.png",
+    "课件/langchain4j/images",
     "课件/langchain4j",
     "三分/pdf12419357004928546470.tmp",
     "三分/pdf1475703265216457103.tmp",
@@ -196,10 +211,7 @@
     "MyProject/未命名.md",
     "面试/设计模式",
     "未命名 1.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "软考/案例分析专题-试题4-C语言算法.pdf",
-    "软考/第7章 面向对象技术.pdf",
-    "软考/案例分析专题-试题3-UML建模.pdf",
     "软考/笔记/第一章 计算机科学基础.md",
     "软考/笔记/第二章 计算机系统知识.md",
     "conflict-files-obsidian-git.md",
@@ -212,23 +224,12 @@
     "Niki/2025-04-30.md",
     "Niki/2025-04-29.md",
     "Niki/2025-04-27.md",
-    "面试/MySQL/assets/sql.svg",
     "软考/1.md",
     "面试/redis/Q.md",
     "Niki/2025-04-26.md",
     "Niki/2025-04-23.md",
     "Niki/2025-04-22.md",
-    "prompt/Leetcode.md",
-    "面试/redis/assets/Screenshot_20250413_084918_Obsidian.jpg",
-    "面试/redis/assets/image.png",
-    "面试/计算机基础/assets/image.png",
-    "leetcode/动态规划/assets/Pasted image 20250207231050.webp",
     "面试/java/基础复习.canvas",
-    "面试/java/Untitled Diagram.svg",
-    "MyProject/IntelligentBiPlatform-废弃/assets/Pasted Image 20250121120602_967.webp",
-    "MYSQL高级/assets/image-20230619141412346.png",
-    "Spring Security/assets/usernamepasswordauthenticationfilter-16822329079281.png",
-    "Spring Security/assets/securityfilterchain.png",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
 }

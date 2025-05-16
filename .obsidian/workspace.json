@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -139,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+                "file": "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面渣逆袭MySQL篇V2.0_zsxq 的大纲"
+              "title": "尚硅谷-Java+大模型-硅谷小智（医疗版） 的大纲"
             }
           },
           {
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,8 +184,9 @@
   },
   "active": "c0af05bbedabc3e0",
   "lastOpenFiles": [
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
+    "MyProject/未命名/expense_tracker_prd.md",
     "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "课件/langchain4j/images/v2-db52b20a89a5dc3bde66da11691a7438_1440w.jpg",
     "课件/langchain4j/images/v2-b88f750dc797da4f9cc45da0fdd482dc_1440w.jpg",
     "课件/langchain4j/images/v2-55c2f61aceb86313711d50a5e6e9f8fd_1440w.jpg",
@@ -202,7 +203,6 @@
     "三分/pdf1475703265216457103.tmp",
     "MyProject/未命名/expense_tracker_system_design.md",
     "手書きメモ/目標.md",
-    "MyProject/未命名/expense_tracker_prd.md",
     "面试/设计模式/设计模式.md",
     "MyProject/未命名/expense_tracker_sequence_diagram.mermaid",
     "MyProject/未命名/expense_tracker_class_diagram.mermaid",

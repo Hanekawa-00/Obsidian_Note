@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8afac0164a3741ad",
+        "id": "9a76f17976d189b9",
         "type": "tabs",
         "children": [
           {
-            "id": "c0af05bbedabc3e0",
+            "id": "526e94959b314214",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
-                "mode": "preview",
+                "file": "MyProject/MYDB 项目学习计划.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "尚硅谷-Java+大模型-硅谷小智（医疗版）"
+              "title": "MYDB 项目学习计划"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.51103591918945
+    "width": 349.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -139,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
+                "file": "MyProject/MYDB 项目学习计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "尚硅谷-Java+大模型-硅谷小智（医疗版） 的大纲"
+              "title": "MYDB 项目学习计划 的大纲"
             }
           },
           {
@@ -182,10 +183,13 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "8de939be85afb3db",
+  "active": "526e94959b314214",
   "lastOpenFiles": [
-    "MyProject/未命名/expense_tracker_prd.md",
+    "手書きメモ/目標.md",
+    "MyProject/MYDB 项目学习计划.md",
+    "2025-04-05.md",
     "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
+    "MyProject/未命名/expense_tracker_prd.md",
     "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "课件/langchain4j/images/v2-db52b20a89a5dc3bde66da11691a7438_1440w.jpg",
     "课件/langchain4j/images/v2-b88f750dc797da4f9cc45da0fdd482dc_1440w.jpg",
@@ -202,7 +206,6 @@
     "三分/pdf12419357004928546470.tmp",
     "三分/pdf1475703265216457103.tmp",
     "MyProject/未命名/expense_tracker_system_design.md",
-    "手書きメモ/目標.md",
     "面试/设计模式/设计模式.md",
     "MyProject/未命名/expense_tracker_sequence_diagram.mermaid",
     "MyProject/未命名/expense_tracker_class_diagram.mermaid",
@@ -228,7 +231,6 @@
     "面试/redis/Q.md",
     "Niki/2025-04-26.md",
     "Niki/2025-04-23.md",
-    "Niki/2025-04-22.md",
     "面试/java/基础复习.canvas",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]

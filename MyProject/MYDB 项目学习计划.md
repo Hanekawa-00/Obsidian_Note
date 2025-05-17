@@ -30,11 +30,11 @@
 ### 阶段 1：项目概述与环境搭建
 - **目标**：熟悉 `MYDB` 的基本概念，搭建运行环境。
 - **任务**：
-  - [ ] 阅读 `README.md` 文件，了解项目的背景和功能。
-  - [ ] 按照说明编译源码（`mvn compile`）。
-  - [ ] 创建数据库实例（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.backend.Launcher" -Dexec.args="-create /tmp/mydb"`）。
-  - [ ] 启动数据库服务（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.backend.Launcher" -Dexec.args="-open /tmp/mydb"`）。
-  - [ ] 启动客户端并连接数据库（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.client.Launcher"`），尝试执行简单的 SQL 语句。
+  - [x] 阅读 `README.md` 文件，了解项目的背景和功能。
+  - [x] 按照说明编译源码（`mvn compile`）。
+  - [x] 创建数据库实例（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.backend.Launcher" -Dexec.args="-create /tmp/mydb"`）。
+  - [x] 启动数据库服务（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.backend.Launcher" -Dexec.args="-open /tmp/mydb"`）。
+  - [x] 启动客户端并连接数据库（`mvn exec:java -Dexec.mainClass="top.guoziyang.mydb.client.Launcher"`），尝试执行简单的 SQL 语句。
 - **成果**：成功运行 `MYDB` 并进行基本操作。
 
 ### 阶段 2：基础模块 - 数据管理（`dm`）

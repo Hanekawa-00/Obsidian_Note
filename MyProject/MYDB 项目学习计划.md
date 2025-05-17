@@ -41,7 +41,7 @@
 - **目标**：理解数据存储和访问的基本原理，按类编写顺序学习。
 - **任务**：
   1. **工具类和基础结构**：
-     - [ ] 阅读 `SubArray.java`，了解数据分片的基本结构。
+     - [x] 阅读 `SubArray.java`，了解数据分片的基本结构。
   2. **页面和缓存管理**：
      - [ ] 阅读 `Page.java` 和 `PageImpl.java`，掌握数据页的基本实现。
      - [ ] 阅读 `PageCache.java` 和 `PageCacheImpl.java`，理解页面缓存机制。

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "MYDB 项目学习计划"
             }
+          },
+          {
+            "id": "500da3a95e1c0b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/MySQL/Q.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Q"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.51103591918945,
-    "collapsed": true
+    "width": 349.51103591918945
   },
   "right": {
     "id": "3e53a2e8f1bdc652",
@@ -183,14 +197,14 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "609a7f12bacd9f60",
+  "active": "500da3a95e1c0b3b",
   "lastOpenFiles": [
-    "手書きメモ/目標.md",
+    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "MyProject/MYDB 项目学习计划.md",
+    "手書きメモ/目標.md",
     "2025-04-05.md",
     "课件/langchain4j/尚硅谷-Java+大模型-硅谷小智（医疗版）.md",
     "MyProject/未命名/expense_tracker_prd.md",
-    "三分/面渣逆袭MySQL篇V2.0_zsxq.pdf",
     "课件/langchain4j/images/v2-db52b20a89a5dc3bde66da11691a7438_1440w.jpg",
     "课件/langchain4j/images/v2-b88f750dc797da4f9cc45da0fdd482dc_1440w.jpg",
     "课件/langchain4j/images/v2-55c2f61aceb86313711d50a5e6e9f8fd_1440w.jpg",
@@ -230,7 +244,6 @@
     "软考/1.md",
     "面试/redis/Q.md",
     "Niki/2025-04-26.md",
-    "Niki/2025-04-23.md",
     "面试/java/基础复习.canvas",
     "面试/MySQL/B+树索引查询数据全过程.canvas"
   ]
